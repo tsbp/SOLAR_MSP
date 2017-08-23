@@ -7,9 +7,7 @@
 #define LSM303A_I2C_ADDR				(0x19)
 #define LSM303M_I2C_ADDR				(0x1e)
 
-//==============================================================================
-#define LSM303_WRITE    (1)
-#define LSM303_READ     (0)
+
 
 #define LSM303A_CTRL_REG1				(0x20)
 #define LSM303A_CTRL_REG2				(0x21)

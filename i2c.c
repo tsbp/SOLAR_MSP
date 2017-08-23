@@ -24,7 +24,7 @@ void Setup_TX(unsigned char aDevice){
   UCB0CTL1 |= UCSWRST;                      // Enable SW reset
   UCB0CTL0 = UCMST + UCMODE_3 + UCSYNC;     // I2C Master, synchronous mode
   UCB0CTL1 = UCSSEL_2 + UCSWRST;            // Use SMCLK, keep SW reset
-  UCB0BR0 = 12;                             // fSCL = SMCLK/12 = ~100kHz
+  UCB0BR0 = 20;                             // fSCL = SMCLK/12 = ~100kHz
   UCB0BR1 = 0;
   UCB0I2CSA = aDevice;//LSM303_ADDR;                         // Slave Address is 048h
   UCB0CTL1 &= ~UCSWRST;                     // Clear SW reset, resume operation
@@ -40,7 +40,7 @@ void Setup_RX(unsigned char aDevice){
   UCB0CTL1 |= UCSWRST;                      // Enable SW reset
   UCB0CTL0 = UCMST + UCMODE_3 + UCSYNC;     // I2C Master, synchronous mode
   UCB0CTL1 = UCSSEL_2 + UCSWRST;            // Use SMCLK, keep SW reset
-  UCB0BR0 = 12;                             // fSCL = SMCLK/12 = ~100kHz
+  UCB0BR0 = 20;                             // fSCL = SMCLK/12 = ~100kHz
   UCB0BR1 = 0;
   UCB0I2CSA = aDevice;//LSM303_ADDR;                         // Slave Address is 048h
   UCB0CTL1 &= ~UCSWRST;                     // Clear SW reset, resume operation

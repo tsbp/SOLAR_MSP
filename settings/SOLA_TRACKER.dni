@@ -36,25 +36,27 @@ ActionState=1
 Enabled=0
 ShowSource=1
 [DebugChecksum]
-Checksum=-1590436459
+Checksum=1546713887
 [State Storage]
-Control Register=0
+Control Register=58392
 [Sequencer]
-Control Register=0
-NextState0=0
-NextState1=0
+Control Register=58392
+NextState0=58392
+NextState1=58392
 [Action Register]
-Break=2
-State Storage=2
+Break=3
+State Storage=3
 [CallStack]
 ShowArgs=0
 [Disassembly]
 MixedMode=1
-[struct_types]
-Fmt0=struct __Unnamed_2_161-light	4	0
 [watch_formats]
 Fmt0={W}0:blink	4	0
 Fmt1={W}0:light	4	0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
 [TermIOLog]
 LoggingEnabled=_ 0
 LogFile=_ ""
@@ -66,10 +68,6 @@ Mode=0
 Graph=0
 Symbiont=0
 Exclusions=
-[Log file]
-LoggingEnabled=_ 0
-LogFile=_ ""
-Category=_ 0
 [Breakpoints]
 Count=0
 [FET]

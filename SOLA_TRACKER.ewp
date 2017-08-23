@@ -1951,6 +1951,9 @@
     </settings>
   </configuration>
   <file>
+    <name>$PROJ_DIR$\BH1715.c</name>
+  </file>
+  <file>
     <name>$PROJ_DIR$\i2c.c</name>
   </file>
   <file>

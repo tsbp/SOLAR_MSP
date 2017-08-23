@@ -4,49 +4,19 @@
 #include "i2c.h"
 #include "UART.h"
 #include "LSM303.h"
+#include "BH1715.h"
 #include "math.h"
 //==============================================================================
 u3AXIS_DATA accel;
 u3AXIS_DATA compass;
-//==============================================================================
-void BH1715(unsigned char aOp, unsigned char aDev, unsigned char aOpCode, unsigned char *aBuf, unsigned int aLng)
-{
-  
-//  if(aOp == LSM303_READ && aLng > 1) MSData[0] = (aReg | BIT7);
-//  else                               MSData[0] = (aReg);
-    
-  if(aOp == LSM303_WRITE) 
-  {
-    MSData[0] = aOpCode;//*aBuf;
-    NUM_BYTES_TX = 1;
-    Setup_TX(aDev);
-    i2cTransmit(); 
-     while (UCB0CTL1 & UCTXSTP);             // Ensure stop condition got sent
-  }  
-//  else
-//    NUM_BYTES_TX = 1;
-   //Transmit process
-   
-  
-  
- 
-  
-  if(aOp == LSM303_READ)
-  {
-    Setup_RX(aDev);
-    i2cReceive(aLng/*6*/, aBuf);
-    while (UCB0CTL1 & UCTXSTP);
-    __no_operation();
-  }
-}
+#define FILTER_LENGHT   (50)
 //==============================================================================
 unsigned int mFilter(int * aBuf, unsigned int aLng)
-{
-  
+{  
 //#define MEDIAN
   
 #ifdef MEDIAN
-  unsigned int Buf[20];
+  unsigned int Buf[FILTER_LENGHT];
   for(unsigned int i = 0; i < aLng; i++) Buf[i] = aBuf[i];
   
   
@@ -73,13 +43,46 @@ unsigned long op = 0;
 unsigned char i2c_tmr = 0, i2c = 0;
 unsigned int RxByteCtr;
 unsigned int RxWord;
-int accTmp[3][10];
-int magTmp[3][10];
+//int accTmp[3][FILTER_LENGHT];
+//int magTmp[3][FILTER_LENGHT];
+
+int rollArray[FILTER_LENGHT];
+int pitchArray[FILTER_LENGHT];
+
+double accxnorm;
+double accynorm;
+double Pitch;
+double Roll; 
+const double toDeg = 1800 / 3.14159265359;
 //==============================================================================
 unsigned char tmp[10];
-unsigned char mPres = 0;
+unsigned char mPres = 1, enTrans = 0;
 
 unsigned int light;
+//==============================================================================
+void getAngles(u3AXIS_DATA* aRaw)
+{
+  //===== roll, pitch ===========
+  double cdf = 
+    (double)aRaw->x * (double)aRaw->x + 
+      (double)aRaw->y * (double)aRaw->y +
+        (double)aRaw->z * (double)aRaw->z;      
+  accxnorm = (double)aRaw->x / sqrt(cdf);     
+  accynorm = (double)aRaw->y / sqrt(cdf);
+  
+  Pitch = asin(-accxnorm);
+  Roll =  asin(accynorm/cos(Pitch));
+  //====== yaw ======================
+  
+}
+//==============================================================================
+void addValueToArray(int aVal, int * aArr)
+{
+  for(unsigned int k = FILTER_LENGHT-1; k > 0; k--)
+    aArr[k] = aArr[k-1];
+  
+  aArr[0] = aVal;
+}
 //==============================================================================
 void main( void )
 {
@@ -92,17 +95,20 @@ void main( void )
   uartInit();
   //========= i2c ===============
   i2cInit();  
-  TACTL = TASSEL_2 + MC_2 + ID_3;                  // SMCLK, contmode  
+  //==============================================================
+  LSM303Init();
+  //=============================
+  TACCR0 = 0xffff;
+  TACTL = TASSEL_2 + MC_1 + ID_0;                  // SMCLK, contmode  
   TACCTL0 |= CCIE; 
   //=============================
   P1DIR &= ~BIT4; 
   ledStt = 0;
   __enable_interrupt();  
+  
   //==============================================================
-  LSM303Init();
-  //==============================================================
-  BH1715(1, 0x23, 0x01, 0, 1);
-  BH1715(1, 0x23, 0x11, 0, 1);  
+//  BH1715(1, 0x23, 0x01, 0, 1);
+//  BH1715(1, 0x23, 0x11, 0, 1);  
   //==============================================================
   
   while(1)
@@ -136,45 +142,37 @@ void main( void )
     if(i2c) 
     {
       i2c = 0;
-      BH1715(0, 0x23, 0x01, (unsigned char*)&light, 2);
-      txBuf.light = ((unsigned char*)&light)[1] | 
-                    ((unsigned char*)&light)[0] << 8;
-      // shift
-      for(unsigned int i = 0; i < 3; i++)
-        for(unsigned int k = 10-1; k > 0; k--)
-        {
-          accTmp[i][k] = accTmp[i][k-1];
-          magTmp[i][k] = magTmp[i][k-1];
-        }
+//      BH1715(0, 0x23, 0x01, (unsigned char*)&light, 2);
+//      txBuf.light = ((unsigned char*)&light)[1] | 
+//                    ((unsigned char*)&light)[0] << 8;
       
-      lsm303(LSM303_READ,  LSM303A_I2C_ADDR, LSM303A_OUT_X_L, accel.byte, 6);
-      accTmp[0][0] = accel.x;
-      accTmp[1][0] = accel.y;
-      accTmp[2][0] = accel.z;
+      lsm303(I2C_READ,  LSM303A_I2C_ADDR, LSM303A_OUT_X_L, accel.byte, 6);      
+      getAngles(&accel);
       
-      lsm303(LSM303_READ,  LSM303M_I2C_ADDR, LSM303M_OUT_X_H, tmp, 6);
+      addValueToArray((int)(Roll*10000),  rollArray);
+      addValueToArray((int)(Pitch*10000), pitchArray);
+      
+      lsm303(I2C_READ,  LSM303M_I2C_ADDR, LSM303M_OUT_X_H, tmp, 6);
      
       compass.x = (tmp[0] << 8) | tmp[1] ;
       compass.z = (tmp[2] << 8) | tmp[3] ;
       compass.y = (tmp[4] << 8) | tmp[5] ;
-      
-      magTmp[0][0] = compass.x;
-      magTmp[1][0] = compass.y;
-      magTmp[2][0] = compass.z;
-      
-      txBuf.accel.x = mFilter(accTmp[0], 10);
-      txBuf.accel.y = mFilter(accTmp[1], 10);
-      txBuf.accel.z = mFilter(accTmp[2], 10);
-      
-      txBuf.compass.x = mFilter(magTmp[0], 10);
-      txBuf.compass.y = mFilter(magTmp[1], 10);
-      txBuf.compass.z = mFilter(magTmp[2], 10);
-      
-      
-      
-      if(mPres) msgTransmitt(); 
+
     }
-   
+    //======= send data ==================
+    if(mPres & enTrans) 
+    {
+      enTrans = 0;
+      
+      txBuf.accel.x = mFilter(rollArray, FILTER_LENGHT);
+      txBuf.accel.y = mFilter(pitchArray, FILTER_LENGHT);
+      
+      txBuf.compass.x = compass.x;
+      txBuf.compass.y = compass.y;
+      txBuf.compass.z = compass.z;
+      
+      msgTransmitt(); 
+    }   
     //=============== op ======================
     if(op) op--;
     else   blink = BLINK_WAIT;
@@ -213,6 +211,13 @@ __interrupt void USCI0RX_ISR(void)
 #pragma vector = TIMER0_A0_VECTOR
 __interrupt void TA0_ISR(void)
 {
+  static int cntr = 10;
+  if(cntr) cntr--;
+  else
+  {
+    cntr = 20;
+    enTrans = 1;
+  }
   i2c = 1;
 }
 
