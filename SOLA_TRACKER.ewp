@@ -229,7 +229,7 @@
         <option>
           <name>CCAllowList</name>
           <version>1</version>
-          <state>00000</state>
+          <state>10010</state>
         </option>
         <option>
           <name>CCObjUseModuleName</name>
@@ -345,16 +345,16 @@
         </option>
         <option>
           <name>CCOptLevel</name>
-          <state>1</state>
+          <state>2</state>
         </option>
         <option>
           <name>CCOptStrategy</name>
           <version>0</version>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>CCOptLevelSlave</name>
-          <state>1</state>
+          <state>2</state>
         </option>
         <option>
           <name>CInput</name>
@@ -1073,7 +1073,7 @@
         </option>
         <option>
           <name>OGChipSelectMenu</name>
-          <state>MSP430F149	MSP430F149</state>
+          <state>MSP430G2453	MSP430G2453</state>
         </option>
         <option>
           <name>GStackHeapOverride</name>
@@ -1093,7 +1093,7 @@
         </option>
         <option>
           <name>GHeap20Size</name>
-          <state>###Uninitialized###</state>
+          <state>80</state>
         </option>
         <option>
           <name>GeneralMisraRules98</name>
@@ -1205,7 +1205,7 @@
         <option>
           <name>CCAllowList</name>
           <version>1</version>
-          <state>11111</state>
+          <state>00000</state>
         </option>
         <option>
           <name>CCObjUseModuleName</name>
@@ -1321,7 +1321,7 @@
         </option>
         <option>
           <name>CCOptLevel</name>
-          <state>3</state>
+          <state>1</state>
         </option>
         <option>
           <name>CCOptStrategy</name>
@@ -1330,7 +1330,7 @@
         </option>
         <option>
           <name>CCOptLevelSlave</name>
-          <state>3</state>
+          <state>1</state>
         </option>
         <option>
           <name>CInput</name>
@@ -1554,7 +1554,7 @@
         </option>
         <option>
           <name>OutputFile</name>
-          <state></state>
+          <state>$FILE_BNAME$.r43</state>
         </option>
         <option>
           <name>AMultibyteSupport</name>
@@ -1620,7 +1620,7 @@
         </option>
         <option>
           <name>OutputFile</name>
-          <state>templproj.txt</state>
+          <state>SOLA_TRACKER.d43</state>
         </option>
         <option>
           <name>OutputFormat</name>
@@ -1686,7 +1686,7 @@
         </option>
         <option>
           <name>XclFile</name>
-          <state>$TOOLKIT_DIR$\CONFIG\lnk430F149.xcl</state>
+          <state>$TOOLKIT_DIR$\CONFIG\lnk430G2453.xcl</state>
         </option>
         <option>
           <name>XclFileSlave</name>
@@ -1778,7 +1778,7 @@
         </option>
         <option>
           <name>DebugInformation</name>
-          <state>1</state>
+          <state>0</state>
         </option>
         <option>
           <name>RuntimeControl</name>
@@ -1814,7 +1814,7 @@
         </option>
         <option>
           <name>ExtraOutputFile</name>
-          <state>templproj.a43</state>
+          <state>SOLA_TRACKER.a43</state>
         </option>
         <option>
           <name>ExtraOutputFormat</name>
@@ -1954,10 +1954,13 @@
     <name>$PROJ_DIR$\BH1715.c</name>
   </file>
   <file>
-    <name>$PROJ_DIR$\i2c.c</name>
+    <name>$PROJ_DIR$\Calculations.c</name>
   </file>
   <file>
-    <name>$PROJ_DIR$\LEDS.c</name>
+    <name>$PROJ_DIR$\COMMON.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\i2c.c</name>
   </file>
   <file>
     <name>$PROJ_DIR$\LSM303.c</name>

@@ -1,87 +1,76 @@
 //==============================================================================
 #include "io430.h"
-#include "LEDS.h"
+#include "COMMON.h"
 #include "i2c.h"
 #include "UART.h"
 #include "LSM303.h"
 #include "BH1715.h"
-#include "math.h"
+#include "Calculations.h"
+#include "NXP_CODE.h"
 //==============================================================================
-u3AXIS_DATA accel;
-u3AXIS_DATA compass;
-#define FILTER_LENGHT   (50)
+#define USE_LIGHT_SENSOR
 //==============================================================================
-unsigned int mFilter(int * aBuf, unsigned int aLng)
-{  
-//#define MEDIAN
-  
-#ifdef MEDIAN
-  unsigned int Buf[FILTER_LENGHT];
-  for(unsigned int i = 0; i < aLng; i++) Buf[i] = aBuf[i];
-  
-  
-  for(unsigned int k = 0; k < aLng - 1; k++)
-    for(unsigned int i = k; i < aLng - 1; i++)
-    {
-      if(Buf[k] < Buf[i+1])
-      {
-        unsigned int tmp =  Buf[k];
-        Buf[k] = Buf[i+1];
-        Buf[i+1] = tmp;
-      }
-    }
-  return Buf[aLng / 2];
-#else 
-  long sum = 0;
-  for(unsigned int i = 0; i < aLng; i++)sum += aBuf[i];
-  return sum / aLng; 
-  
-#endif
-}
-//==============================================================================
-unsigned long op = 0;
-unsigned char i2c_tmr = 0, i2c = 0;
-unsigned int RxByteCtr;
-unsigned int RxWord;
-//int accTmp[3][FILTER_LENGHT];
-//int magTmp[3][FILTER_LENGHT];
-
-int rollArray[FILTER_LENGHT];
-int pitchArray[FILTER_LENGHT];
-
-double accxnorm;
-double accynorm;
-double Pitch;
-double Roll; 
-const double toDeg = 1800 / 3.14159265359;
+u3AXIS_DATA accel, compass;
+int rollArray[FILTER_LENGHT], pitchArray[FILTER_LENGHT], yawArray[FILTER_LENGHT];
+double Pitch, Roll, Yaw;
+int YawDegrees, RollDegrees;
 //==============================================================================
 unsigned char tmp[10];
-unsigned char mPres = 1, enTrans = 0;
-
 unsigned int light;
+unsigned int azimuth, angle;
 //==============================================================================
-void getAngles(u3AXIS_DATA* aRaw)
+unsigned char termState  = 0;
+unsigned char getTermState(void)
 {
-  //===== roll, pitch ===========
-  double cdf = 
-    (double)aRaw->x * (double)aRaw->x + 
-      (double)aRaw->y * (double)aRaw->y +
-        (double)aRaw->z * (double)aRaw->z;      
-  accxnorm = (double)aRaw->x / sqrt(cdf);     
-  accynorm = (double)aRaw->y / sqrt(cdf);
-  
-  Pitch = asin(-accxnorm);
-  Roll =  asin(accynorm/cos(Pitch));
-  //====== yaw ======================
-  
+  unsigned char tmp = 0;
+  if(P2IN & BIT4) tmp |= BIT0;
+  if(P2IN & BIT5) tmp |= BIT1;
+  if(P2IN & BIT7) tmp |= BIT2;
+  if(P2IN & BIT6) tmp |= BIT3;
+  return tmp;
 }
 //==============================================================================
-void addValueToArray(int aVal, int * aArr)
+#define DEGREES_OFFSET  (5)
+const double toDeg = 572.958;
+//==============================================================================
+void rotation(void)
 {
-  for(unsigned int k = FILTER_LENGHT-1; k > 0; k--)
-    aArr[k] = aArr[k-1];
+  if(!state.moving)
+  {
+    if(state.moveH)
+    {
+      if     (YawDegrees < (azimuth + DEGREES_OFFSET)) {move(HORIZONTAL, FORWARD);  blink = BLINK_FORWARD;  operation_duration = 10000L;}
+      else if(YawDegrees > (azimuth - DEGREES_OFFSET)) {move(HORIZONTAL, BACKWARD); blink = BLINK_BACKWARD; operation_duration = 10000L;}      
+    }    
+    else if(state.moveV)
+    {
+      if     (RollDegrees < (angle + DEGREES_OFFSET)) {move(VERTICAL, FORWARD);  blink = BLINK_UP;   operation_duration = 10000L;}
+      else if(RollDegrees > (angle - DEGREES_OFFSET)) {move(VERTICAL, BACKWARD); blink = BLINK_DOWN; operation_duration = 10000L;}
+    }    
+  }
+  else // keep moving 
+  {
+    if(state.moveH == 1)
+    {
+      if((blink == BLINK_FORWARD  && (YawDegrees > (angle - DEGREES_OFFSET)))|| 
+         (blink == BLINK_BACKWARD && (YawDegrees < (angle + DEGREES_OFFSET))))
+      {
+        __no_operation();
+        operation_duration = 0;
+      }
+    }
+    else if(state.moveV)
+    {
+      if((blink == BLINK_UP   && (RollDegrees > (angle - DEGREES_OFFSET)))|| 
+         (blink == BLINK_DOWN && (RollDegrees < (angle + DEGREES_OFFSET))))
+      
+      {
+        __no_operation();
+        operation_duration = 0;
+      }
+    }
+  }
   
-  aArr[0] = aVal;
 }
 //==============================================================================
 void main( void )
@@ -91,134 +80,164 @@ void main( void )
   BCSCTL1 = CALBC1_8MHZ;                    // Set DCO
   DCOCTL = CALDCO_8MHZ; 
   __delay_cycles(1000000L);
+  BCSCTL2 |= DIVS_2;
   //======= uart ================
   uartInit();
   //========= i2c ===============
   i2cInit();  
   //==============================================================
-  LSM303Init();
+//  while(1) 
+    LSM303Init();
+    //==============================================================
+#ifdef USE_LIGHT_SENSOR
+  BH1715(1, 0x23, 0x01, 0, 1);
+  BH1715(1, 0x23, 0x11, 0, 1);
+#endif
   //=============================
-  TACCR0 = 0xffff;
-  TACTL = TASSEL_2 + MC_1 + ID_0;                  // SMCLK, contmode  
+  TACCR0 = 250;
+  TACTL = TASSEL_2 + MC_1 + ID_3;                  // SMCLK, contmode  
   TACCTL0 |= CCIE; 
   //=============================
   P1DIR &= ~BIT4; 
   ledStt = 0;
   __enable_interrupt();  
   
+    
+  //======== relays =================================================
+  P1OUT &= ~(BIT5);
+  P2OUT &= ~(BIT0 | BIT1 | BIT2);
+  P1DIR |=  (BIT5);
+  P2DIR |=  (BIT0 | BIT1 | BIT2);
+  //===== ins      ==================================================
+  P2DIR &= ~(BIT4 | BIT5 | BIT6 | BIT7);
+  P2SEL &= ~(BIT4 | BIT5 | BIT6 | BIT7);
   //==============================================================
-//  BH1715(1, 0x23, 0x01, 0, 1);
-//  BH1715(1, 0x23, 0x11, 0, 1);  
-  //==============================================================
-  
   while(1)
   {
-    blinking(blink);
-    leds(ledStt);
-    if(txEn)
+    rotation();
+    if(state.cmdIn)
     {
-      mPres = 1; 
-      txEn = 0;
+      state.mPres = 1; 
+      state.cmdIn = 0;
       txBuf.cmd = rxBuf[0];
       switch(rxBuf[0])
       {
-          case 0:
-            RxWord = rxBuf[1] | (rxBuf[2] << 8);
-            
-            
-            if(RxWord > 50)  blink = BLINK_BACKWARD;//BLINK_UP;
-            else             blink = BLINK_FORWARD; //BLINK_DOWN; 
-            op =  100000L;
-            
-            msgTransmitt();            
+          case CMD_SET_AZIMUTH:
+            azimuth = rxBuf[1] | (rxBuf[2] << 8);
+            state.moveH = 1;
             break;
             
-          case 1:            
-            msgTransmitt();   
+          case CMD_SET_ANGLE:
+           angle = rxBuf[1] | (rxBuf[2] << 8); 
+           state.moveV = 1;
+           break;
+            
+          case CMD_UP:
+            blink = BLINK_UP;            
+            move(VERTICAL, FORWARD);
+            break;
+            
+          case CMD_DOWN:
+            blink = BLINK_DOWN;
+            move(VERTICAL, BACKWARD);
+            break;
+            
+          case CMD_RIGHT:
+            blink = BLINK_BACKWARD;
+            move(HORIZONTAL, FORWARD);
+            break;
+            
+          case CMD_LEFT:
+            blink = BLINK_FORWARD;
+            move(HORIZONTAL, BACKWARD);
             break;
       }
     }
     //=============== i2c =====================
-    if(i2c) 
+    if(state.i2c == 1) 
     {
-      i2c = 0;
-//      BH1715(0, 0x23, 0x01, (unsigned char*)&light, 2);
-//      txBuf.light = ((unsigned char*)&light)[1] | 
-//                    ((unsigned char*)&light)[0] << 8;
+      state.i2c = 0;
+#ifdef USE_LIGHT_SENSOR
+      BH1715(0, 0x23, 0x01, (unsigned char*)&light, 2);
+      txBuf.light = ((unsigned char*)&light)[1] | 
+                    ((unsigned char*)&light)[0] << 8;
+#endif
       
-      lsm303(I2C_READ,  LSM303A_I2C_ADDR, LSM303A_OUT_X_L, accel.byte, 6);      
-      getAngles(&accel);
-      
-      addValueToArray((int)(Roll*10000),  rollArray);
-      addValueToArray((int)(Pitch*10000), pitchArray);
-      
-      lsm303(I2C_READ,  LSM303M_I2C_ADDR, LSM303M_OUT_X_H, tmp, 6);
-     
+      lsm303(I2C_READ,  LSM303A_I2C_ADDR, LSM303A_OUT_X_L, accel.byte, 6);  
+      lsm303(I2C_READ,  LSM303M_I2C_ADDR, LSM303M_OUT_X_H, tmp, 6);  
       compass.x = (tmp[0] << 8) | tmp[1] ;
       compass.z = (tmp[2] << 8) | tmp[3] ;
-      compass.y = (tmp[4] << 8) | tmp[5] ;
-
+      compass.y = (tmp[4] << 8) | tmp[5] ;  
+      
+      txBuf.data.a = compass.x;
+      txBuf.data.b = compass.y;
+      txBuf.data.c = compass.z;
+     
+      addValueToArray((int)(Roll  * 10000),  rollArray);
+      addValueToArray((int)(Pitch * 10000), pitchArray);
+      getAngles(&accel, &Pitch, &Roll);
+      
+      Yaw = heading(&compass, Pitch, Roll);
+      addValueToArray((int)(Yaw*10000),  yawArray);
     }
     //======= send data ==================
-    if(mPres & enTrans) 
+    if(state.mPres == 1 && state.enTrans == 1) 
     {
-      enTrans = 0;
+      state.enTrans = 0;
       
-      txBuf.accel.x = mFilter(rollArray, FILTER_LENGHT);
-      txBuf.accel.y = mFilter(pitchArray, FILTER_LENGHT);
+      txBuf.angles.roll    = mFilter(rollArray,  FILTER_LENGHT);
+      txBuf.angles.pitch   = mFilter(pitchArray, FILTER_LENGHT);
+      txBuf.angles.heading = mFilter(yawArray,   FILTER_LENGHT);
       
-      txBuf.compass.x = compass.x;
-      txBuf.compass.y = compass.y;
-      txBuf.compass.z = compass.z;
+      YawDegrees  = (int)(((float)txBuf.angles.heading /10000) *  toDeg);
+      if(YawDegrees < 0) YawDegrees += 3600;
+      
+      RollDegrees  = (int)(((float)txBuf.angles.roll /10000) *  toDeg);
+      if(RollDegrees < 0) RollDegrees += 3600;
+      
+      //txBuf.data.c = getTermState(); // set state of ins
       
       msgTransmitt(); 
     }   
-    //=============== op ======================
-    if(op) op--;
-    else   blink = BLINK_WAIT;
+    
   }
 }
+
 //==============================================================================
-#pragma vector=USCIAB0RX_VECTOR
-__interrupt void USCI0RX_ISR(void)
-{
-   static unsigned int stuffing = 0, rec_counter=0;  // счетчик принятых байт  
-   unsigned char rxByte = UCA0RXBUF;
-   //============================
-   if(rxByte == 0xc0)
-   {     
-     ledStt |= LED_RED;
-     rec_counter = 0;     
-   }
-   else 
-    {
-      if ((rxByte == 0xdb) && !stuffing) stuffing = 1;
-      else if (stuffing) 
-      {
-        if      (rxByte == 0xdc) rxByte = 0xc0;
-        else if (rxByte == 0xdd) rxByte = 0xdb;
-        stuffing = 0;
-      }
-      if(!stuffing)
-      {        
-         if(rec_counter < sizeof(rxBuf)) rxBuf[rec_counter] = rxByte;
-         if(rxBuf[5] == 0xcc && rxBuf[6] == 0xcc)  txEn = 1;
-         rec_counter++;
-      } 
-    }
-}
+#define I2C_INTERVAL     (10)
+#define UART_INTERVAL    (100)
 //==============================================================================
 #pragma vector = TIMER0_A0_VECTOR
 __interrupt void TA0_ISR(void)
 {
-  static int cntr = 10;
-  if(cntr) cntr--;
+  static unsigned int uart_cntr = UART_INTERVAL;
+  static unsigned int i2c_cntr = I2C_INTERVAL;
+  //=======================
+  if(i2c_cntr) i2c_cntr--;
   else
   {
-    cntr = 20;
-    enTrans = 1;
+    state.i2c = 1;
+    i2c_cntr = I2C_INTERVAL;
   }
-  i2c = 1;
+  //=======================
+  if(uart_cntr) uart_cntr--;
+  else
+  {
+    uart_cntr = UART_INTERVAL;
+    state.enTrans = 1;
+  }  
+  //=============== op ======================
+  if(operation_duration) operation_duration--;
+  else   
+  {
+      blink = BLINK_WAIT;
+      if(state.moveH)                 state.moveH = 0;
+      if(!state.moveH && state.moveV) state.moveV = 0;
+      STOP_MOTORS          
+  }
+  
+  blinking(blink);
+  leds(ledStt);
 }
 
 

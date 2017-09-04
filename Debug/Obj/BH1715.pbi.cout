@@ -1,11 +1,11 @@
-"E:\Work\Solar_proj\SOLAR_MSP\BH1715.c"
+"G:\Voodoo\MSP Projects\Solar\MSP_PROG\BH1715.c"
 -std=c99
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\dlib
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\dlib\c
 -D__MSP430G2453__=0
 -D__CODE_MEMORY_LIST1__()=__CODE_MEM_HELPER1__(__code, 0 )
 -D__CODE_MEMORY_LIST2__(_P1)=__CODE_MEM_HELPER2__(__code, 0 ,  _P1 )
@@ -233,8 +233,8 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c
 -D__REGISTER_MODEL__=__REGISTER_MODEL_REG16__
 -D__PLAIN_INT_BITFIELD_IS_SIGNED__=1
 -D__IAR_COMPILERBASE__=592899
--D__DATE__="Aug 11 2017"
--D__TIME__="16:25:58"
+-D__DATE__="Sep  4 2017"
+-D__TIME__="17:09:59"
 -D__STDC__=1
 -D__STDC_VERSION__=199901L
 -D__STDC_HOSTED__=1
@@ -261,6 +261,6 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c
 -D__EDG_ANSIC=1
 -D__EDG_CPP0X_IL_EXTENSIONS_SUPPORTED=1
 -D__MSP430G2453__=1
--D_DLIB_CONFIG_FILE_HEADER_NAME="C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4\430\LIB\DLIB\dl430fn.h"
--D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 6.4\\430\\LIB\\DLIB\\dl430fn.h"
--D__VERSION__="IAR C/C++ Compiler V5.50.1.50465/W32 for MSP430"
+-D_DLIB_CONFIG_FILE_HEADER_NAME="C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.h"
+-D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 6.4 Evaluation\\430\\LIB\\DLIB\\dl430fn.h"
+-D__VERSION__="IAR C/C++ Compiler V5.50.1.20465/W32, Evaluation edition for MSP430"

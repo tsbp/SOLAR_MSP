@@ -8,6 +8,21 @@ UseTrigger=1
 TriggerName=main
 LimitSize=0
 ByteLimit=50
+[DebugChecksum]
+Checksum=-1759895921
+[State Storage]
+Control Register=60344
+[Sequencer]
+Control Register=60344
+NextState0=60344
+NextState1=60344
+[Action Register]
+Break=3
+State Storage=3
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
 [InterruptLog]
 LogEnabled=0
 SumEnabled=0
@@ -35,41 +50,14 @@ ActionState=1
 [Trace1]
 Enabled=0
 ShowSource=1
-[DebugChecksum]
-Checksum=1546713887
-[State Storage]
-Control Register=58392
-[Sequencer]
-Control Register=58392
-NextState0=58392
-NextState1=58392
-[Action Register]
-Break=3
-State Storage=3
-[CallStack]
-ShowArgs=0
-[Disassembly]
-MixedMode=1
+[array_types]
+Fmt0=unsigned char[10]	4	0
 [watch_formats]
 Fmt0={W}0:blink	4	0
 Fmt1={W}0:light	4	0
-[Log file]
-LoggingEnabled=_ 0
-LogFile=_ ""
-Category=_ 0
-[TermIOLog]
-LoggingEnabled=_ 0
-LogFile=_ ""
-[CallStackLog]
-Enabled=0
-[DriverProfiling]
-Enabled=0
-Mode=0
-Graph=0
-Symbiont=0
-Exclusions=
 [Breakpoints]
-Count=0
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\main.c}.53.5" 1 0 0 0 "" 0 ""
+Count=1
 [FET]
 Clock mode=38
 Extended Clock mode=-1
@@ -90,6 +78,21 @@ SP=0
 SR=0
 all registers=0
 File name=
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
 [Aliases]
 Count=0
 SuppressDialog=0
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=0
+Graph=0
+Symbiont=0
+Exclusions=

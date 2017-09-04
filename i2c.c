@@ -15,6 +15,8 @@ unsigned char *PTxData;                     // Pointer to TX data
 unsigned char *PRxData;                     // Pointer to RX data
 unsigned char TXByteCtr, RX = 0;
 unsigned char MSData[10] = {0x20, 0x00};
+
+#define I2C_SPEED       (9)
 //==============================================================================
 void Setup_TX(unsigned char aDevice){
   __disable_interrupt();
@@ -24,13 +26,13 @@ void Setup_TX(unsigned char aDevice){
   UCB0CTL1 |= UCSWRST;                      // Enable SW reset
   UCB0CTL0 = UCMST + UCMODE_3 + UCSYNC;     // I2C Master, synchronous mode
   UCB0CTL1 = UCSSEL_2 + UCSWRST;            // Use SMCLK, keep SW reset
-  UCB0BR0 = 20;                             // fSCL = SMCLK/12 = ~100kHz
+  UCB0BR0 = I2C_SPEED;                             // fSCL = SMCLK/12 = ~100kHz
   UCB0BR1 = 0;
   UCB0I2CSA = aDevice;//LSM303_ADDR;                         // Slave Address is 048h
   UCB0CTL1 &= ~UCSWRST;                     // Clear SW reset, resume operation
   IE2 |= UCB0TXIE;                          // Enable TX interrupt
   
-  RPT_Flag = 1;
+  //RPT_Flag = 1;
 }
 //==============================================================================
 void Setup_RX(unsigned char aDevice){
@@ -40,7 +42,7 @@ void Setup_RX(unsigned char aDevice){
   UCB0CTL1 |= UCSWRST;                      // Enable SW reset
   UCB0CTL0 = UCMST + UCMODE_3 + UCSYNC;     // I2C Master, synchronous mode
   UCB0CTL1 = UCSSEL_2 + UCSWRST;            // Use SMCLK, keep SW reset
-  UCB0BR0 = 20;                             // fSCL = SMCLK/12 = ~100kHz
+  UCB0BR0 = I2C_SPEED;                             // fSCL = SMCLK/12 = ~100kHz
   UCB0BR1 = 0;
   UCB0I2CSA = aDevice;//LSM303_ADDR;                         // Slave Address is 048h
   UCB0CTL1 &= ~UCSWRST;                     // Clear SW reset, resume operation
@@ -91,10 +93,10 @@ __interrupt void USCIAB0TX_ISR(void)
     else
     {
       if(RPT_Flag == 0)  UCB0CTL1 |= UCTXSTP;                // No Repeated Start: stop condition
-      if(RPT_Flag == 1)
-      {                    // if Repeated Start: do nothing
-          RPT_Flag = 0;
-      }
+//      if(RPT_Flag == 1)
+//      {                    // if Repeated Start: do nothing
+//          RPT_Flag = 0;
+//      }
       *PRxData = UCB0RXBUF;                   // Move final RX data to PRxData
       IE2 &= ~(UCB0TXIE | UCB0RXIE);
       __bic_SR_register_on_exit(CPUOFF);      // Exit LPM0
@@ -110,13 +112,14 @@ __interrupt void USCIAB0TX_ISR(void)
       }
       else
       {
-        if(RPT_Flag == 1){
-        RPT_Flag = 0;
-        PTxData = MSData;                      // TX array start address
-        TXByteCtr = NUM_BYTES_TX;                  // Load TX byte counter
-        __bic_SR_register_on_exit(CPUOFF);
-        }
-        else{
+//        if(RPT_Flag == 1){
+//        RPT_Flag = 0;
+//        PTxData = MSData;                      // TX array start address
+//        TXByteCtr = NUM_BYTES_TX;                  // Load TX byte counter
+//        __bic_SR_register_on_exit(CPUOFF);
+//        }
+//        else
+        {
         UCB0CTL1 |= UCTXSTP;                    // I2C stop condition
         IFG2 &= ~UCB0TXIFG;                     // Clear USCI_B0 TX int flag
         __bic_SR_register_on_exit(CPUOFF);      // Exit LPM0

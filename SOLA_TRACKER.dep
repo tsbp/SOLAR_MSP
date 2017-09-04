@@ -2,127 +2,107 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>1644974695</fileChecksum>
+  <fileChecksum>3446701382</fileChecksum>
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\Debug\Exe\SOLA_TRACKER.ulp</file>
-      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
-      <file>$PROJ_DIR$\LEDS.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\LSM303.pbi</file>
-      <file>$PROJ_DIR$\LSM303.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\LEDS.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\NXP_CODE.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\COMMON.pbi</file>
       <file>$PROJ_DIR$\LEDS.c</file>
-      <file>$PROJ_DIR$\BH1715.c</file>
-      <file>$TOOLKIT_DIR$\inc\io430.h</file>
+      <file>$PROJ_DIR$\Calculations.h</file>
+      <file>$PROJ_DIR$\NXP_CODE.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\UART.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$PROJ_DIR$\BH1715.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\COMMON.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\BH1715.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\LEDS.r43</file>
       <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\LSM303.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\BH1715.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\math.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\UART.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ymath.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Calculations.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Calculations.r43</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\SOLA_TRACKER.ulp</file>
       <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
       <file>$PROJ_DIR$\Debug\Exe\SOLA_TRACKER.d43</file>
-      <file>$PROJ_DIR$\UART.h</file>
-      <file>$PROJ_DIR$\UART.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\LEDS.pbi</file>
-      <file>$PROJ_DIR$\i2c.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\LSM303.r43</file>
-      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\LEDS.h</file>
+      <file>$TOOLKIT_DIR$\inc\io430.h</file>
+      <file>$TOOLKIT_DIR$\config\lnk430G2453.xcl</file>
       <file>$PROJ_DIR$\Debug\Obj\i2c.pbi</file>
-      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\ymath.h</file>
-      <file>$PROJ_DIR$\i2c.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\UART.r43</file>
-      <file>$PROJ_DIR$\BH1715.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\LSM303.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\i2c.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xtgmath.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
       <file>$PROJ_DIR$\Debug\Obj\SOLA_TRACKER.pbd</file>
       <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\UART.r43</file>
       <file>$TOOLKIT_DIR$\inc\io430g2453.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\xtgmath.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\math.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\UART.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\LEDS.r43</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\i2c.r43</file>
-      <file>$PROJ_DIR$\Debug\Obj\BH1715.r43</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
-      <file>$PROJ_DIR$\LSM303.h</file>
-      <file>$TOOLKIT_DIR$\config\lnk430G2453.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\LSM303.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\BH1715.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\NXP_CODE.pbi</file>
+      <file>$PROJ_DIR$\COMMON.h</file>
+      <file>$PROJ_DIR$\i2c.c</file>
+      <file>$PROJ_DIR$\COMMON.c</file>
+      <file>$PROJ_DIR$\NXP_CODE.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\UART.c</file>
+      <file>$PROJ_DIR$\LSM303.c</file>
+      <file>$PROJ_DIR$\i2c.h</file>
+      <file>$PROJ_DIR$\Calculations.c</file>
+      <file>$PROJ_DIR$\BH1715.c</file>
     </outputs>
-    <file>
-      <name>[ROOT_NODE]</name>
-      <outputs>
-        <tool>
-          <name>XLINK</name>
-          <file> 12</file>
-        </tool>
-        <tool>
-          <name>ULP430</name>
-          <file> 0</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\LSM303.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 3</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 17</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 7 27 1 39 22</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 7 27 1 39 22</file>
-        </tool>
-      </inputs>
-    </file>
     <file>
       <name>$PROJ_DIR$\LEDS.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 15</file>
+          <name>ICC430</name>
+          <file> 11</file>
         </tool>
         <tool>
-          <name>ICC430</name>
-          <file> 31</file>
+          <name>BICOMP</name>
+          <file> 0</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 7 27 1 2</file>
+          <name>ICC430</name>
+          <file> 26 39 29 25</file>
         </tool>
         <tool>
-          <name>ICC430</name>
-          <file> 7 27 1 2</file>
+          <name>BICOMP</name>
+          <file> 26 39 29 25</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\BH1715.c</name>
+      <name>$PROJ_DIR$\NXP_CODE.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 10</file>
+          <name>ICC430</name>
+          <file> 1</file>
         </tool>
         <tool>
-          <name>ICC430</name>
-          <file> 36</file>
+          <name>BICOMP</name>
+          <file> 42</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 24 7 27 1 22</file>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
         </tool>
       </inputs>
     </file>
@@ -131,53 +111,66 @@
       <inputs>
         <tool>
           <name>XLINK</name>
-          <file> 40 36 31 17 23 35 8 26</file>
+          <file> 27 10 9 20 40 38 32 12 37</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\UART.c</name>
+      <name>[ROOT_NODE]</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 30</file>
+          <name>XLINK</name>
+          <file> 24</file>
         </tool>
         <tool>
-          <name>ICC430</name>
-          <file> 23</file>
+          <name>ULP430</name>
+          <file> 22</file>
         </tool>
       </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 7 27 1 13 2</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 7 27 1 13 2</file>
-        </tool>
-      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\i2c.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 19</file>
+          <name>ICC430</name>
+          <file> 32</file>
         </tool>
         <tool>
-          <name>ICC430</name>
-          <file> 35</file>
+          <name>BICOMP</name>
+          <file> 28</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 7 27 1 22</file>
+          <name>ICC430</name>
+          <file> 26 39 29 50</file>
         </tool>
         <tool>
+          <name>BICOMP</name>
+          <file> 26 39 29 50</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\COMMON.c</name>
+      <outputs>
+        <tool>
           <name>ICC430</name>
-          <file> 7 27 1 22</file>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 26 39 29 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 39 29 43</file>
         </tool>
       </inputs>
     </file>
@@ -185,33 +178,348 @@
       <name>$PROJ_DIR$\main.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 9</file>
+          <name>ICC430</name>
+          <file> 12</file>
         </tool>
         <tool>
-          <name>ICC430</name>
-          <file> 8</file>
+          <name>BICOMP</name>
+          <file> 14</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 7 27 1 2 22 13 39 24 29 34 21 32 37 20 11 38 33 28</file>
+          <name>ICC430</name>
+          <file> 26 39 29 43 50 17 30 8 4 46</file>
         </tool>
         <tool>
+          <name>BICOMP</name>
+          <file> 26 39 29 43 50 17 30 8 4 46</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\UART.c</name>
+      <outputs>
+        <tool>
           <name>ICC430</name>
-          <file> 7 27 1 2 22 13 39 24 29 34 21 32 37 20 11 38 33 28</file>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 26 39 29 17 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 39 29 17 43</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LSM303.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 26 39 29 30 50</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 39 29 30 50</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Calculations.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 4 30 15 7 18 35 31 21 23 34 16 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 30 15 7 18 35 31 21 23 34 16 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\BH1715.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 8 26 39 29 50</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 26 39 29 50</file>
         </tool>
       </inputs>
     </file>
   </configuration>
   <configuration>
     <name>Release</name>
-    <outputs/>
-    <forcedrebuild>
-      <name>[MULTI_TOOL]</name>
-      <tool>XLINK</tool>
-    </forcedrebuild>
+    <outputs>
+      <file>$PROJ_DIR$\Release\Obj\Calculations.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\i2c.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\BH1715.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\COMMON.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$PROJ_DIR$\Release\Obj\LSM303.pbi</file>
+      <file>$PROJ_DIR$\Calculations.h</file>
+      <file>$PROJ_DIR$\BH1715.h</file>
+      <file>$PROJ_DIR$\Release\Obj\Calculations.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl430f.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\UART.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\UART.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\i2c.r43</file>
+      <file>$PROJ_DIR$\UART.h</file>
+      <file>$TOOLKIT_DIR$\inc\io430.h</file>
+      <file>$TOOLKIT_DIR$\config\lnk430G2453.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\LSM303.h</file>
+      <file>$TOOLKIT_DIR$\inc\io430g2453.h</file>
+      <file>$PROJ_DIR$\Release\Obj\main.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\COMMON.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\BH1715.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\LSM303.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Release\Exe\SOLA_TRACKER.txt</file>
+      <file>$TOOLKIT_DIR$\inc\clib\math.h</file>
+      <file>$PROJ_DIR$\COMMON.h</file>
+      <file>$PROJ_DIR$\i2c.c</file>
+      <file>$PROJ_DIR$\COMMON.c</file>
+      <file>$PROJ_DIR$\NXP_CODE.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\UART.c</file>
+      <file>$PROJ_DIR$\LSM303.c</file>
+      <file>$PROJ_DIR$\i2c.h</file>
+      <file>$PROJ_DIR$\Calculations.c</file>
+      <file>$PROJ_DIR$\BH1715.c</file>
+      <file>$PROJ_DIR$\Release\Exe\SOLA_TRACKER.d43</file>
+      <file>$PROJ_DIR$\Release\Obj\SOLA_TRACKER.pbd</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\SOLA_TRACKER.txt</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 15 21 20 0 22 10 12 19 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\i2c.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 14 18 16 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 18 16 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\COMMON.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 14 18 16 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 18 16 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 14 18 16 26 33 13 17 7 6 29</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 18 16 26 33 13 17 7 6 29</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\UART.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 14 18 16 13 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 18 16 13 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LSM303.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 14 18 16 17 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 18 16 17 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Calculations.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 6 17 25 4</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 17 25 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\BH1715.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 7 14 18 16 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 14 18 16 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\SOLA_TRACKER.d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 15 21 20 0 22 10 12 19 9</file>
+        </tool>
+      </inputs>
+    </file>
   </configuration>
 </project>
 
