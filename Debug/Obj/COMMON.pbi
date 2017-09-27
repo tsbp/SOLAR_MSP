@@ -790,46 +790,174 @@
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:2792:9: macro definition=RESET_VECTOR <US>c:macro@RESET_VECTOR<UE> <DS>RESET_VECTOR<DE> Extent=<ES>2792:9 - 2792:38<EE>
 <L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:2:1: inclusion directive=COMMON.h <US><UE> <DS><DE> <IS>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h<IE>  [multi-include guarded] Extent=<ES>2:1 - 2:20<EE>
 <L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:3:9: macro definition=COMMON_H <US>c:macro@COMMON_H<UE> <DS>COMMON_H<DE> Extent=<ES>3:9 - 3:17<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:7:9: macro definition=LED_GRN <US>c:macro@LED_GRN<UE> <DS>LED_GRN<DE> Extent=<ES>7:9 - 7:23<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:8:9: macro definition=LED_RED <US>c:macro@LED_RED<UE> <DS>LED_RED<DE> Extent=<ES>8:9 - 8:23<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:10:9: macro definition=BLINK_FORWARD <US>c:macro@BLINK_FORWARD<UE> <DS>BLINK_FORWARD<DE> Extent=<ES>10:9 - 10:33<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:11:9: macro definition=BLINK_BACKWARD <US>c:macro@BLINK_BACKWARD<UE> <DS>BLINK_BACKWARD<DE> Extent=<ES>11:9 - 11:33<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:12:9: macro definition=BLINK_UP <US>c:macro@BLINK_UP<UE> <DS>BLINK_UP<DE> Extent=<ES>12:9 - 12:33<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:13:9: macro definition=BLINK_DOWN <US>c:macro@BLINK_DOWN<UE> <DS>BLINK_DOWN<DE> Extent=<ES>13:9 - 13:33<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:14:9: macro definition=BLINK_WAIT <US>c:macro@BLINK_WAIT<UE> <DS>BLINK_WAIT<DE> Extent=<ES>14:9 - 14:33<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:15:9: macro definition=BLNK_MAX <US>c:macro@BLNK_MAX<UE> <DS>BLNK_MAX<DE> Extent=<ES>15:9 - 15:23<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:46:9: macro definition=REL_PWR1 <US>c:macro@REL_PWR1<UE> <DS>REL_PWR1<DE> Extent=<ES>46:9 - 46:31<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:47:9: macro definition=REL_DIR1 <US>c:macro@REL_DIR1<UE> <DS>REL_DIR1<DE> Extent=<ES>47:9 - 47:31<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:48:9: macro definition=REL_PWR2 <US>c:macro@REL_PWR2<UE> <DS>REL_PWR2<DE> Extent=<ES>48:9 - 48:31<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:49:9: macro definition=REL_DIR2 <US>c:macro@REL_DIR2<UE> <DS>REL_DIR2<DE> Extent=<ES>49:9 - 49:31<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:50:9: macro definition=STOP_MOTORS <US>c:macro@STOP_MOTORS<UE> <DS>STOP_MOTORS<DE> Extent=<ES>50:9 - 50:98<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:52:9: macro definition=VERTICAL <US>c:macro@VERTICAL<UE> <DS>VERTICAL<DE> Extent=<ES>52:9 - 52:28<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:53:9: macro definition=HORIZONTAL <US>c:macro@HORIZONTAL<UE> <DS>HORIZONTAL<DE> Extent=<ES>53:9 - 53:28<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:54:9: macro definition=FORWARD <US>c:macro@FORWARD<UE> <DS>FORWARD<DE> Extent=<ES>54:9 - 54:28<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:55:9: macro definition=BACKWARD <US>c:macro@BACKWARD<UE> <DS>BACKWARD<DE> Extent=<ES>55:9 - 55:28<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:57:9: macro definition=DIRECTION_DELAY <US>c:macro@DIRECTION_DELAY<UE> <DS>DIRECTION_DELAY<DE> Extent=<ES>57:9 - 57:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:7:22: macro expansion=BLINK_WAIT|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:14:9 <US>c:macro@BLINK_WAIT<UE> <DS>BLINK_WAIT<DE> Extent=<ES>7:22 - 7:32<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:12:23: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:51:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>12:23 - 12:27<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:39: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:51:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>15:39 - 15:43<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:16:20: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:47:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>16:20 - 16:24<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:16:39: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:51:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>16:39 - 16:43<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:17:40: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:51:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>17:40 - 17:44<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:18:14: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:51:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>18:14 - 18:18<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:39: macro expansion=BLNK_MAX|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:15:9 <US>c:macro@BLNK_MAX<UE> <DS>BLNK_MAX<DE> Extent=<ES>24:39 - 24:47<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:29:13: macro expansion=BLNK_MAX|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:15:9 <US>c:macro@BLNK_MAX<UE> <DS>BLNK_MAX<DE> Extent=<ES>29:13 - 29:21<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:30:40: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:47:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>30:40 - 30:44<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:31:41: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:47:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>31:41 - 31:45<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:33:47: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:48:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>33:47 - 33:51<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:34:49: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:48:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>34:49 - 34:53<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:48:18: macro expansion=VERTICAL|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:52:9 <US>c:macro@VERTICAL<UE> <DS>VERTICAL<DE> Extent=<ES>48:18 - 48:26<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:50:18: macro expansion=BACKWARD|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:55:9 <US>c:macro@BACKWARD<UE> <DS>BACKWARD<DE> Extent=<ES>50:18 - 50:26<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:50:37: macro expansion=REL_PWR1|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:46:9 <US>c:macro@REL_PWR1<UE> <DS>REL_PWR1<DE> Extent=<ES>50:37 - 50:45<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:51:22: macro expansion=DIRECTION_DELAY|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:57:9 <US>c:macro@DIRECTION_DELAY<UE> <DS>DIRECTION_DELAY<DE> Extent=<ES>51:22 - 51:37<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:52:16: macro expansion=REL_DIR1|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:47:9 <US>c:macro@REL_DIR1<UE> <DS>REL_DIR1<DE> Extent=<ES>52:16 - 52:24<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:56:18: macro expansion=BACKWARD|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:55:9 <US>c:macro@BACKWARD<UE> <DS>BACKWARD<DE> Extent=<ES>56:18 - 56:26<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:56:38: macro expansion=REL_PWR2|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:48:9 <US>c:macro@REL_PWR2<UE> <DS>REL_PWR2<DE> Extent=<ES>56:38 - 56:46<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:57:22: macro expansion=DIRECTION_DELAY|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:57:9 <US>c:macro@DIRECTION_DELAY<UE> <DS>DIRECTION_DELAY<DE> Extent=<ES>57:22 - 57:37<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:17: macro expansion=REL_DIR2|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:49:9 <US>c:macro@REL_DIR2<UE> <DS>REL_DIR2<DE> Extent=<ES>58:17 - 58:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:5:1: inclusion directive=Calculations.h <US><UE> <DS><DE> <IS>G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h<IE>  [multi-include guarded] Extent=<ES>5:1 - 5:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:3:9: macro definition=CALC_H <US>c:macro@CALC_H<UE> <DS>CALC_H<DE> Extent=<ES>3:9 - 3:15<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:5:1: inclusion directive=LSM303.h <US><UE> <DS><DE> <IS>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h<IE>  [multi-include guarded] Extent=<ES>5:1 - 5:20<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:2:9: macro definition=__LSM303_H <US>c:macro@__LSM303_H<UE> <DS>__LSM303_H<DE> Extent=<ES>2:9 - 2:19<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:7:9: macro definition=LSM303A_I2C_ADDR <US>c:macro@LSM303A_I2C_ADDR<UE> <DS>LSM303A_I2C_ADDR<DE> Extent=<ES>7:9 - 7:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:8:9: macro definition=LSM303M_I2C_ADDR <US>c:macro@LSM303M_I2C_ADDR<UE> <DS>LSM303M_I2C_ADDR<DE> Extent=<ES>8:9 - 8:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:12:9: macro definition=LSM303A_CTRL_REG1 <US>c:macro@LSM303A_CTRL_REG1<UE> <DS>LSM303A_CTRL_REG1<DE> Extent=<ES>12:9 - 12:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:13:9: macro definition=LSM303A_CTRL_REG2 <US>c:macro@LSM303A_CTRL_REG2<UE> <DS>LSM303A_CTRL_REG2<DE> Extent=<ES>13:9 - 13:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:14:9: macro definition=LSM303A_CTRL_REG3 <US>c:macro@LSM303A_CTRL_REG3<UE> <DS>LSM303A_CTRL_REG3<DE> Extent=<ES>14:9 - 14:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:15:9: macro definition=LSM303A_CTRL_REG4 <US>c:macro@LSM303A_CTRL_REG4<UE> <DS>LSM303A_CTRL_REG4<DE> Extent=<ES>15:9 - 15:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:16:9: macro definition=LSM303A_CTRL_REG5 <US>c:macro@LSM303A_CTRL_REG5<UE> <DS>LSM303A_CTRL_REG5<DE> Extent=<ES>16:9 - 16:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:17:9: macro definition=LSM303A_HP_FILTER_RESET <US>c:macro@LSM303A_HP_FILTER_RESET<UE> <DS>LSM303A_HP_FILTER_RESET<DE> Extent=<ES>17:9 - 17:63<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:18:9: macro definition=LSM303A_REFERENCE <US>c:macro@LSM303A_REFERENCE<UE> <DS>LSM303A_REFERENCE<DE> Extent=<ES>18:9 - 18:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:19:9: macro definition=LSM303A_STATUS_REG <US>c:macro@LSM303A_STATUS_REG<UE> <DS>LSM303A_STATUS_REG<DE> Extent=<ES>19:9 - 19:44<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:20:9: macro definition=LSM303A_OUT_X_L <US>c:macro@LSM303A_OUT_X_L<UE> <DS>LSM303A_OUT_X_L<DE> Extent=<ES>20:9 - 20:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:21:9: macro definition=LSM303A_OUT_X_H <US>c:macro@LSM303A_OUT_X_H<UE> <DS>LSM303A_OUT_X_H<DE> Extent=<ES>21:9 - 21:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:22:9: macro definition=LSM303A_OUT_Y_L <US>c:macro@LSM303A_OUT_Y_L<UE> <DS>LSM303A_OUT_Y_L<DE> Extent=<ES>22:9 - 22:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:23:9: macro definition=LSM303A_OUT_Y_H <US>c:macro@LSM303A_OUT_Y_H<UE> <DS>LSM303A_OUT_Y_H<DE> Extent=<ES>23:9 - 23:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:24:9: macro definition=LSM303A_OUT_Z_L <US>c:macro@LSM303A_OUT_Z_L<UE> <DS>LSM303A_OUT_Z_L<DE> Extent=<ES>24:9 - 24:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:25:9: macro definition=LSM303A_OUT_Z_H <US>c:macro@LSM303A_OUT_Z_H<UE> <DS>LSM303A_OUT_Z_H<DE> Extent=<ES>25:9 - 25:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:26:9: macro definition=LSM303A_INT1_CFG <US>c:macro@LSM303A_INT1_CFG<UE> <DS>LSM303A_INT1_CFG<DE> Extent=<ES>26:9 - 26:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:27:9: macro definition=LSM303A_INT1_SOURCE <US>c:macro@LSM303A_INT1_SOURCE<UE> <DS>LSM303A_INT1_SOURCE<DE> Extent=<ES>27:9 - 27:45<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:28:9: macro definition=LSM303A_INT1_INT1_THS <US>c:macro@LSM303A_INT1_INT1_THS<UE> <DS>LSM303A_INT1_INT1_THS<DE> Extent=<ES>28:9 - 28:54<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:29:9: macro definition=LSM303A_INT1_DURATION <US>c:macro@LSM303A_INT1_DURATION<UE> <DS>LSM303A_INT1_DURATION<DE> Extent=<ES>29:9 - 29:54<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:30:9: macro definition=LSM303A_INT2_CFG <US>c:macro@LSM303A_INT2_CFG<UE> <DS>LSM303A_INT2_CFG<DE> Extent=<ES>30:9 - 30:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:31:9: macro definition=LSM303A_INT2_SOURCE <US>c:macro@LSM303A_INT2_SOURCE<UE> <DS>LSM303A_INT2_SOURCE<DE> Extent=<ES>31:9 - 31:45<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:32:9: macro definition=LSM303A_INT2_THS <US>c:macro@LSM303A_INT2_THS<UE> <DS>LSM303A_INT2_THS<DE> Extent=<ES>32:9 - 32:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:33:9: macro definition=LSM303A_INT2_DURATION <US>c:macro@LSM303A_INT2_DURATION<UE> <DS>LSM303A_INT2_DURATION<DE> Extent=<ES>33:9 - 33:54<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:34:9: macro definition=LSM303A_MULTIPLE <US>c:macro@LSM303A_MULTIPLE<UE> <DS>LSM303A_MULTIPLE<DE> Extent=<ES>34:9 - 34:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:36:9: macro definition=LSM303M_CRA_REG <US>c:macro@LSM303M_CRA_REG<UE> <DS>LSM303M_CRA_REG<DE> Extent=<ES>36:9 - 36:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:37:9: macro definition=LSM303M_CRB_REG <US>c:macro@LSM303M_CRB_REG<UE> <DS>LSM303M_CRB_REG<DE> Extent=<ES>37:9 - 37:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:38:9: macro definition=LSM303M_MR_REG <US>c:macro@LSM303M_MR_REG<UE> <DS>LSM303M_MR_REG<DE> Extent=<ES>38:9 - 38:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:39:9: macro definition=LSM303M_OUT_X_H <US>c:macro@LSM303M_OUT_X_H<UE> <DS>LSM303M_OUT_X_H<DE> Extent=<ES>39:9 - 39:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:40:9: macro definition=LSM303M_OUT_X_L <US>c:macro@LSM303M_OUT_X_L<UE> <DS>LSM303M_OUT_X_L<DE> Extent=<ES>40:9 - 40:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:41:9: macro definition=LSM303M_OUT_Z_H <US>c:macro@LSM303M_OUT_Z_H<UE> <DS>LSM303M_OUT_Z_H<DE> Extent=<ES>41:9 - 41:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:42:9: macro definition=LSM303M_OUT_Z_L <US>c:macro@LSM303M_OUT_Z_L<UE> <DS>LSM303M_OUT_Z_L<DE> Extent=<ES>42:9 - 42:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:43:9: macro definition=LSM303M_OUT_Y_H <US>c:macro@LSM303M_OUT_Y_H<UE> <DS>LSM303M_OUT_Y_H<DE> Extent=<ES>43:9 - 43:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:44:9: macro definition=LSM303M_OUT_Y_L <US>c:macro@LSM303M_OUT_Y_L<UE> <DS>LSM303M_OUT_Y_L<DE> Extent=<ES>44:9 - 44:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:45:9: macro definition=LSM303M_SR_REG <US>c:macro@LSM303M_SR_REG<UE> <DS>LSM303M_SR_REG<DE> Extent=<ES>45:9 - 45:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:46:9: macro definition=LSM303M_IRA_REG <US>c:macro@LSM303M_IRA_REG<UE> <DS>LSM303M_IRA_REG<DE> Extent=<ES>46:9 - 46:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:47:9: macro definition=LSM303M_IRB_REG <US>c:macro@LSM303M_IRB_REG<UE> <DS>LSM303M_IRB_REG<DE> Extent=<ES>47:9 - 47:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:48:9: macro definition=LSM303M_IRC_REG <US>c:macro@LSM303M_IRC_REG<UE> <DS>LSM303M_IRC_REG<DE> Extent=<ES>48:9 - 48:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:49:9: macro definition=LSM303M_MULTIPLE <US>c:macro@LSM303M_MULTIPLE<UE> <DS>LSM303M_MULTIPLE<DE> Extent=<ES>49:9 - 49:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:52:10: macro definition=LSM303DLHC_FS_1_3_GA <US>c:macro@LSM303DLHC_FS_1_3_GA<UE> <DS>LSM303DLHC_FS_1_3_GA<DE> Extent=<ES>52:10 - 52:61<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:53:10: macro definition=LSM303DLHC_FS_1_9_GA <US>c:macro@LSM303DLHC_FS_1_9_GA<UE> <DS>LSM303DLHC_FS_1_9_GA<DE> Extent=<ES>53:10 - 53:61<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:54:10: macro definition=LSM303DLHC_FS_2_5_GA <US>c:macro@LSM303DLHC_FS_2_5_GA<UE> <DS>LSM303DLHC_FS_2_5_GA<DE> Extent=<ES>54:10 - 54:61<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:55:10: macro definition=LSM303DLHC_FS_4_0_GA <US>c:macro@LSM303DLHC_FS_4_0_GA<UE> <DS>LSM303DLHC_FS_4_0_GA<DE> Extent=<ES>55:10 - 55:61<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:56:10: macro definition=LSM303DLHC_FS_4_7_GA <US>c:macro@LSM303DLHC_FS_4_7_GA<UE> <DS>LSM303DLHC_FS_4_7_GA<DE> Extent=<ES>56:10 - 56:61<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:57:10: macro definition=LSM303DLHC_FS_5_6_GA <US>c:macro@LSM303DLHC_FS_5_6_GA<UE> <DS>LSM303DLHC_FS_5_6_GA<DE> Extent=<ES>57:10 - 57:61<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:58:10: macro definition=LSM303DLHC_FS_8_1_GA <US>c:macro@LSM303DLHC_FS_8_1_GA<UE> <DS>LSM303DLHC_FS_8_1_GA<DE> Extent=<ES>58:10 - 58:61<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:62:9: macro definition=LSM303DLHC_M_SENSITIVITY_XY_1_3Ga <US>c:macro@LSM303DLHC_M_SENSITIVITY_XY_1_3Ga<UE> <DS>LSM303DLHC_M_SENSITIVITY_XY_1_3Ga<DE> Extent=<ES>62:9 - 62:51<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:63:9: macro definition=LSM303DLHC_M_SENSITIVITY_XY_1_9Ga <US>c:macro@LSM303DLHC_M_SENSITIVITY_XY_1_9Ga<UE> <DS>LSM303DLHC_M_SENSITIVITY_XY_1_9Ga<DE> Extent=<ES>63:9 - 63:50<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:64:9: macro definition=LSM303DLHC_M_SENSITIVITY_XY_2_5Ga <US>c:macro@LSM303DLHC_M_SENSITIVITY_XY_2_5Ga<UE> <DS>LSM303DLHC_M_SENSITIVITY_XY_2_5Ga<DE> Extent=<ES>64:9 - 64:50<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:65:9: macro definition=LSM303DLHC_M_SENSITIVITY_XY_4Ga <US>c:macro@LSM303DLHC_M_SENSITIVITY_XY_4Ga<UE> <DS>LSM303DLHC_M_SENSITIVITY_XY_4Ga<DE> Extent=<ES>65:9 - 65:50<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:66:9: macro definition=LSM303DLHC_M_SENSITIVITY_XY_4_7Ga <US>c:macro@LSM303DLHC_M_SENSITIVITY_XY_4_7Ga<UE> <DS>LSM303DLHC_M_SENSITIVITY_XY_4_7Ga<DE> Extent=<ES>66:9 - 66:50<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:67:9: macro definition=LSM303DLHC_M_SENSITIVITY_XY_5_6Ga <US>c:macro@LSM303DLHC_M_SENSITIVITY_XY_5_6Ga<UE> <DS>LSM303DLHC_M_SENSITIVITY_XY_5_6Ga<DE> Extent=<ES>67:9 - 67:50<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:68:9: macro definition=LSM303DLHC_M_SENSITIVITY_XY_8_1Ga <US>c:macro@LSM303DLHC_M_SENSITIVITY_XY_8_1Ga<UE> <DS>LSM303DLHC_M_SENSITIVITY_XY_8_1Ga<DE> Extent=<ES>68:9 - 68:50<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:69:9: macro definition=LSM303DLHC_M_SENSITIVITY_Z_1_3Ga <US>c:macro@LSM303DLHC_M_SENSITIVITY_Z_1_3Ga<UE> <DS>LSM303DLHC_M_SENSITIVITY_Z_1_3Ga<DE> Extent=<ES>69:9 - 69:50<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:70:9: macro definition=LSM303DLHC_M_SENSITIVITY_Z_1_9Ga <US>c:macro@LSM303DLHC_M_SENSITIVITY_Z_1_9Ga<UE> <DS>LSM303DLHC_M_SENSITIVITY_Z_1_9Ga<DE> Extent=<ES>70:9 - 70:50<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:71:9: macro definition=LSM303DLHC_M_SENSITIVITY_Z_2_5Ga <US>c:macro@LSM303DLHC_M_SENSITIVITY_Z_2_5Ga<UE> <DS>LSM303DLHC_M_SENSITIVITY_Z_2_5Ga<DE> Extent=<ES>71:9 - 71:50<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:72:9: macro definition=LSM303DLHC_M_SENSITIVITY_Z_4Ga <US>c:macro@LSM303DLHC_M_SENSITIVITY_Z_4Ga<UE> <DS>LSM303DLHC_M_SENSITIVITY_Z_4Ga<DE> Extent=<ES>72:9 - 72:50<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:73:9: macro definition=LSM303DLHC_M_SENSITIVITY_Z_4_7Ga <US>c:macro@LSM303DLHC_M_SENSITIVITY_Z_4_7Ga<UE> <DS>LSM303DLHC_M_SENSITIVITY_Z_4_7Ga<DE> Extent=<ES>73:9 - 73:50<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:74:9: macro definition=LSM303DLHC_M_SENSITIVITY_Z_5_6Ga <US>c:macro@LSM303DLHC_M_SENSITIVITY_Z_5_6Ga<UE> <DS>LSM303DLHC_M_SENSITIVITY_Z_5_6Ga<DE> Extent=<ES>74:9 - 74:50<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:75:9: macro definition=LSM303DLHC_M_SENSITIVITY_Z_8_1Ga <US>c:macro@LSM303DLHC_M_SENSITIVITY_Z_8_1Ga<UE> <DS>LSM303DLHC_M_SENSITIVITY_Z_8_1Ga<DE> Extent=<ES>75:9 - 75:50<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:78:9: macro definition=LSM_Acc_Sensitivity_2g <US>c:macro@LSM_Acc_Sensitivity_2g<UE> <DS>LSM_Acc_Sensitivity_2g<DE> Extent=<ES>78:9 - 78:49<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:79:9: macro definition=LSM_Acc_Sensitivity_4g <US>c:macro@LSM_Acc_Sensitivity_4g<UE> <DS>LSM_Acc_Sensitivity_4g<DE> Extent=<ES>79:9 - 79:49<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:80:9: macro definition=LSM_Acc_Sensitivity_8g <US>c:macro@LSM_Acc_Sensitivity_8g<UE> <DS>LSM_Acc_Sensitivity_8g<DE> Extent=<ES>80:9 - 80:49<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:81:9: macro definition=LSM_Acc_Sensitivity_16g <US>c:macro@LSM_Acc_Sensitivity_16g<UE> <DS>LSM_Acc_Sensitivity_16g<DE> Extent=<ES>81:9 - 81:50<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:83:9: macro definition=PI <US>c:macro@PI<UE> <DS>PI<DE> Extent=<ES>83:9 - 83:59<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:86:9: macro definition=LSM303DLHC_FULLSCALE_2G <US>c:macro@LSM303DLHC_FULLSCALE_2G<UE> <DS>LSM303DLHC_FULLSCALE_2G<DE> Extent=<ES>86:9 - 86:59<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:87:9: macro definition=LSM303DLHC_FULLSCALE_4G <US>c:macro@LSM303DLHC_FULLSCALE_4G<UE> <DS>LSM303DLHC_FULLSCALE_4G<DE> Extent=<ES>87:9 - 87:59<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:88:9: macro definition=LSM303DLHC_FULLSCALE_8G <US>c:macro@LSM303DLHC_FULLSCALE_8G<UE> <DS>LSM303DLHC_FULLSCALE_8G<DE> Extent=<ES>88:9 - 88:59<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:89:9: macro definition=LSM303DLHC_FULLSCALE_16G <US>c:macro@LSM303DLHC_FULLSCALE_16G<UE> <DS>LSM303DLHC_FULLSCALE_16G<DE> Extent=<ES>89:9 - 89:59<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:7:9: macro definition=FILTER_LENGHT <US>c:macro@FILTER_LENGHT<UE> <DS>FILTER_LENGHT<DE> Extent=<ES>7:9 - 7:29<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:9:9: macro definition=LED_GRN <US>c:macro@LED_GRN<UE> <DS>LED_GRN<DE> Extent=<ES>9:9 - 9:23<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:10:9: macro definition=LED_RED <US>c:macro@LED_RED<UE> <DS>LED_RED<DE> Extent=<ES>10:9 - 10:23<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:12:9: macro definition=BLINK_FORWARD <US>c:macro@BLINK_FORWARD<UE> <DS>BLINK_FORWARD<DE> Extent=<ES>12:9 - 12:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:13:9: macro definition=BLINK_BACKWARD <US>c:macro@BLINK_BACKWARD<UE> <DS>BLINK_BACKWARD<DE> Extent=<ES>13:9 - 13:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:14:9: macro definition=BLINK_UP <US>c:macro@BLINK_UP<UE> <DS>BLINK_UP<DE> Extent=<ES>14:9 - 14:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:15:9: macro definition=BLINK_DOWN <US>c:macro@BLINK_DOWN<UE> <DS>BLINK_DOWN<DE> Extent=<ES>15:9 - 15:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:16:9: macro definition=BLINK_WAIT <US>c:macro@BLINK_WAIT<UE> <DS>BLINK_WAIT<DE> Extent=<ES>16:9 - 16:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:17:9: macro definition=BLNK_MAX <US>c:macro@BLNK_MAX<UE> <DS>BLNK_MAX<DE> Extent=<ES>17:9 - 17:23<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:28:22: macro expansion=FILTER_LENGHT|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:7:9 <US>c:macro@FILTER_LENGHT<UE> <DS>FILTER_LENGHT<DE> Extent=<ES>28:22 - 28:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:28:49: macro expansion=FILTER_LENGHT|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:7:9 <US>c:macro@FILTER_LENGHT<UE> <DS>FILTER_LENGHT<DE> Extent=<ES>28:49 - 28:62<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:28:74: macro expansion=FILTER_LENGHT|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:7:9 <US>c:macro@FILTER_LENGHT<UE> <DS>FILTER_LENGHT<DE> Extent=<ES>28:74 - 28:87<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:52:9: macro definition=REL_PWR1 <US>c:macro@REL_PWR1<UE> <DS>REL_PWR1<DE> Extent=<ES>52:9 - 52:31<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:53:9: macro definition=REL_DIR1 <US>c:macro@REL_DIR1<UE> <DS>REL_DIR1<DE> Extent=<ES>53:9 - 53:31<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:54:9: macro definition=REL_PWR2 <US>c:macro@REL_PWR2<UE> <DS>REL_PWR2<DE> Extent=<ES>54:9 - 54:31<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:55:9: macro definition=REL_DIR2 <US>c:macro@REL_DIR2<UE> <DS>REL_DIR2<DE> Extent=<ES>55:9 - 55:31<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:56:9: macro definition=STOP_MOTORS <US>c:macro@STOP_MOTORS<UE> <DS>STOP_MOTORS<DE> Extent=<ES>56:9 - 56:98<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:58:9: macro definition=VERTICAL <US>c:macro@VERTICAL<UE> <DS>VERTICAL<DE> Extent=<ES>58:9 - 58:28<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:59:9: macro definition=HORIZONTAL <US>c:macro@HORIZONTAL<UE> <DS>HORIZONTAL<DE> Extent=<ES>59:9 - 59:28<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:60:9: macro definition=FORWARD <US>c:macro@FORWARD<UE> <DS>FORWARD<DE> Extent=<ES>60:9 - 60:28<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:61:9: macro definition=BACKWARD <US>c:macro@BACKWARD<UE> <DS>BACKWARD<DE> Extent=<ES>61:9 - 61:28<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:63:9: macro definition=DIRECTION_DELAY <US>c:macro@DIRECTION_DELAY<UE> <DS>DIRECTION_DELAY<DE> Extent=<ES>63:9 - 63:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:3:1: inclusion directive=UART.h <US><UE> <DS><DE> <IS>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h<IE>  [multi-include guarded] Extent=<ES>3:1 - 3:18<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:2:9: macro definition=__UART_H <US>c:macro@__UART_H<UE> <DS>__UART_H<DE> Extent=<ES>2:9 - 2:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:6:9: macro definition=OK <US>c:macro@OK<UE> <DS>OK<DE> Extent=<ES>6:9 - 6:20<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:7:9: macro definition=BAD <US>c:macro@BAD<UE> <DS>BAD<DE> Extent=<ES>7:9 - 7:21<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:9:9: macro definition=ID_SLAVE <US>c:macro@ID_SLAVE<UE> <DS>ID_SLAVE<DE> Extent=<ES>9:9 - 9:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:10:9: macro definition=ID_MASTER <US>c:macro@ID_MASTER<UE> <DS>ID_MASTER<DE> Extent=<ES>10:9 - 10:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:12:9: macro definition=CMD_ANGLE <US>c:macro@CMD_ANGLE<UE> <DS>CMD_ANGLE<DE> Extent=<ES>12:9 - 12:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:13:9: macro definition=CMD_AZIMUTH <US>c:macro@CMD_AZIMUTH<UE> <DS>CMD_AZIMUTH<DE> Extent=<ES>13:9 - 13:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:14:9: macro definition=CMD_LEFT <US>c:macro@CMD_LEFT<UE> <DS>CMD_LEFT<DE> Extent=<ES>14:9 - 14:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:15:9: macro definition=CMD_RIGHT <US>c:macro@CMD_RIGHT<UE> <DS>CMD_RIGHT<DE> Extent=<ES>15:9 - 15:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:16:9: macro definition=CMD_UP <US>c:macro@CMD_UP<UE> <DS>CMD_UP<DE> Extent=<ES>16:9 - 16:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:17:9: macro definition=CMD_DOWN <US>c:macro@CMD_DOWN<UE> <DS>CMD_DOWN<DE> Extent=<ES>17:9 - 17:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:18:9: macro definition=CMD_STATE <US>c:macro@CMD_STATE<UE> <DS>CMD_STATE<DE> Extent=<ES>18:9 - 18:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:19:9: macro definition=CMD_CFG <US>c:macro@CMD_CFG<UE> <DS>CMD_CFG<DE> Extent=<ES>19:9 - 19:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:55:9: macro definition=UART_INTERVAL <US>c:macro@UART_INTERVAL<UE> <DS>UART_INTERVAL<DE> Extent=<ES>55:9 - 55:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:9:22: macro expansion=BLINK_WAIT|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:16:9 <US>c:macro@BLINK_WAIT<UE> <DS>BLINK_WAIT<DE> Extent=<ES>9:22 - 9:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:15: macro expansion=FILTER_LENGHT|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:7:9 <US>c:macro@FILTER_LENGHT<UE> <DS>FILTER_LENGHT<DE> Extent=<ES>15:15 - 15:28<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:42: macro expansion=FILTER_LENGHT|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:7:9 <US>c:macro@FILTER_LENGHT<UE> <DS>FILTER_LENGHT<DE> Extent=<ES>15:42 - 15:55<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:67: macro expansion=FILTER_LENGHT|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:7:9 <US>c:macro@FILTER_LENGHT<UE> <DS>FILTER_LENGHT<DE> Extent=<ES>15:67 - 15:80<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:20:23: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:51:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>20:23 - 20:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:23:39: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:51:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>23:39 - 23:43<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:20: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:47:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>24:20 - 24:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:39: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:51:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>24:39 - 24:43<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:25:40: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:51:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>25:40 - 25:44<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:26:14: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:51:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>26:14 - 26:18<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:32:39: macro expansion=BLNK_MAX|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:17:9 <US>c:macro@BLNK_MAX<UE> <DS>BLNK_MAX<DE> Extent=<ES>32:39 - 32:47<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:37:13: macro expansion=BLNK_MAX|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:17:9 <US>c:macro@BLNK_MAX<UE> <DS>BLNK_MAX<DE> Extent=<ES>37:13 - 37:21<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:38:40: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:47:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>38:40 - 38:44<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:39:41: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:47:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>39:41 - 39:45<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:47: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:48:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>41:47 - 41:51<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:42:49: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:48:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>42:49 - 42:53<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:56:18: macro expansion=VERTICAL|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:58:9 <US>c:macro@VERTICAL<UE> <DS>VERTICAL<DE> Extent=<ES>56:18 - 56:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:18: macro expansion=BACKWARD|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:61:9 <US>c:macro@BACKWARD<UE> <DS>BACKWARD<DE> Extent=<ES>58:18 - 58:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:38: macro expansion=REL_PWR1|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:52:9 <US>c:macro@REL_PWR1<UE> <DS>REL_PWR1<DE> Extent=<ES>58:38 - 58:46<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:57: macro expansion=BLINK_DOWN|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:15:9 <US>c:macro@BLINK_DOWN<UE> <DS>BLINK_DOWN<DE> Extent=<ES>58:57 - 58:67<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:59:20: macro expansion=BLINK_UP|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:14:9 <US>c:macro@BLINK_UP<UE> <DS>BLINK_UP<DE> Extent=<ES>59:20 - 59:28<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:60:22: macro expansion=DIRECTION_DELAY|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:63:9 <US>c:macro@DIRECTION_DELAY<UE> <DS>DIRECTION_DELAY<DE> Extent=<ES>60:22 - 60:37<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:61:16: macro expansion=REL_DIR1|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:53:9 <US>c:macro@REL_DIR1<UE> <DS>REL_DIR1<DE> Extent=<ES>61:16 - 61:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:65:18: macro expansion=BACKWARD|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:61:9 <US>c:macro@BACKWARD<UE> <DS>BACKWARD<DE> Extent=<ES>65:18 - 65:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:65:39: macro expansion=REL_PWR2|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:54:9 <US>c:macro@REL_PWR2<UE> <DS>REL_PWR2<DE> Extent=<ES>65:39 - 65:47<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:65:57: macro expansion=BLINK_BACKWARD|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:13:9 <US>c:macro@BLINK_BACKWARD<UE> <DS>BLINK_BACKWARD<DE> Extent=<ES>65:57 - 65:71<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:66:20: macro expansion=BLINK_FORWARD|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:12:9 <US>c:macro@BLINK_FORWARD<UE> <DS>BLINK_FORWARD<DE> Extent=<ES>66:20 - 66:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:67:22: macro expansion=DIRECTION_DELAY|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:63:9 <US>c:macro@DIRECTION_DELAY<UE> <DS>DIRECTION_DELAY<DE> Extent=<ES>67:22 - 67:37<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:68:17: macro expansion=REL_DIR2|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:55:9 <US>c:macro@REL_DIR2<UE> <DS>REL_DIR2<DE> Extent=<ES>68:17 - 68:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:77:13: macro expansion=BIT4|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:51:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>77:13 - 77:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:77:26: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:47:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>77:26 - 77:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:78:13: macro expansion=BIT5|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:52:9 <US>c:macro@BIT5<UE> <DS>BIT5<DE> Extent=<ES>78:13 - 78:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:78:26: macro expansion=BIT1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:48:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>78:26 - 78:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:79:13: macro expansion=BIT7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:54:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>79:13 - 79:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:79:26: macro expansion=BIT2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:49:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>79:26 - 79:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:80:13: macro expansion=BIT6|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:53:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>80:13 - 80:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:80:26: macro expansion=BIT3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:50:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>80:26 - 80:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:28: macro expansion=ID_SLAVE|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:9:9 <US>c:macro@ID_SLAVE<UE> <DS>ID_SLAVE<DE> Extent=<ES>85:28 - 85:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:93:22: macro expansion=ID_MASTER|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:10:9 <US>c:macro@ID_MASTER<UE> <DS>ID_MASTER<DE> Extent=<ES>93:22 - 93:31<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:97:16: macro expansion=CMD_ANGLE|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:12:9 <US>c:macro@CMD_ANGLE<UE> <DS>CMD_ANGLE<DE> Extent=<ES>97:16 - 97:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:105:16: macro expansion=CMD_AZIMUTH|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:13:9 <US>c:macro@CMD_AZIMUTH<UE> <DS>CMD_AZIMUTH<DE> Extent=<ES>105:16 - 105:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:113:16: macro expansion=CMD_LEFT|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:14:9 <US>c:macro@CMD_LEFT<UE> <DS>CMD_LEFT<DE> Extent=<ES>113:16 - 113:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:115:31: macro expansion=OK|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:6:9 <US>c:macro@OK<UE> <DS>OK<DE> Extent=<ES>115:31 - 115:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:116:24: macro expansion=HORIZONTAL|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:59:9 <US>c:macro@HORIZONTAL<UE> <DS>HORIZONTAL<DE> Extent=<ES>116:24 - 116:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:116:36: macro expansion=BACKWARD|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:61:9 <US>c:macro@BACKWARD<UE> <DS>BACKWARD<DE> Extent=<ES>116:36 - 116:44<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:119:16: macro expansion=CMD_RIGHT|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:15:9 <US>c:macro@CMD_RIGHT<UE> <DS>CMD_RIGHT<DE> Extent=<ES>119:16 - 119:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:120:24: macro expansion=HORIZONTAL|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:59:9 <US>c:macro@HORIZONTAL<UE> <DS>HORIZONTAL<DE> Extent=<ES>120:24 - 120:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:120:36: macro expansion=FORWARD|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:60:9 <US>c:macro@FORWARD<UE> <DS>FORWARD<DE> Extent=<ES>120:36 - 120:43<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:123:16: macro expansion=CMD_UP|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:16:9 <US>c:macro@CMD_UP<UE> <DS>CMD_UP<DE> Extent=<ES>123:16 - 123:22<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:125:31: macro expansion=OK|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:6:9 <US>c:macro@OK<UE> <DS>OK<DE> Extent=<ES>125:31 - 125:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:126:24: macro expansion=VERTICAL|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:58:9 <US>c:macro@VERTICAL<UE> <DS>VERTICAL<DE> Extent=<ES>126:24 - 126:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:126:34: macro expansion=FORWARD|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:60:9 <US>c:macro@FORWARD<UE> <DS>FORWARD<DE> Extent=<ES>126:34 - 126:41<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:129:16: macro expansion=CMD_DOWN|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:17:9 <US>c:macro@CMD_DOWN<UE> <DS>CMD_DOWN<DE> Extent=<ES>129:16 - 129:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:131:31: macro expansion=OK|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:6:9 <US>c:macro@OK<UE> <DS>OK<DE> Extent=<ES>131:31 - 131:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:132:24: macro expansion=VERTICAL|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:58:9 <US>c:macro@VERTICAL<UE> <DS>VERTICAL<DE> Extent=<ES>132:24 - 132:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:132:34: macro expansion=BACKWARD|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:61:9 <US>c:macro@BACKWARD<UE> <DS>BACKWARD<DE> Extent=<ES>132:34 - 132:42<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:135:16: macro expansion=CMD_STATE|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:18:9 <US>c:macro@CMD_STATE<UE> <DS>CMD_STATE<DE> Extent=<ES>135:16 - 135:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:150:16: macro expansion=CMD_CFG|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:19:9 <US>c:macro@CMD_CFG<UE> <DS>CMD_CFG<DE> Extent=<ES>150:16 - 150:23<EE>
 <L><invalid loc>:2:15: TypedefDecl=__builtin_va_list|<invalid loc>:2:15 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>2:1 - 2:32<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:27:24: TypedefDecl=__istate_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:27:24 (Definition) <US>c:intrinsics.h@516@T@__istate_t<UE> <DS>unsigned short<DE> Extent=<ES>27:1 - 27:34<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:30:20: TypedefDecl=istate_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:30:20 (Definition) <US>c:intrinsics.h@573@T@istate_t<UE> <DS>__istate_t<DE> Extent=<ES>30:1 - 30:28<EE>
@@ -4192,263 +4320,831 @@
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:2744:41: VarDecl=CALBC1_8MHZ|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:2744:41 (Declaration) <US>c:@CALBC1_8MHZ<UE> <DS>CALBC1_8MHZ<DE> Extent=<ES>2744:11 - 2744:52<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:2749:41: VarDecl=CALDCO_1MHZ|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:2749:41 (Declaration) <US>c:@CALDCO_1MHZ<UE> <DS>CALDCO_1MHZ<DE> Extent=<ES>2749:11 - 2749:52<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:2754:41: VarDecl=CALBC1_1MHZ|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:2754:41 (Declaration) <US>c:@CALBC1_1MHZ<UE> <DS>CALBC1_1MHZ<DE> Extent=<ES>2754:11 - 2754:52<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:17:6: FunctionDecl=leds|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:10:6 (Declaration) <US>c:@F@leds<UE> <DS>void leds(unsigned char)<DE> Extent=<ES>17:1 - 17:30<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:17:25: ParmDecl=aStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:17:25 (Definition) <US>c:COMMON.h@713@F@leds@aStt<UE> <DS>unsigned char<DE> Extent=<ES>17:11 - 17:29<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:18:6: FunctionDecl=blinking|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:22:6 (Declaration) <US>c:@F@blinking<UE> <DS>void blinking(unsigned int)<DE> Extent=<ES>18:1 - 18:33<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:18:28: ParmDecl=blnk|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:18:28 (Definition) <US>c:COMMON.h@749@F@blinking@blnk<UE> <DS>unsigned int<DE> Extent=<ES>18:15 - 18:32<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:20:22: VarDecl=operation_duration|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:5:15 (Declaration) <US>c:@operation_duration<UE> <DS>operation_duration<DE> Extent=<ES>20:1 - 20:40<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:21:22: VarDecl=ledStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:6:15 (Declaration) <US>c:@ledStt<UE> <DS>ledStt<DE> Extent=<ES>21:1 - 21:28<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:22:21: VarDecl=blink|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:7:14 (Declaration) <US>c:@blink<UE> <DS>blink<DE> Extent=<ES>22:1 - 22:26<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:26:9: UnionDecl=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:26:9 (Definition) <US>c:@UA@uSTATE<UE> <DS><DE> Extent=<ES>26:9 - 39:2<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:28:17: FieldDecl=byte|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:28:17 (Definition) <US>c:@UA@uSTATE@FI@byte<UE> <DS>byte<DE> Extent=<ES>28:3 - 28:21<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:29:3: StructDecl=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:29:3 (Definition) <US>c:COMMON.h@1169@UA@uSTATE@Sa<UE> <DS><DE> Extent=<ES>29:3 - 38:4<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:31:19: FieldDecl=i2c|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:31:19 (Definition) <US>c:COMMON.h@1169@UA@uSTATE@Sa@FI@i2c<UE> <DS>i2c<DE> Extent=<ES>31:5 - 31:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:31:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>31:34 - 31:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:32:19: FieldDecl=mPres|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:32:19 (Definition) <US>c:COMMON.h@1169@UA@uSTATE@Sa@FI@mPres<UE> <DS>mPres<DE> Extent=<ES>32:5 - 32:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:32:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>32:34 - 32:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:33:19: FieldDecl=enTrans|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:33:19 (Definition) <US>c:COMMON.h@1169@UA@uSTATE@Sa@FI@enTrans<UE> <DS>enTrans<DE> Extent=<ES>33:5 - 33:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:33:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>33:34 - 33:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:34:19: FieldDecl=cmdIn|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:34:19 (Definition) <US>c:COMMON.h@1169@UA@uSTATE@Sa@FI@cmdIn<UE> <DS>cmdIn<DE> Extent=<ES>34:5 - 34:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:34:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>34:34 - 34:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:35:19: FieldDecl=moveH|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:35:19 (Definition) <US>c:COMMON.h@1169@UA@uSTATE@Sa@FI@moveH<UE> <DS>moveH<DE> Extent=<ES>35:5 - 35:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:35:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>35:34 - 35:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:36:19: FieldDecl=moveV|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:36:19 (Definition) <US>c:COMMON.h@1169@UA@uSTATE@Sa@FI@moveV<UE> <DS>moveV<DE> Extent=<ES>36:5 - 36:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:36:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>36:34 - 36:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:37:19: FieldDecl=moving|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:37:19 (Definition) <US>c:COMMON.h@1169@UA@uSTATE@Sa@FI@moving<UE> <DS>moving<DE> Extent=<ES>37:5 - 37:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:92:9: UnionDecl=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:92:9 (Definition) <US>c:@UA@u3AXIS_DATA<UE> <DS><DE> Extent=<ES>92:9 - 101:2<EE>
+<L><invalid loc>:0:0: UnexposedAttr= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:94:17: FieldDecl=byte|G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:94:17 (Definition) <US>c:@UA@u3AXIS_DATA@FI@byte<UE> <DS>byte<DE> Extent=<ES>94:3 - 94:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:94:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>94:22 - 94:23<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:95:3: StructDecl=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:95:3 (Definition) <US>c:LSM303.h@5216@UA@u3AXIS_DATA@Sa<UE> <DS><DE> Extent=<ES>95:3 - 100:4<EE>
+<L><invalid loc>:0:0: UnexposedAttr= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:97:9: FieldDecl=x|G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:97:9 (Definition) <US>c:LSM303.h@5216@UA@u3AXIS_DATA@Sa@FI@x<UE> <DS>x<DE> Extent=<ES>97:5 - 97:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:98:9: FieldDecl=y|G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:98:9 (Definition) <US>c:LSM303.h@5216@UA@u3AXIS_DATA@Sa@FI@y<UE> <DS>y<DE> Extent=<ES>98:5 - 98:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:99:9: FieldDecl=z|G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:99:9 (Definition) <US>c:LSM303.h@5216@UA@u3AXIS_DATA@Sa@FI@z<UE> <DS>z<DE> Extent=<ES>99:5 - 99:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:101:2: TypedefDecl=u3AXIS_DATA|G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:101:2 (Definition) <US>c:LSM303.h@5170@T@u3AXIS_DATA<UE> <DS>union u3AXIS_DATA<DE> Extent=<ES>92:1 - 101:13<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:92:9: UnionDecl=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:92:9 (Definition) <US>c:@UA@u3AXIS_DATA<UE> <DS><DE> Extent=<ES>92:9 - 101:2<EE>
+<L><invalid loc>:0:0: UnexposedAttr= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:94:17: FieldDecl=byte|G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:94:17 (Definition) <US>c:@UA@u3AXIS_DATA@FI@byte<UE> <DS>byte<DE> Extent=<ES>94:3 - 94:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:94:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>94:22 - 94:23<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:95:3: StructDecl=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:95:3 (Definition) <US>c:LSM303.h@5216@UA@u3AXIS_DATA@Sa<UE> <DS><DE> Extent=<ES>95:3 - 100:4<EE>
+<L><invalid loc>:0:0: UnexposedAttr= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:97:9: FieldDecl=x|G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:97:9 (Definition) <US>c:LSM303.h@5216@UA@u3AXIS_DATA@Sa@FI@x<UE> <DS>x<DE> Extent=<ES>97:5 - 97:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:98:9: FieldDecl=y|G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:98:9 (Definition) <US>c:LSM303.h@5216@UA@u3AXIS_DATA@Sa@FI@y<UE> <DS>y<DE> Extent=<ES>98:5 - 98:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:99:9: FieldDecl=z|G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:99:9 (Definition) <US>c:LSM303.h@5216@UA@u3AXIS_DATA@Sa@FI@z<UE> <DS>z<DE> Extent=<ES>99:5 - 99:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:104:6: FunctionDecl=LSM303Init|G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:104:6 (Declaration) <US>c:@F@LSM303Init<UE> <DS>void LSM303Init(void)<DE> Extent=<ES>104:1 - 104:22<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:105:6: FunctionDecl=lsm303|G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:105:6 (Declaration) <US>c:@F@lsm303<UE> <DS>void lsm303(unsigned char, unsigned char, unsigned char, unsigned char *, unsigned int)<DE> Extent=<ES>105:1 - 105:111<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:105:27: ParmDecl=aOp|G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:105:27 (Definition) <US>c:LSM303.h@5458@F@lsm303@aOp<UE> <DS>unsigned char<DE> Extent=<ES>105:13 - 105:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:105:46: ParmDecl=aDev|G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:105:46 (Definition) <US>c:LSM303.h@5477@F@lsm303@aDev<UE> <DS>unsigned char<DE> Extent=<ES>105:32 - 105:50<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:105:66: ParmDecl=aReg|G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:105:66 (Definition) <US>c:LSM303.h@5497@F@lsm303@aReg<UE> <DS>unsigned char<DE> Extent=<ES>105:52 - 105:70<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:105:87: ParmDecl=aBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:105:87 (Definition) <US>c:LSM303.h@5517@F@lsm303@aBuf<UE> <DS>unsigned char *<DE> Extent=<ES>105:72 - 105:91<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:105:106: ParmDecl=aLng|G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:105:106 (Definition) <US>c:LSM303.h@5538@F@lsm303@aLng<UE> <DS>unsigned int<DE> Extent=<ES>105:93 - 105:110<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:9:6: FunctionDecl=addValueToArray|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:9:6 (Declaration) <US>c:@F@addValueToArray<UE> <DS>void addValueToArray(int, int *)<DE> Extent=<ES>9:1 - 9:43<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:9:26: ParmDecl=aVal|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:9:26 (Definition) <US>c:Calculations.h@432@F@addValueToArray@aVal<UE> <DS>int<DE> Extent=<ES>9:22 - 9:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:9:38: ParmDecl=aArr|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:9:38 (Definition) <US>c:Calculations.h@442@F@addValueToArray@aArr<UE> <DS>int *<DE> Extent=<ES>9:32 - 9:42<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:10:14: FunctionDecl=mFilter|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:10:14 (Declaration) <US>c:@F@mFilter<UE> <DS>unsigned int mFilter(int *, unsigned int)<DE> Extent=<ES>10:1 - 10:52<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:10:28: ParmDecl=aBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:10:28 (Definition) <US>c:Calculations.h@477@F@mFilter@aBuf<UE> <DS>int *<DE> Extent=<ES>10:22 - 10:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:10:47: ParmDecl=aLng|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:10:47 (Definition) <US>c:Calculations.h@489@F@mFilter@aLng<UE> <DS>unsigned int<DE> Extent=<ES>10:34 - 10:51<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:11:6: FunctionDecl=getAngles|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:11:6 (Declaration) <US>c:@F@getAngles<UE> <DS>void getAngles(u3AXIS_DATA *, double *, double *)<DE> Extent=<ES>11:1 - 11:67<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:11:29: ParmDecl=aRaw|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:11:29 (Definition) <US>c:Calculations.h@525@F@getAngles@aRaw<UE> <DS>u3AXIS_DATA *<DE> Extent=<ES>11:16 - 11:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:11:16: TypeRef=u3AXIS_DATA|G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:101:2 (Reference) <US>c:LSM303.h@5170@T@u3AXIS_DATA<UE> <DS>union u3AXIS_DATA<DE> Extent=<ES>11:16 - 11:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:11:44: ParmDecl=aPitch|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:11:44 (Definition) <US>c:Calculations.h@544@F@getAngles@aPitch<UE> <DS>double *<DE> Extent=<ES>11:35 - 11:50<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:11:61: ParmDecl=aRoll|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:11:61 (Definition) <US>c:Calculations.h@561@F@getAngles@aRoll<UE> <DS>double *<DE> Extent=<ES>11:52 - 11:66<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:12:8: FunctionDecl=heading|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:12:8 (Declaration) <US>c:@F@heading<UE> <DS>double heading(u3AXIS_DATA *, double, double)<DE> Extent=<ES>12:1 - 12:66<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:12:29: ParmDecl=aRawMag|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:12:29 (Definition) <US>c:Calculations.h@594@F@heading@aRawMag<UE> <DS>u3AXIS_DATA *<DE> Extent=<ES>12:16 - 12:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:12:16: TypeRef=u3AXIS_DATA|G:\Voodoo\MSP Projects\Solar\MSP_PROG\LSM303.h:101:2 (Reference) <US>c:LSM303.h@5170@T@u3AXIS_DATA<UE> <DS>union u3AXIS_DATA<DE> Extent=<ES>12:16 - 12:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:12:45: ParmDecl=aPitch|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:12:45 (Definition) <US>c:Calculations.h@616@F@heading@aPitch<UE> <DS>double<DE> Extent=<ES>12:38 - 12:51<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:12:60: ParmDecl=aRoll|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:12:60 (Definition) <US>c:Calculations.h@631@F@heading@aRoll<UE> <DS>double<DE> Extent=<ES>12:53 - 12:65<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:14:12: VarDecl=_roll|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:14:12 (Declaration) <US>c:@_roll<UE> <DS>_roll<DE> Extent=<ES>14:1 - 14:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:14:19: VarDecl=_pitch|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:14:19 (Declaration) <US>c:@_pitch<UE> <DS>_pitch<DE> Extent=<ES>14:1 - 14:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:14:27: VarDecl=_heading|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:14:27 (Declaration) <US>c:@_heading<UE> <DS>_heading<DE> Extent=<ES>14:1 - 14:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:19:6: FunctionDecl=leds|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:18:6 (Declaration) <US>c:@F@leds<UE> <DS>void leds(unsigned char)<DE> Extent=<ES>19:1 - 19:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:19:25: ParmDecl=aStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:19:25 (Definition) <US>c:COMMON.h@822@F@leds@aStt<UE> <DS>unsigned char<DE> Extent=<ES>19:11 - 19:29<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:20:6: FunctionDecl=blinking|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:30:6 (Declaration) <US>c:@F@blinking<UE> <DS>void blinking(unsigned int)<DE> Extent=<ES>20:1 - 20:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:20:28: ParmDecl=blnk|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:20:28 (Definition) <US>c:COMMON.h@858@F@blinking@blnk<UE> <DS>unsigned int<DE> Extent=<ES>20:15 - 20:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:22:22: VarDecl=operation_duration|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:7:15 (Declaration) <US>c:@operation_duration<UE> <DS>operation_duration<DE> Extent=<ES>22:1 - 22:40<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:23:22: VarDecl=ledStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:8:15 (Declaration) <US>c:@ledStt<UE> <DS>ledStt<DE> Extent=<ES>23:1 - 23:28<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:24:21: VarDecl=blink|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:9:14 (Declaration) <US>c:@blink<UE> <DS>blink<DE> Extent=<ES>24:1 - 24:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:26:12: VarDecl=azimuth|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:26:12 (Declaration) <US>c:@azimuth<UE> <DS>azimuth<DE> Extent=<ES>26:1 - 26:19<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:26:21: VarDecl=angle|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:26:21 (Declaration) <US>c:@angle<UE> <DS>angle<DE> Extent=<ES>26:1 - 26:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:27:21: VarDecl=light|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:27:21 (Declaration) <US>c:@light<UE> <DS>light<DE> Extent=<ES>27:1 - 27:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:28:12: VarDecl=rollArray|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:28:12 (Declaration) <US>c:@rollArray<UE> <DS>rollArray<DE> Extent=<ES>28:1 - 28:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:28:22: ParenExpr= <US><UE> <DS><DE> Extent=<ES>28:22 - 28:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:28:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>28:22 - 28:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:28:38: VarDecl=pitchArray|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:28:38 (Declaration) <US>c:@pitchArray<UE> <DS>pitchArray<DE> Extent=<ES>28:1 - 28:63<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:28:49: ParenExpr= <US><UE> <DS><DE> Extent=<ES>28:49 - 28:62<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:28:49: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>28:49 - 28:62<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:28:65: VarDecl=yawArray|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:28:65 (Declaration) <US>c:@yawArray<UE> <DS>yawArray<DE> Extent=<ES>28:1 - 28:88<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:28:74: ParenExpr= <US><UE> <DS><DE> Extent=<ES>28:74 - 28:87<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:28:74: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>28:74 - 28:87<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:32:9: UnionDecl=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:32:9 (Definition) <US>c:@UA@uSTATE<UE> <DS><DE> Extent=<ES>32:9 - 45:2<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:34:17: FieldDecl=byte|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:34:17 (Definition) <US>c:@UA@uSTATE@FI@byte<UE> <DS>byte<DE> Extent=<ES>34:3 - 34:21<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:35:3: StructDecl=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:35:3 (Definition) <US>c:COMMON.h@1426@UA@uSTATE@Sa<UE> <DS><DE> Extent=<ES>35:3 - 44:4<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:37:19: FieldDecl=i2c|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:37:19 (Definition) <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@i2c<UE> <DS>i2c<DE> Extent=<ES>37:5 - 37:35<EE>
 <L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:37:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>37:34 - 37:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:40:1: TypedefDecl=uSTATE|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:40:1 (Definition) <US>c:COMMON.h@1126@T@uSTATE<UE> <DS>union uSTATE<DE> Extent=<ES>26:1 - 40:7<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:26:9: UnionDecl=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:26:9 (Definition) <US>c:@UA@uSTATE<UE> <DS><DE> Extent=<ES>26:9 - 39:2<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:28:17: FieldDecl=byte|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:28:17 (Definition) <US>c:@UA@uSTATE@FI@byte<UE> <DS>byte<DE> Extent=<ES>28:3 - 28:21<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:29:3: StructDecl=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:29:3 (Definition) <US>c:COMMON.h@1169@UA@uSTATE@Sa<UE> <DS><DE> Extent=<ES>29:3 - 38:4<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:31:19: FieldDecl=i2c|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:31:19 (Definition) <US>c:COMMON.h@1169@UA@uSTATE@Sa@FI@i2c<UE> <DS>i2c<DE> Extent=<ES>31:5 - 31:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:31:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>31:34 - 31:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:32:19: FieldDecl=mPres|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:32:19 (Definition) <US>c:COMMON.h@1169@UA@uSTATE@Sa@FI@mPres<UE> <DS>mPres<DE> Extent=<ES>32:5 - 32:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:32:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>32:34 - 32:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:33:19: FieldDecl=enTrans|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:33:19 (Definition) <US>c:COMMON.h@1169@UA@uSTATE@Sa@FI@enTrans<UE> <DS>enTrans<DE> Extent=<ES>33:5 - 33:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:33:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>33:34 - 33:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:34:19: FieldDecl=cmdIn|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:34:19 (Definition) <US>c:COMMON.h@1169@UA@uSTATE@Sa@FI@cmdIn<UE> <DS>cmdIn<DE> Extent=<ES>34:5 - 34:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:34:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>34:34 - 34:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:35:19: FieldDecl=moveH|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:35:19 (Definition) <US>c:COMMON.h@1169@UA@uSTATE@Sa@FI@moveH<UE> <DS>moveH<DE> Extent=<ES>35:5 - 35:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:35:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>35:34 - 35:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:36:19: FieldDecl=moveV|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:36:19 (Definition) <US>c:COMMON.h@1169@UA@uSTATE@Sa@FI@moveV<UE> <DS>moveV<DE> Extent=<ES>36:5 - 36:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:36:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>36:34 - 36:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:37:19: FieldDecl=moving|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:37:19 (Definition) <US>c:COMMON.h@1169@UA@uSTATE@Sa@FI@moving<UE> <DS>moving<DE> Extent=<ES>37:5 - 37:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:38:19: FieldDecl=mPres|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:38:19 (Definition) <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@mPres<UE> <DS>mPres<DE> Extent=<ES>38:5 - 38:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:38:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>38:34 - 38:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:39:19: FieldDecl=enTrans|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:39:19 (Definition) <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@enTrans<UE> <DS>enTrans<DE> Extent=<ES>39:5 - 39:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:39:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>39:34 - 39:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:40:19: FieldDecl=cmdIn|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:40:19 (Definition) <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@cmdIn<UE> <DS>cmdIn<DE> Extent=<ES>40:5 - 40:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:40:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>40:34 - 40:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:41:19: FieldDecl=moveH|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:41:19 (Definition) <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@moveH<UE> <DS>moveH<DE> Extent=<ES>41:5 - 41:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:41:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>41:34 - 41:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:42:19: FieldDecl=moveV|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:42:19 (Definition) <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@moveV<UE> <DS>moveV<DE> Extent=<ES>42:5 - 42:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:42:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>42:34 - 42:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:43:19: FieldDecl=moving|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:43:19 (Definition) <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@moving<UE> <DS>moving<DE> Extent=<ES>43:5 - 43:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:43:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>43:34 - 43:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:46:1: TypedefDecl=uSTATE|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:46:1 (Definition) <US>c:COMMON.h@1383@T@uSTATE<UE> <DS>union uSTATE<DE> Extent=<ES>32:1 - 46:7<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:32:9: UnionDecl=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:32:9 (Definition) <US>c:@UA@uSTATE<UE> <DS><DE> Extent=<ES>32:9 - 45:2<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:34:17: FieldDecl=byte|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:34:17 (Definition) <US>c:@UA@uSTATE@FI@byte<UE> <DS>byte<DE> Extent=<ES>34:3 - 34:21<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:35:3: StructDecl=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:35:3 (Definition) <US>c:COMMON.h@1426@UA@uSTATE@Sa<UE> <DS><DE> Extent=<ES>35:3 - 44:4<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:37:19: FieldDecl=i2c|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:37:19 (Definition) <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@i2c<UE> <DS>i2c<DE> Extent=<ES>37:5 - 37:35<EE>
 <L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:37:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>37:34 - 37:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:41:15: VarDecl=state|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:4:8 (Declaration) <US>c:@state<UE> <DS>state<DE> Extent=<ES>41:1 - 41:20<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:41:8: TypeRef=uSTATE|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:40:1 (Reference) <US>c:COMMON.h@1126@T@uSTATE<UE> <DS>union uSTATE<DE> Extent=<ES>41:8 - 41:14<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:59:6: FunctionDecl=move|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:6 (Declaration) <US>c:@F@move<UE> <DS>void move(unsigned int, unsigned int)<DE> Extent=<ES>59:1 - 59:50<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:59:24: ParmDecl=aPlane|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:59:24 (Definition) <US>c:COMMON.h@2134@F@move@aPlane<UE> <DS>unsigned int<DE> Extent=<ES>59:11 - 59:30<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:59:45: ParmDecl=aDir|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:59:45 (Definition) <US>c:COMMON.h@2155@F@move@aDir<UE> <DS>unsigned int<DE> Extent=<ES>59:32 - 59:49<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:4:8: VarDecl=state|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:4:8 (Definition) <US>c:@state<UE> <DS>state<DE> Extent=<ES>4:1 - 4:28<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:4:1: TypeRef=uSTATE|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:40:1 (Reference) <US>c:COMMON.h@1126@T@uSTATE<UE> <DS>union uSTATE<DE> Extent=<ES>4:1 - 4:7<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:4:16: InitListExpr= <US><UE> <DS><DE> Extent=<ES>4:16 - 4:28<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:38:19: FieldDecl=mPres|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:38:19 (Definition) <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@mPres<UE> <DS>mPres<DE> Extent=<ES>38:5 - 38:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:38:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>38:34 - 38:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:39:19: FieldDecl=enTrans|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:39:19 (Definition) <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@enTrans<UE> <DS>enTrans<DE> Extent=<ES>39:5 - 39:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:39:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>39:34 - 39:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:40:19: FieldDecl=cmdIn|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:40:19 (Definition) <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@cmdIn<UE> <DS>cmdIn<DE> Extent=<ES>40:5 - 40:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:40:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>40:34 - 40:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:41:19: FieldDecl=moveH|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:41:19 (Definition) <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@moveH<UE> <DS>moveH<DE> Extent=<ES>41:5 - 41:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:41:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>41:34 - 41:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:42:19: FieldDecl=moveV|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:42:19 (Definition) <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@moveV<UE> <DS>moveV<DE> Extent=<ES>42:5 - 42:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:42:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>42:34 - 42:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:43:19: FieldDecl=moving|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:43:19 (Definition) <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@moving<UE> <DS>moving<DE> Extent=<ES>43:5 - 43:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:43:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>43:34 - 43:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:47:15: VarDecl=state|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:6:8 (Declaration) <US>c:@state<UE> <DS>state<DE> Extent=<ES>47:1 - 47:20<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:47:8: TypeRef=uSTATE|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:46:1 (Reference) <US>c:COMMON.h@1383@T@uSTATE<UE> <DS>union uSTATE<DE> Extent=<ES>47:8 - 47:14<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:65:6: FunctionDecl=move|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:6 (Declaration) <US>c:@F@move<UE> <DS>void move(unsigned int, unsigned int, unsigned long)<DE> Extent=<ES>65:1 - 65:76<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:65:24: ParmDecl=aPlane|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:65:24 (Definition) <US>c:COMMON.h@2391@F@move@aPlane<UE> <DS>unsigned int<DE> Extent=<ES>65:11 - 65:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:65:45: ParmDecl=aDir|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:65:45 (Definition) <US>c:COMMON.h@2412@F@move@aDir<UE> <DS>unsigned int<DE> Extent=<ES>65:32 - 65:49<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:65:65: ParmDecl=opDuration|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:65:65 (Definition) <US>c:COMMON.h@2431@F@move@opDuration<UE> <DS>unsigned long<DE> Extent=<ES>65:51 - 65:75<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:66:6: FunctionDecl=cmdExecute|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:87:6 (Declaration) <US>c:@F@cmdExecute<UE> <DS>void cmdExecute(void)<DE> Extent=<ES>66:1 - 66:22<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:22:9: StructDecl=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:22:9 (Definition) <US>c:@SA@sAngles<UE> <DS><DE> Extent=<ES>22:9 - 27:4<EE>
+<L><invalid loc>:0:0: UnexposedAttr= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:24:9: FieldDecl=roll|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:24:9 (Definition) <US>c:@SA@sAngles@FI@roll<UE> <DS>roll<DE> Extent=<ES>24:5 - 24:13<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:25:9: FieldDecl=pitch|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:25:9 (Definition) <US>c:@SA@sAngles@FI@pitch<UE> <DS>pitch<DE> Extent=<ES>25:5 - 25:14<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:26:9: FieldDecl=heading|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:26:9 (Definition) <US>c:@SA@sAngles@FI@heading<UE> <DS>heading<DE> Extent=<ES>26:5 - 26:16<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:27:4: TypedefDecl=sAngles|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:27:4 (Definition) <US>c:UART.h@629@T@sAngles<UE> <DS>struct sAngles<DE> Extent=<ES>22:1 - 27:11<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:22:9: StructDecl=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:22:9 (Definition) <US>c:@SA@sAngles<UE> <DS><DE> Extent=<ES>22:9 - 27:4<EE>
+<L><invalid loc>:0:0: UnexposedAttr= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:24:9: FieldDecl=roll|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:24:9 (Definition) <US>c:@SA@sAngles@FI@roll<UE> <DS>roll<DE> Extent=<ES>24:5 - 24:13<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:25:9: FieldDecl=pitch|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:25:9 (Definition) <US>c:@SA@sAngles@FI@pitch<UE> <DS>pitch<DE> Extent=<ES>25:5 - 25:14<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:26:9: FieldDecl=heading|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:26:9 (Definition) <US>c:@SA@sAngles@FI@heading<UE> <DS>heading<DE> Extent=<ES>26:5 - 26:16<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:31:9: StructDecl=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:31:9 (Definition) <US>c:@SA@sDATA<UE> <DS><DE> Extent=<ES>31:9 - 36:4<EE>
+<L><invalid loc>:0:0: UnexposedAttr= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:33:9: FieldDecl=a|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:33:9 (Definition) <US>c:@SA@sDATA@FI@a<UE> <DS>a<DE> Extent=<ES>33:5 - 33:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:34:9: FieldDecl=b|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:34:9 (Definition) <US>c:@SA@sDATA@FI@b<UE> <DS>b<DE> Extent=<ES>34:5 - 34:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:35:9: FieldDecl=c|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:35:9 (Definition) <US>c:@SA@sDATA@FI@c<UE> <DS>c<DE> Extent=<ES>35:5 - 35:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:36:4: TypedefDecl=sDATA|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:36:4 (Definition) <US>c:UART.h@840@T@sDATA<UE> <DS>struct sDATA<DE> Extent=<ES>31:1 - 36:9<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:31:9: StructDecl=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:31:9 (Definition) <US>c:@SA@sDATA<UE> <DS><DE> Extent=<ES>31:9 - 36:4<EE>
+<L><invalid loc>:0:0: UnexposedAttr= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:33:9: FieldDecl=a|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:33:9 (Definition) <US>c:@SA@sDATA@FI@a<UE> <DS>a<DE> Extent=<ES>33:5 - 33:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:34:9: FieldDecl=b|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:34:9 (Definition) <US>c:@SA@sDATA@FI@b<UE> <DS>b<DE> Extent=<ES>34:5 - 34:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:35:9: FieldDecl=c|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:35:9 (Definition) <US>c:@SA@sDATA@FI@c<UE> <DS>c<DE> Extent=<ES>35:5 - 35:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:40:9: UnionDecl=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:40:9 (Definition) <US>c:@UA@uPACK<UE> <DS><DE> Extent=<ES>40:9 - 52:2<EE>
+<L><invalid loc>:0:0: UnexposedAttr= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:42:17: FieldDecl=byte|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:42:17 (Definition) <US>c:@UA@uPACK@FI@byte<UE> <DS>byte<DE> Extent=<ES>42:3 - 42:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:42:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>42:22 - 42:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:43:3: StructDecl=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:43:3 (Definition) <US>c:UART.h@1083@UA@uPACK@Sa<UE> <DS><DE> Extent=<ES>43:3 - 51:4<EE>
+<L><invalid loc>:0:0: UnexposedAttr= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:45:19: FieldDecl=_C0|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:45:19 (Definition) <US>c:UART.h@1083@UA@uPACK@Sa@FI@_C0<UE> <DS>_C0<DE> Extent=<ES>45:5 - 45:22<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:46:19: FieldDecl=cmd|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:46:19 (Definition) <US>c:UART.h@1083@UA@uPACK@Sa@FI@cmd<UE> <DS>cmd<DE> Extent=<ES>46:5 - 46:22<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:47:19: FieldDecl=data|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:47:19 (Definition) <US>c:UART.h@1083@UA@uPACK@Sa@FI@data<UE> <DS>data<DE> Extent=<ES>47:5 - 47:23<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:47:5: TypeRef=sDATA|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:36:4 (Reference) <US>c:UART.h@840@T@sDATA<UE> <DS>struct sDATA<DE> Extent=<ES>47:5 - 47:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:48:19: FieldDecl=angles|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:48:19 (Definition) <US>c:UART.h@1083@UA@uPACK@Sa@FI@angles<UE> <DS>angles<DE> Extent=<ES>48:5 - 48:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:48:5: TypeRef=sAngles|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:27:4 (Reference) <US>c:UART.h@629@T@sAngles<UE> <DS>struct sAngles<DE> Extent=<ES>48:5 - 48:12<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:49:19: FieldDecl=light|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:49:19 (Definition) <US>c:UART.h@1083@UA@uPACK@Sa@FI@light<UE> <DS>light<DE> Extent=<ES>49:5 - 49:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:50:19: FieldDecl=crc|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:50:19 (Definition) <US>c:UART.h@1083@UA@uPACK@Sa@FI@crc<UE> <DS>crc<DE> Extent=<ES>50:5 - 50:22<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:52:2: TypedefDecl=uPACK|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:52:2 (Definition) <US>c:UART.h@1036@T@uPACK<UE> <DS>union uPACK<DE> Extent=<ES>40:1 - 52:7<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:40:9: UnionDecl=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:40:9 (Definition) <US>c:@UA@uPACK<UE> <DS><DE> Extent=<ES>40:9 - 52:2<EE>
+<L><invalid loc>:0:0: UnexposedAttr= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:42:17: FieldDecl=byte|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:42:17 (Definition) <US>c:@UA@uPACK@FI@byte<UE> <DS>byte<DE> Extent=<ES>42:3 - 42:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:42:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>42:22 - 42:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:43:3: StructDecl=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:43:3 (Definition) <US>c:UART.h@1083@UA@uPACK@Sa<UE> <DS><DE> Extent=<ES>43:3 - 51:4<EE>
+<L><invalid loc>:0:0: UnexposedAttr= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:45:19: FieldDecl=_C0|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:45:19 (Definition) <US>c:UART.h@1083@UA@uPACK@Sa@FI@_C0<UE> <DS>_C0<DE> Extent=<ES>45:5 - 45:22<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:46:19: FieldDecl=cmd|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:46:19 (Definition) <US>c:UART.h@1083@UA@uPACK@Sa@FI@cmd<UE> <DS>cmd<DE> Extent=<ES>46:5 - 46:22<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:47:19: FieldDecl=data|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:47:19 (Definition) <US>c:UART.h@1083@UA@uPACK@Sa@FI@data<UE> <DS>data<DE> Extent=<ES>47:5 - 47:23<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:47:5: TypeRef=sDATA|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:36:4 (Reference) <US>c:UART.h@840@T@sDATA<UE> <DS>struct sDATA<DE> Extent=<ES>47:5 - 47:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:48:19: FieldDecl=angles|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:48:19 (Definition) <US>c:UART.h@1083@UA@uPACK@Sa@FI@angles<UE> <DS>angles<DE> Extent=<ES>48:5 - 48:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:48:5: TypeRef=sAngles|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:27:4 (Reference) <US>c:UART.h@629@T@sAngles<UE> <DS>struct sAngles<DE> Extent=<ES>48:5 - 48:12<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:49:19: FieldDecl=light|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:49:19 (Definition) <US>c:UART.h@1083@UA@uPACK@Sa@FI@light<UE> <DS>light<DE> Extent=<ES>49:5 - 49:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:50:19: FieldDecl=crc|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:50:19 (Definition) <US>c:UART.h@1083@UA@uPACK@Sa@FI@crc<UE> <DS>crc<DE> Extent=<ES>50:5 - 50:22<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:57:6: FunctionDecl=msgTransmitt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:57:6 (Declaration) <US>c:@F@msgTransmitt<UE> <DS>void msgTransmitt(unsigned char *, unsigned int)<DE> Extent=<ES>57:1 - 57:58<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:57:34: ParmDecl=aBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:57:34 (Definition) <US>c:UART.h@1495@F@msgTransmitt@aBuf<UE> <DS>unsigned char *<DE> Extent=<ES>57:19 - 57:38<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:57:53: ParmDecl=aCnt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:57:53 (Definition) <US>c:UART.h@1516@F@msgTransmitt@aCnt<UE> <DS>unsigned int<DE> Extent=<ES>57:40 - 57:57<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:58:6: FunctionDecl=uartInit|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:58:6 (Declaration) <US>c:@F@uartInit<UE> <DS>void uartInit(void)<DE> Extent=<ES>58:1 - 58:20<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:61:22: VarDecl=rxBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:61:22 (Declaration) <US>c:@rxBuf<UE> <DS>rxBuf<DE> Extent=<ES>61:1 - 61:29<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:62:22: VarDecl=txEn|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:62:22 (Declaration) <US>c:@txEn<UE> <DS>txEn<DE> Extent=<ES>62:1 - 62:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:63:21: VarDecl=byteCntr|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:63:21 (Declaration) <US>c:@byteCntr<UE> <DS>byteCntr<DE> Extent=<ES>63:1 - 63:29<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:64:21: VarDecl=uart_cntr|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:64:21 (Declaration) <US>c:@uart_cntr<UE> <DS>uart_cntr<DE> Extent=<ES>64:1 - 64:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:6:8: VarDecl=state|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:6:8 (Definition) <US>c:@state<UE> <DS>state<DE> Extent=<ES>6:1 - 6:28<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:6:1: TypeRef=uSTATE|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:46:1 (Reference) <US>c:COMMON.h@1383@T@uSTATE<UE> <DS>union uSTATE<DE> Extent=<ES>6:1 - 6:7<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:6:16: InitListExpr= <US><UE> <DS><DE> Extent=<ES>6:16 - 6:28<EE>
 <L><invalid loc>:0:0: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
-<L><invalid loc>:0:0: MemberRef=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:29:3 (Reference) <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:4:18: MemberRef=mPres|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:32:19 (Reference) <US>c:COMMON.h@1169@UA@uSTATE@Sa@FI@mPres<UE> <DS>mPres<DE> Extent=<ES>4:18 - 4:23<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:4:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>4:26 - 4:27<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:4:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>4:26 - 4:27<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:5:15: VarDecl=operation_duration|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:5:15 (Definition) <US>c:@operation_duration<UE> <DS>operation_duration<DE> Extent=<ES>5:1 - 5:37<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:5:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>5:36 - 5:37<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:5:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>5:36 - 5:37<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:6:15: VarDecl=ledStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:6:15 (Definition) <US>c:@ledStt<UE> <DS>ledStt<DE> Extent=<ES>6:1 - 6:25<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:6:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>6:24 - 6:25<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:6:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>6:24 - 6:25<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:7:14: VarDecl=blink|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:7:14 (Definition) <US>c:@blink<UE> <DS>blink<DE> Extent=<ES>7:1 - 7:32<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:7:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>7:22 - 7:32<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:7:22: ParenExpr= <US><UE> <DS><DE> Extent=<ES>7:22 - 7:32<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:7:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>7:22 - 7:32<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:10:6: FunctionDecl=leds|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:10:6 (Definition) <US>c:@F@leds<UE> <DS>void leds(unsigned char)<DE> Extent=<ES>10:1 - 20:2<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:10:25: ParmDecl=aStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:10:25 (Definition) <US>c:COMMON.c@347@F@leds@aStt<UE> <DS>unsigned char<DE> Extent=<ES>10:11 - 10:29<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:11:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>11:1 - 20:2<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:12:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>12:3 - 19:4<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:12:6: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>12:6 - 12:11<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:12:7: UnexposedExpr=aStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:10:25 <US>c:COMMON.c@347@F@leds@aStt<UE> <DS>unsigned char<DE> Extent=<ES>12:7 - 12:11<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:12:7: DeclRefExpr=aStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:10:25 (Reference) <US>c:COMMON.c@347@F@leds@aStt<UE> <DS>unsigned char<DE> Extent=<ES>12:7 - 12:11<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:12:13: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>12:13 - 12:27<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:12:13: MemberRefExpr=P1DIR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:837:17 (Reference) <US>c:io430g2453.h@28682@Ua@FI@P1DIR<UE> <DS>P1DIR<DE> Extent=<ES>12:13 - 12:18<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:12:13: DeclRefExpr=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:835:20 (Reference) <US><UE> <DS><DE> Extent=<ES>12:13 - 12:18<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:12:22: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>12:22 - 12:27<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:12:23: ParenExpr= <US><UE> <DS><DE> Extent=<ES>12:23 - 12:27<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:12:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>12:23 - 12:27<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:14:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>14:3 - 19:4<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>15:5 - 17:44<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>15:9 - 15:21<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:9: UnexposedExpr=aStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:10:25 <US>c:COMMON.c@347@F@leds@aStt<UE> <DS>unsigned char<DE> Extent=<ES>15:9 - 15:13<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:9: UnexposedExpr=aStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:10:25 <US>c:COMMON.c@347@F@leds@aStt<UE> <DS>unsigned char<DE> Extent=<ES>15:9 - 15:13<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:9: DeclRefExpr=aStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:10:25 (Reference) <US>c:COMMON.c@347@F@leds@aStt<UE> <DS>unsigned char<DE> Extent=<ES>15:9 - 15:13<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>15:17 - 15:21<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:30: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>15:30 - 15:43<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:30: MemberRefExpr=P1OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:805:17 (Reference) <US>c:io430g2453.h@27927@Ua@FI@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>15:30 - 15:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:30: DeclRefExpr=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:803:20 (Reference) <US><UE> <DS><DE> Extent=<ES>15:30 - 15:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:39: ParenExpr= <US><UE> <DS><DE> Extent=<ES>15:39 - 15:43<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>15:39 - 15:43<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:16:10: IfStmt= <US><UE> <DS><DE> Extent=<ES>16:10 - 17:44<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:16:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>16:13 - 16:24<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:16:13: UnexposedExpr=aStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:10:25 <US>c:COMMON.c@347@F@leds@aStt<UE> <DS>unsigned char<DE> Extent=<ES>16:13 - 16:17<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:16:13: UnexposedExpr=aStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:10:25 <US>c:COMMON.c@347@F@leds@aStt<UE> <DS>unsigned char<DE> Extent=<ES>16:13 - 16:17<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:16:13: DeclRefExpr=aStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:10:25 (Reference) <US>c:COMMON.c@347@F@leds@aStt<UE> <DS>unsigned char<DE> Extent=<ES>16:13 - 16:17<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:16:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>16:20 - 16:24<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:16:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>16:20 - 16:24<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:16:30: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>16:30 - 16:43<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:16:30: MemberRefExpr=P1OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:805:17 (Reference) <US>c:io430g2453.h@27927@Ua@FI@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>16:30 - 16:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:16:30: DeclRefExpr=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:803:20 (Reference) <US><UE> <DS><DE> Extent=<ES>16:30 - 16:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:16:39: ParenExpr= <US><UE> <DS><DE> Extent=<ES>16:39 - 16:43<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:16:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>16:39 - 16:43<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:17:30: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>17:30 - 17:44<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:17:30: MemberRefExpr=P1OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:805:17 (Reference) <US>c:io430g2453.h@27927@Ua@FI@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>17:30 - 17:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:17:30: DeclRefExpr=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:803:20 (Reference) <US><UE> <DS><DE> Extent=<ES>17:30 - 17:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:17:39: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>17:39 - 17:44<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:17:40: ParenExpr= <US><UE> <DS><DE> Extent=<ES>17:40 - 17:44<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:17:40: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>17:40 - 17:44<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:18:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>18:5 - 18:18<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:18:5: MemberRefExpr=P1DIR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:837:17 (Reference) <US>c:io430g2453.h@28682@Ua@FI@P1DIR<UE> <DS>P1DIR<DE> Extent=<ES>18:5 - 18:10<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:18:5: DeclRefExpr=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:835:20 (Reference) <US><UE> <DS><DE> Extent=<ES>18:5 - 18:10<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:18:14: ParenExpr= <US><UE> <DS><DE> Extent=<ES>18:14 - 18:18<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:18:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>18:14 - 18:18<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:22:6: FunctionDecl=blinking|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:22:6 (Definition) <US>c:@F@blinking<UE> <DS>void blinking(unsigned int)<DE> Extent=<ES>22:1 - 39:2<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:22:28: ParmDecl=blnk|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:22:28 (Definition) <US>c:COMMON.c@681@F@blinking@blnk<UE> <DS>unsigned int<DE> Extent=<ES>22:15 - 22:32<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:23:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>23:1 - 39:2<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>24:3 - 24:48<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:23: VarDecl=bStage|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:23 (Definition) <US>c:COMMON.c@706@F@blinking@bStage<UE> <DS>bStage<DE> Extent=<ES>24:3 - 24:29<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:31: VarDecl=bCntr|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:31 (Declaration) <US>c:COMMON.c@706@F@blinking@bCntr<UE> <DS>bCntr<DE> Extent=<ES>24:31 - 24:47<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:39: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>24:39 - 24:47<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:39: ParenExpr= <US><UE> <DS><DE> Extent=<ES>24:39 - 24:47<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>24:39 - 24:47<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:26:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>26:3 - 38:4<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:26:6: UnexposedExpr=bCntr|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:31 <US>c:COMMON.c@706@F@blinking@bCntr<UE> <DS>bCntr<DE> Extent=<ES>26:6 - 26:11<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:26:6: DeclRefExpr=bCntr|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:31 (Reference) <US>c:COMMON.c@706@F@blinking@bCntr<UE> <DS>bCntr<DE> Extent=<ES>26:6 - 26:11<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:26:13: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>26:13 - 26:20<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:26:13: DeclRefExpr=bCntr|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:31 (Reference) <US>c:COMMON.c@706@F@blinking@bCntr<UE> <DS>bCntr<DE> Extent=<ES>26:13 - 26:18<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:28:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>28:3 - 38:4<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:29:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>29:5 - 29:21<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:29:5: DeclRefExpr=bCntr|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:31 (Reference) <US>c:COMMON.c@706@F@blinking@bCntr<UE> <DS>bCntr<DE> Extent=<ES>29:5 - 29:10<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:29:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>29:13 - 29:21<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:29:13: ParenExpr= <US><UE> <DS><DE> Extent=<ES>29:13 - 29:21<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:29:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>29:13 - 29:21<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:30:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>30:5 - 31:45<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:30:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>30:8 - 30:28<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:30:8: UnexposedExpr=blnk|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:22:28 <US>c:COMMON.c@681@F@blinking@blnk<UE> <DS>unsigned int<DE> Extent=<ES>30:8 - 30:12<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:30:8: DeclRefExpr=blnk|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:22:28 (Reference) <US>c:COMMON.c@681@F@blinking@blnk<UE> <DS>unsigned int<DE> Extent=<ES>30:8 - 30:12<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:30:15: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>30:15 - 30:28<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:30:15: ParenExpr= <US><UE> <DS><DE> Extent=<ES>30:15 - 30:28<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:30:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>30:16 - 30:27<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:30:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>30:16 - 30:17<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:30:21: UnexposedExpr=bStage|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:23 <US>c:COMMON.c@706@F@blinking@bStage<UE> <DS>bStage<DE> Extent=<ES>30:21 - 30:27<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:30:21: DeclRefExpr=bStage|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:23 (Reference) <US>c:COMMON.c@706@F@blinking@bStage<UE> <DS>bStage<DE> Extent=<ES>30:21 - 30:27<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:30:30: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>30:30 - 30:44<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:30:30: DeclRefExpr=ledStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:6:15 (Reference) <US>c:@ledStt<UE> <DS>ledStt<DE> Extent=<ES>30:30 - 30:36<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:30:40: ParenExpr= <US><UE> <DS><DE> Extent=<ES>30:40 - 30:44<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:30:40: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>30:40 - 30:44<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:31:30: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>31:30 - 31:45<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:31:30: DeclRefExpr=ledStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:6:15 (Reference) <US>c:@ledStt<UE> <DS>ledStt<DE> Extent=<ES>31:30 - 31:36<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:31:40: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>31:40 - 31:45<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:31:41: ParenExpr= <US><UE> <DS><DE> Extent=<ES>31:41 - 31:45<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:31:41: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>31:41 - 31:45<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:33:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>33:5 - 34:53<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:33:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>33:8 - 33:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:33:8: ParenExpr= <US><UE> <DS><DE> Extent=<ES>33:8 - 33:19<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:33:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>33:9 - 33:18<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:33:9: UnexposedExpr=blnk|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:22:28 <US>c:COMMON.c@681@F@blinking@blnk<UE> <DS>unsigned int<DE> Extent=<ES>33:9 - 33:13<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:33:9: DeclRefExpr=blnk|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:22:28 (Reference) <US>c:COMMON.c@681@F@blinking@blnk<UE> <DS>unsigned int<DE> Extent=<ES>33:9 - 33:13<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:33:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>33:17 - 33:18<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:33:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>33:22 - 33:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:33:22: ParenExpr= <US><UE> <DS><DE> Extent=<ES>33:22 - 33:35<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:33:23: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>33:23 - 33:34<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:33:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>33:23 - 33:24<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:33:28: UnexposedExpr=bStage|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:23 <US>c:COMMON.c@706@F@blinking@bStage<UE> <DS>bStage<DE> Extent=<ES>33:28 - 33:34<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:33:28: DeclRefExpr=bStage|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:23 (Reference) <US>c:COMMON.c@706@F@blinking@bStage<UE> <DS>bStage<DE> Extent=<ES>33:28 - 33:34<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:33:37: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>33:37 - 33:51<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:33:37: DeclRefExpr=ledStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:6:15 (Reference) <US>c:@ledStt<UE> <DS>ledStt<DE> Extent=<ES>33:37 - 33:43<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:33:47: ParenExpr= <US><UE> <DS><DE> Extent=<ES>33:47 - 33:51<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:33:47: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>33:47 - 33:51<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:34:38: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>34:38 - 34:53<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:34:38: DeclRefExpr=ledStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:6:15 (Reference) <US>c:@ledStt<UE> <DS>ledStt<DE> Extent=<ES>34:38 - 34:44<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:34:48: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>34:48 - 34:53<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:34:49: ParenExpr= <US><UE> <DS><DE> Extent=<ES>34:49 - 34:53<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:34:49: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>34:49 - 34:53<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:36:5: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>36:5 - 36:13<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:36:5: DeclRefExpr=bStage|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:23 (Reference) <US>c:COMMON.c@706@F@blinking@bStage<UE> <DS>bStage<DE> Extent=<ES>36:5 - 36:11<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:37:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>37:5 - 37:16<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:37:5: DeclRefExpr=bStage|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:23 (Reference) <US>c:COMMON.c@706@F@blinking@bStage<UE> <DS>bStage<DE> Extent=<ES>37:5 - 37:11<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:37:15: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>37:15 - 37:16<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:37:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>37:15 - 37:16<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:6: FunctionDecl=move|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:6 (Definition) <US>c:@F@move<UE> <DS>void move(unsigned int, unsigned int)<DE> Extent=<ES>41:1 - 61:2<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:24: ParmDecl=aPlane|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:24 (Definition) <US>c:COMMON.c@1171@F@move@aPlane<UE> <DS>unsigned int<DE> Extent=<ES>41:11 - 41:30<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:45: ParmDecl=aDir|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:45 (Definition) <US>c:COMMON.c@1192@F@move@aDir<UE> <DS>unsigned int<DE> Extent=<ES>41:32 - 41:49<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:42:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>42:1 - 61:2<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:43:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>43:3 - 60:4<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:43:6: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>43:6 - 43:19<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:43:13: UnexposedExpr=moving|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:37:19 <US>c:COMMON.h@1169@UA@uSTATE@Sa@FI@moving<UE> <DS>moving<DE> Extent=<ES>43:7 - 43:19<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:43:13: MemberRefExpr=moving|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:37:19 (Reference) <US>c:COMMON.h@1169@UA@uSTATE@Sa@FI@moving<UE> <DS>moving<DE> Extent=<ES>43:7 - 43:19<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:43:13: MemberRefExpr=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:29:3 (Reference) <US><UE> <DS><DE> Extent=<ES>43:7 - 43:19<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:43:7: DeclRefExpr=state|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:4:8 (Reference) <US>c:@state<UE> <DS>state<DE> Extent=<ES>43:7 - 43:12<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:44:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>44:3 - 60:4<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:45:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>45:5 - 45:21<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:45:11: MemberRefExpr=moving|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:37:19 (Reference) <US>c:COMMON.h@1169@UA@uSTATE@Sa@FI@moving<UE> <DS>moving<DE> Extent=<ES>45:5 - 45:17<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:45:11: MemberRefExpr=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:29:3 (Reference) <US><UE> <DS><DE> Extent=<ES>45:5 - 45:17<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:45:5: DeclRefExpr=state|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:4:8 (Reference) <US>c:@state<UE> <DS>state<DE> Extent=<ES>45:5 - 45:10<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:45:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>45:20 - 45:21<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:45:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>45:20 - 45:21<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:46:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>46:5 - 46:32<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:46:5: DeclRefExpr=operation_duration|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:5:15 (Reference) <US>c:@operation_duration<UE> <DS>operation_duration<DE> Extent=<ES>46:5 - 46:23<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:46:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>46:27 - 46:32<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:46:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>46:27 - 46:32<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:48:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>48:5 - 59:6<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:48:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>48:8 - 48:26<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:48:8: UnexposedExpr=aPlane|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:24 <US>c:COMMON.c@1171@F@move@aPlane<UE> <DS>unsigned int<DE> Extent=<ES>48:8 - 48:14<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:48:8: DeclRefExpr=aPlane|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:24 (Reference) <US>c:COMMON.c@1171@F@move@aPlane<UE> <DS>unsigned int<DE> Extent=<ES>48:8 - 48:14<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:48:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>48:18 - 48:26<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:48:18: ParenExpr= <US><UE> <DS><DE> Extent=<ES>48:18 - 48:26<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:48:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>48:18 - 48:26<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>49:5 - 53:6<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:50:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>50:7 - 50:45<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:50:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>50:10 - 50:26<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:50:10: UnexposedExpr=aDir|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:45 <US>c:COMMON.c@1192@F@move@aDir<UE> <DS>unsigned int<DE> Extent=<ES>50:10 - 50:14<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:50:10: DeclRefExpr=aDir|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:45 (Reference) <US>c:COMMON.c@1192@F@move@aDir<UE> <DS>unsigned int<DE> Extent=<ES>50:10 - 50:14<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:50:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>50:18 - 50:26<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:50:18: ParenExpr= <US><UE> <DS><DE> Extent=<ES>50:18 - 50:26<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:50:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>50:18 - 50:26<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:50:28: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>50:28 - 50:45<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:50:28: MemberRefExpr=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1093:17 (Reference) <US>c:io430g2453.h@34835@Ua@FI@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>50:28 - 50:33<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:50:28: DeclRefExpr=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1091:20 (Reference) <US><UE> <DS><DE> Extent=<ES>50:28 - 50:33<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:50:37: ParenExpr= <US><UE> <DS><DE> Extent=<ES>50:37 - 50:45<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:50:37: ParenExpr= <US><UE> <DS><DE> Extent=<ES>50:37 - 50:45<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:50:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>50:37 - 50:45<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:51:7: CallExpr=__delay_cycles|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>51:7 - 51:38<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:51:7: UnexposedExpr=__delay_cycles|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>51:7 - 51:21<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:51:7: DeclRefExpr=__delay_cycles|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>51:7 - 51:21<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:51:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>51:22 - 51:37<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:51:22: ParenExpr= <US><UE> <DS><DE> Extent=<ES>51:22 - 51:37<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:51:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>51:22 - 51:37<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:52:7: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>52:7 - 52:24<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:52:7: MemberRefExpr=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1093:17 (Reference) <US>c:io430g2453.h@34835@Ua@FI@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>52:7 - 52:12<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:52:7: DeclRefExpr=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1091:20 (Reference) <US><UE> <DS><DE> Extent=<ES>52:7 - 52:12<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:52:16: ParenExpr= <US><UE> <DS><DE> Extent=<ES>52:16 - 52:24<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:52:16: ParenExpr= <US><UE> <DS><DE> Extent=<ES>52:16 - 52:24<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:52:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>52:16 - 52:24<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:55:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>55:5 - 59:6<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:56:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>56:7 - 56:46<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:56:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>56:10 - 56:26<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:56:10: UnexposedExpr=aDir|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:45 <US>c:COMMON.c@1192@F@move@aDir<UE> <DS>unsigned int<DE> Extent=<ES>56:10 - 56:14<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:56:10: DeclRefExpr=aDir|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:45 (Reference) <US>c:COMMON.c@1192@F@move@aDir<UE> <DS>unsigned int<DE> Extent=<ES>56:10 - 56:14<EE>
+<L><invalid loc>:0:0: MemberRef=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:35:3 (Reference) <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:6:18: MemberRef=mPres|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:38:19 (Reference) <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@mPres<UE> <DS>mPres<DE> Extent=<ES>6:18 - 6:23<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:6:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>6:26 - 6:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:6:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>6:26 - 6:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:7:15: VarDecl=operation_duration|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:7:15 (Definition) <US>c:@operation_duration<UE> <DS>operation_duration<DE> Extent=<ES>7:1 - 7:37<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:7:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>7:36 - 7:37<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:7:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>7:36 - 7:37<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:8:15: VarDecl=ledStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:8:15 (Definition) <US>c:@ledStt<UE> <DS>ledStt<DE> Extent=<ES>8:1 - 8:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:8:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>8:24 - 8:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:8:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>8:24 - 8:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:9:14: VarDecl=blink|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:9:14 (Definition) <US>c:@blink<UE> <DS>blink<DE> Extent=<ES>9:1 - 9:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:9:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>9:22 - 9:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:9:22: ParenExpr= <US><UE> <DS><DE> Extent=<ES>9:22 - 9:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:9:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>9:22 - 9:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:11:5: VarDecl=azimuth|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:11:5 (Declaration) <US>c:@azimuth<UE> <DS>azimuth<DE> Extent=<ES>11:1 - 11:12<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:11:14: VarDecl=angle|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:11:14 (Declaration) <US>c:@angle<UE> <DS>angle<DE> Extent=<ES>11:1 - 11:19<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:12:14: VarDecl=light|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:12:14 (Declaration) <US>c:@light<UE> <DS>light<DE> Extent=<ES>12:1 - 12:19<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:5: VarDecl=rollArray|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:5 (Declaration) <US>c:@rollArray<UE> <DS>rollArray<DE> Extent=<ES>15:1 - 15:29<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:15: ParenExpr= <US><UE> <DS><DE> Extent=<ES>15:15 - 15:28<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>15:15 - 15:28<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:31: VarDecl=pitchArray|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:31 (Declaration) <US>c:@pitchArray<UE> <DS>pitchArray<DE> Extent=<ES>15:1 - 15:56<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:42: ParenExpr= <US><UE> <DS><DE> Extent=<ES>15:42 - 15:55<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:42: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>15:42 - 15:55<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:58: VarDecl=yawArray|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:58 (Declaration) <US>c:@yawArray<UE> <DS>yawArray<DE> Extent=<ES>15:1 - 15:81<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:67: ParenExpr= <US><UE> <DS><DE> Extent=<ES>15:67 - 15:80<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:15:67: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>15:67 - 15:80<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:18:6: FunctionDecl=leds|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:18:6 (Definition) <US>c:@F@leds<UE> <DS>void leds(unsigned char)<DE> Extent=<ES>18:1 - 28:2<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:18:25: ParmDecl=aStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:18:25 (Definition) <US>c:COMMON.c@499@F@leds@aStt<UE> <DS>unsigned char<DE> Extent=<ES>18:11 - 18:29<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:19:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>19:1 - 28:2<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:20:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>20:3 - 27:4<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:20:6: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>20:6 - 20:11<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:20:7: UnexposedExpr=aStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:18:25 <US>c:COMMON.c@499@F@leds@aStt<UE> <DS>unsigned char<DE> Extent=<ES>20:7 - 20:11<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:20:7: DeclRefExpr=aStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:18:25 (Reference) <US>c:COMMON.c@499@F@leds@aStt<UE> <DS>unsigned char<DE> Extent=<ES>20:7 - 20:11<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:20:13: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>20:13 - 20:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:20:13: MemberRefExpr=P1DIR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:837:17 (Reference) <US>c:io430g2453.h@28682@Ua@FI@P1DIR<UE> <DS>P1DIR<DE> Extent=<ES>20:13 - 20:18<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:20:13: DeclRefExpr=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:835:20 (Reference) <US><UE> <DS><DE> Extent=<ES>20:13 - 20:18<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:20:22: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>20:22 - 20:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:20:23: ParenExpr= <US><UE> <DS><DE> Extent=<ES>20:23 - 20:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:20:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>20:23 - 20:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:22:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>22:3 - 27:4<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:23:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>23:5 - 25:44<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:23:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>23:9 - 23:21<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:23:9: UnexposedExpr=aStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:18:25 <US>c:COMMON.c@499@F@leds@aStt<UE> <DS>unsigned char<DE> Extent=<ES>23:9 - 23:13<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:23:9: UnexposedExpr=aStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:18:25 <US>c:COMMON.c@499@F@leds@aStt<UE> <DS>unsigned char<DE> Extent=<ES>23:9 - 23:13<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:23:9: DeclRefExpr=aStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:18:25 (Reference) <US>c:COMMON.c@499@F@leds@aStt<UE> <DS>unsigned char<DE> Extent=<ES>23:9 - 23:13<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:23:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>23:17 - 23:21<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:23:30: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>23:30 - 23:43<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:23:30: MemberRefExpr=P1OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:805:17 (Reference) <US>c:io430g2453.h@27927@Ua@FI@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>23:30 - 23:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:23:30: DeclRefExpr=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:803:20 (Reference) <US><UE> <DS><DE> Extent=<ES>23:30 - 23:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:23:39: ParenExpr= <US><UE> <DS><DE> Extent=<ES>23:39 - 23:43<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:23:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>23:39 - 23:43<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:10: IfStmt= <US><UE> <DS><DE> Extent=<ES>24:10 - 25:44<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>24:13 - 24:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:13: UnexposedExpr=aStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:18:25 <US>c:COMMON.c@499@F@leds@aStt<UE> <DS>unsigned char<DE> Extent=<ES>24:13 - 24:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:13: UnexposedExpr=aStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:18:25 <US>c:COMMON.c@499@F@leds@aStt<UE> <DS>unsigned char<DE> Extent=<ES>24:13 - 24:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:13: DeclRefExpr=aStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:18:25 (Reference) <US>c:COMMON.c@499@F@leds@aStt<UE> <DS>unsigned char<DE> Extent=<ES>24:13 - 24:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>24:20 - 24:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>24:20 - 24:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:30: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>24:30 - 24:43<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:30: MemberRefExpr=P1OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:805:17 (Reference) <US>c:io430g2453.h@27927@Ua@FI@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>24:30 - 24:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:30: DeclRefExpr=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:803:20 (Reference) <US><UE> <DS><DE> Extent=<ES>24:30 - 24:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:39: ParenExpr= <US><UE> <DS><DE> Extent=<ES>24:39 - 24:43<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:24:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>24:39 - 24:43<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:25:30: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>25:30 - 25:44<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:25:30: MemberRefExpr=P1OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:805:17 (Reference) <US>c:io430g2453.h@27927@Ua@FI@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>25:30 - 25:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:25:30: DeclRefExpr=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:803:20 (Reference) <US><UE> <DS><DE> Extent=<ES>25:30 - 25:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:25:39: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>25:39 - 25:44<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:25:40: ParenExpr= <US><UE> <DS><DE> Extent=<ES>25:40 - 25:44<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:25:40: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>25:40 - 25:44<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:26:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>26:5 - 26:18<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:26:5: MemberRefExpr=P1DIR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:837:17 (Reference) <US>c:io430g2453.h@28682@Ua@FI@P1DIR<UE> <DS>P1DIR<DE> Extent=<ES>26:5 - 26:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:26:5: DeclRefExpr=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:835:20 (Reference) <US><UE> <DS><DE> Extent=<ES>26:5 - 26:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:26:14: ParenExpr= <US><UE> <DS><DE> Extent=<ES>26:14 - 26:18<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:26:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>26:14 - 26:18<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:30:6: FunctionDecl=blinking|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:30:6 (Definition) <US>c:@F@blinking<UE> <DS>void blinking(unsigned int)<DE> Extent=<ES>30:1 - 47:2<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:30:28: ParmDecl=blnk|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:30:28 (Definition) <US>c:COMMON.c@833@F@blinking@blnk<UE> <DS>unsigned int<DE> Extent=<ES>30:15 - 30:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:31:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>31:1 - 47:2<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:32:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>32:3 - 32:48<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:32:23: VarDecl=bStage|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:32:23 (Definition) <US>c:COMMON.c@858@F@blinking@bStage<UE> <DS>bStage<DE> Extent=<ES>32:3 - 32:29<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:32:31: VarDecl=bCntr|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:32:31 (Declaration) <US>c:COMMON.c@858@F@blinking@bCntr<UE> <DS>bCntr<DE> Extent=<ES>32:31 - 32:47<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:32:39: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>32:39 - 32:47<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:32:39: ParenExpr= <US><UE> <DS><DE> Extent=<ES>32:39 - 32:47<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:32:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>32:39 - 32:47<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:34:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>34:3 - 46:4<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:34:6: UnexposedExpr=bCntr|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:32:31 <US>c:COMMON.c@858@F@blinking@bCntr<UE> <DS>bCntr<DE> Extent=<ES>34:6 - 34:11<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:34:6: DeclRefExpr=bCntr|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:32:31 (Reference) <US>c:COMMON.c@858@F@blinking@bCntr<UE> <DS>bCntr<DE> Extent=<ES>34:6 - 34:11<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:34:13: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>34:13 - 34:20<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:34:13: DeclRefExpr=bCntr|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:32:31 (Reference) <US>c:COMMON.c@858@F@blinking@bCntr<UE> <DS>bCntr<DE> Extent=<ES>34:13 - 34:18<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:36:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>36:3 - 46:4<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:37:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>37:5 - 37:21<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:37:5: DeclRefExpr=bCntr|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:32:31 (Reference) <US>c:COMMON.c@858@F@blinking@bCntr<UE> <DS>bCntr<DE> Extent=<ES>37:5 - 37:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:37:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>37:13 - 37:21<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:37:13: ParenExpr= <US><UE> <DS><DE> Extent=<ES>37:13 - 37:21<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:37:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>37:13 - 37:21<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:38:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>38:5 - 39:45<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:38:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>38:8 - 38:28<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:38:8: UnexposedExpr=blnk|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:30:28 <US>c:COMMON.c@833@F@blinking@blnk<UE> <DS>unsigned int<DE> Extent=<ES>38:8 - 38:12<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:38:8: DeclRefExpr=blnk|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:30:28 (Reference) <US>c:COMMON.c@833@F@blinking@blnk<UE> <DS>unsigned int<DE> Extent=<ES>38:8 - 38:12<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:38:15: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>38:15 - 38:28<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:38:15: ParenExpr= <US><UE> <DS><DE> Extent=<ES>38:15 - 38:28<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:38:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>38:16 - 38:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:38:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>38:16 - 38:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:38:21: UnexposedExpr=bStage|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:32:23 <US>c:COMMON.c@858@F@blinking@bStage<UE> <DS>bStage<DE> Extent=<ES>38:21 - 38:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:38:21: DeclRefExpr=bStage|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:32:23 (Reference) <US>c:COMMON.c@858@F@blinking@bStage<UE> <DS>bStage<DE> Extent=<ES>38:21 - 38:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:38:30: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>38:30 - 38:44<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:38:30: DeclRefExpr=ledStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:8:15 (Reference) <US>c:@ledStt<UE> <DS>ledStt<DE> Extent=<ES>38:30 - 38:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:38:40: ParenExpr= <US><UE> <DS><DE> Extent=<ES>38:40 - 38:44<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:38:40: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>38:40 - 38:44<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:39:30: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>39:30 - 39:45<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:39:30: DeclRefExpr=ledStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:8:15 (Reference) <US>c:@ledStt<UE> <DS>ledStt<DE> Extent=<ES>39:30 - 39:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:39:40: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>39:40 - 39:45<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:39:41: ParenExpr= <US><UE> <DS><DE> Extent=<ES>39:41 - 39:45<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:39:41: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>39:41 - 39:45<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>41:5 - 42:53<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>41:8 - 41:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:8: ParenExpr= <US><UE> <DS><DE> Extent=<ES>41:8 - 41:19<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>41:9 - 41:18<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:9: UnexposedExpr=blnk|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:30:28 <US>c:COMMON.c@833@F@blinking@blnk<UE> <DS>unsigned int<DE> Extent=<ES>41:9 - 41:13<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:9: DeclRefExpr=blnk|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:30:28 (Reference) <US>c:COMMON.c@833@F@blinking@blnk<UE> <DS>unsigned int<DE> Extent=<ES>41:9 - 41:13<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>41:17 - 41:18<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>41:22 - 41:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:22: ParenExpr= <US><UE> <DS><DE> Extent=<ES>41:22 - 41:35<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:23: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>41:23 - 41:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>41:23 - 41:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:28: UnexposedExpr=bStage|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:32:23 <US>c:COMMON.c@858@F@blinking@bStage<UE> <DS>bStage<DE> Extent=<ES>41:28 - 41:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:28: DeclRefExpr=bStage|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:32:23 (Reference) <US>c:COMMON.c@858@F@blinking@bStage<UE> <DS>bStage<DE> Extent=<ES>41:28 - 41:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:37: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>41:37 - 41:51<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:37: DeclRefExpr=ledStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:8:15 (Reference) <US>c:@ledStt<UE> <DS>ledStt<DE> Extent=<ES>41:37 - 41:43<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:47: ParenExpr= <US><UE> <DS><DE> Extent=<ES>41:47 - 41:51<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:41:47: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>41:47 - 41:51<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:42:38: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>42:38 - 42:53<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:42:38: DeclRefExpr=ledStt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:8:15 (Reference) <US>c:@ledStt<UE> <DS>ledStt<DE> Extent=<ES>42:38 - 42:44<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:42:48: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>42:48 - 42:53<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:42:49: ParenExpr= <US><UE> <DS><DE> Extent=<ES>42:49 - 42:53<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:42:49: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>42:49 - 42:53<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:44:5: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>44:5 - 44:13<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:44:5: DeclRefExpr=bStage|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:32:23 (Reference) <US>c:COMMON.c@858@F@blinking@bStage<UE> <DS>bStage<DE> Extent=<ES>44:5 - 44:11<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:45:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>45:5 - 45:16<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:45:5: DeclRefExpr=bStage|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:32:23 (Reference) <US>c:COMMON.c@858@F@blinking@bStage<UE> <DS>bStage<DE> Extent=<ES>45:5 - 45:11<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:45:15: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>45:15 - 45:16<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:45:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>45:15 - 45:16<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:6: FunctionDecl=move|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:6 (Definition) <US>c:@F@move<UE> <DS>void move(unsigned int, unsigned int, unsigned long)<DE> Extent=<ES>49:1 - 71:2<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:24: ParmDecl=aPlane|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:24 (Definition) <US>c:COMMON.c@1323@F@move@aPlane<UE> <DS>unsigned int<DE> Extent=<ES>49:11 - 49:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:45: ParmDecl=aDir|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:45 (Definition) <US>c:COMMON.c@1344@F@move@aDir<UE> <DS>unsigned int<DE> Extent=<ES>49:32 - 49:49<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:65: ParmDecl=opDuration|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:65 (Definition) <US>c:COMMON.c@1363@F@move@opDuration<UE> <DS>unsigned long<DE> Extent=<ES>49:51 - 49:75<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:50:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>50:1 - 71:2<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:51:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>51:3 - 70:4<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:51:6: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>51:6 - 51:19<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:51:13: UnexposedExpr=moving|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:43:19 <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@moving<UE> <DS>moving<DE> Extent=<ES>51:7 - 51:19<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:51:13: MemberRefExpr=moving|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:43:19 (Reference) <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@moving<UE> <DS>moving<DE> Extent=<ES>51:7 - 51:19<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:51:13: MemberRefExpr=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:35:3 (Reference) <US><UE> <DS><DE> Extent=<ES>51:7 - 51:19<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:51:7: DeclRefExpr=state|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:6:8 (Reference) <US>c:@state<UE> <DS>state<DE> Extent=<ES>51:7 - 51:12<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:52:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>52:3 - 70:4<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:53:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>53:5 - 53:21<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:53:11: MemberRefExpr=moving|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:43:19 (Reference) <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@moving<UE> <DS>moving<DE> Extent=<ES>53:5 - 53:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:53:11: MemberRefExpr=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:35:3 (Reference) <US><UE> <DS><DE> Extent=<ES>53:5 - 53:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:53:5: DeclRefExpr=state|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:6:8 (Reference) <US>c:@state<UE> <DS>state<DE> Extent=<ES>53:5 - 53:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:53:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>53:20 - 53:21<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:53:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>53:20 - 53:21<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:54:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>54:5 - 54:37<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:54:5: DeclRefExpr=operation_duration|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:7:15 (Reference) <US>c:@operation_duration<UE> <DS>operation_duration<DE> Extent=<ES>54:5 - 54:23<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:54:27: UnexposedExpr=opDuration|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:65 <US>c:COMMON.c@1363@F@move@opDuration<UE> <DS>unsigned long<DE> Extent=<ES>54:27 - 54:37<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:54:27: DeclRefExpr=opDuration|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:65 (Reference) <US>c:COMMON.c@1363@F@move@opDuration<UE> <DS>unsigned long<DE> Extent=<ES>54:27 - 54:37<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:56:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>56:5 - 69:6<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:56:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>56:8 - 56:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:56:8: UnexposedExpr=aPlane|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:24 <US>c:COMMON.c@1323@F@move@aPlane<UE> <DS>unsigned int<DE> Extent=<ES>56:8 - 56:14<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:56:8: DeclRefExpr=aPlane|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:24 (Reference) <US>c:COMMON.c@1323@F@move@aPlane<UE> <DS>unsigned int<DE> Extent=<ES>56:8 - 56:14<EE>
 <L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:56:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>56:18 - 56:26<EE>
 <L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:56:18: ParenExpr= <US><UE> <DS><DE> Extent=<ES>56:18 - 56:26<EE>
 <L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:56:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>56:18 - 56:26<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:56:28: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>56:28 - 56:46<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:56:28: MemberRefExpr=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1093:17 (Reference) <US>c:io430g2453.h@34835@Ua@FI@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>56:28 - 56:33<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:56:28: DeclRefExpr=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1091:20 (Reference) <US><UE> <DS><DE> Extent=<ES>56:28 - 56:33<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:56:38: ParenExpr= <US><UE> <DS><DE> Extent=<ES>56:38 - 56:46<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:56:38: ParenExpr= <US><UE> <DS><DE> Extent=<ES>56:38 - 56:46<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:56:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>56:38 - 56:46<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:57:7: CallExpr=__delay_cycles|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>57:7 - 57:38<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:57:7: UnexposedExpr=__delay_cycles|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>57:7 - 57:21<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:57:7: DeclRefExpr=__delay_cycles|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>57:7 - 57:21<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:57:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>57:22 - 57:37<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:57:22: ParenExpr= <US><UE> <DS><DE> Extent=<ES>57:22 - 57:37<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:57:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>57:22 - 57:37<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:7: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>58:7 - 58:25<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:7: MemberRefExpr=P1OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:805:17 (Reference) <US>c:io430g2453.h@27927@Ua@FI@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>58:7 - 58:12<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:7: DeclRefExpr=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:803:20 (Reference) <US><UE> <DS><DE> Extent=<ES>58:7 - 58:12<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:17: ParenExpr= <US><UE> <DS><DE> Extent=<ES>58:17 - 58:25<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:17: ParenExpr= <US><UE> <DS><DE> Extent=<ES>58:17 - 58:25<EE>
-<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>58:17 - 58:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:57:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>57:5 - 62:6<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>58:7 - 59:28<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>58:10 - 58:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:10: UnexposedExpr=aDir|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:45 <US>c:COMMON.c@1344@F@move@aDir<UE> <DS>unsigned int<DE> Extent=<ES>58:10 - 58:14<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:10: DeclRefExpr=aDir|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:45 (Reference) <US>c:COMMON.c@1344@F@move@aDir<UE> <DS>unsigned int<DE> Extent=<ES>58:10 - 58:14<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>58:18 - 58:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:18: ParenExpr= <US><UE> <DS><DE> Extent=<ES>58:18 - 58:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>58:18 - 58:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:28: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>58:28 - 58:69<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:29: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>58:29 - 58:46<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:29: MemberRefExpr=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1093:17 (Reference) <US>c:io430g2453.h@34835@Ua@FI@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>58:29 - 58:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:29: DeclRefExpr=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1091:20 (Reference) <US><UE> <DS><DE> Extent=<ES>58:29 - 58:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:38: ParenExpr= <US><UE> <DS><DE> Extent=<ES>58:38 - 58:46<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:38: ParenExpr= <US><UE> <DS><DE> Extent=<ES>58:38 - 58:46<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>58:38 - 58:46<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:49: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>58:49 - 58:67<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:49: DeclRefExpr=blink|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:9:14 (Reference) <US>c:@blink<UE> <DS>blink<DE> Extent=<ES>58:49 - 58:54<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:57: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>58:57 - 58:67<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:57: ParenExpr= <US><UE> <DS><DE> Extent=<ES>58:57 - 58:67<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:58:57: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>58:57 - 58:67<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:59:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>59:12 - 59:28<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:59:12: DeclRefExpr=blink|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:9:14 (Reference) <US>c:@blink<UE> <DS>blink<DE> Extent=<ES>59:12 - 59:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:59:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>59:20 - 59:28<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:59:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>59:20 - 59:28<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:59:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>59:20 - 59:28<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:60:7: CallExpr=__delay_cycles|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>60:7 - 60:38<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:60:7: UnexposedExpr=__delay_cycles|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>60:7 - 60:21<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:60:7: DeclRefExpr=__delay_cycles|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>60:7 - 60:21<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:60:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>60:22 - 60:37<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:60:22: ParenExpr= <US><UE> <DS><DE> Extent=<ES>60:22 - 60:37<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:60:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>60:22 - 60:37<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:61:7: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>61:7 - 61:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:61:7: MemberRefExpr=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1093:17 (Reference) <US>c:io430g2453.h@34835@Ua@FI@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>61:7 - 61:12<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:61:7: DeclRefExpr=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1091:20 (Reference) <US><UE> <DS><DE> Extent=<ES>61:7 - 61:12<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:61:16: ParenExpr= <US><UE> <DS><DE> Extent=<ES>61:16 - 61:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:61:16: ParenExpr= <US><UE> <DS><DE> Extent=<ES>61:16 - 61:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:61:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>61:16 - 61:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:64:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>64:5 - 69:6<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:65:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>65:7 - 66:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:65:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>65:10 - 65:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:65:10: UnexposedExpr=aDir|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:45 <US>c:COMMON.c@1344@F@move@aDir<UE> <DS>unsigned int<DE> Extent=<ES>65:10 - 65:14<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:65:10: DeclRefExpr=aDir|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:45 (Reference) <US>c:COMMON.c@1344@F@move@aDir<UE> <DS>unsigned int<DE> Extent=<ES>65:10 - 65:14<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:65:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>65:18 - 65:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:65:18: ParenExpr= <US><UE> <DS><DE> Extent=<ES>65:18 - 65:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:65:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>65:18 - 65:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:65:28: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>65:28 - 65:73<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:65:29: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>65:29 - 65:47<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:65:29: MemberRefExpr=P2OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1093:17 (Reference) <US>c:io430g2453.h@34835@Ua@FI@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>65:29 - 65:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:65:29: DeclRefExpr=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1091:20 (Reference) <US><UE> <DS><DE> Extent=<ES>65:29 - 65:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:65:39: ParenExpr= <US><UE> <DS><DE> Extent=<ES>65:39 - 65:47<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:65:39: ParenExpr= <US><UE> <DS><DE> Extent=<ES>65:39 - 65:47<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:65:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>65:39 - 65:47<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:65:49: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>65:49 - 65:71<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:65:49: DeclRefExpr=blink|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:9:14 (Reference) <US>c:@blink<UE> <DS>blink<DE> Extent=<ES>65:49 - 65:54<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:65:57: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>65:57 - 65:71<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:65:57: ParenExpr= <US><UE> <DS><DE> Extent=<ES>65:57 - 65:71<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:65:57: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>65:57 - 65:71<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:66:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>66:12 - 66:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:66:12: DeclRefExpr=blink|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:9:14 (Reference) <US>c:@blink<UE> <DS>blink<DE> Extent=<ES>66:12 - 66:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:66:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>66:20 - 66:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:66:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>66:20 - 66:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:66:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>66:20 - 66:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:67:7: CallExpr=__delay_cycles|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>67:7 - 67:38<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:67:7: UnexposedExpr=__delay_cycles|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>67:7 - 67:21<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:67:7: DeclRefExpr=__delay_cycles|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>67:7 - 67:21<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:67:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>67:22 - 67:37<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:67:22: ParenExpr= <US><UE> <DS><DE> Extent=<ES>67:22 - 67:37<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:67:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>67:22 - 67:37<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:68:7: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>68:7 - 68:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:68:7: MemberRefExpr=P1OUT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:805:17 (Reference) <US>c:io430g2453.h@27927@Ua@FI@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>68:7 - 68:12<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:68:7: DeclRefExpr=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:803:20 (Reference) <US><UE> <DS><DE> Extent=<ES>68:7 - 68:12<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:68:17: ParenExpr= <US><UE> <DS><DE> Extent=<ES>68:17 - 68:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:68:17: ParenExpr= <US><UE> <DS><DE> Extent=<ES>68:17 - 68:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:68:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>68:17 - 68:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:73:15: VarDecl=termState|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:73:15 (Definition) <US>c:@termState<UE> <DS>termState<DE> Extent=<ES>73:1 - 73:29<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:73:28: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>73:28 - 73:29<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:73:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>73:28 - 73:29<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:74:15: FunctionDecl=getTermState|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:74:15 (Definition) <US>c:@F@getTermState<UE> <DS>unsigned char getTermState(void)<DE> Extent=<ES>74:1 - 82:2<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:75:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>75:1 - 82:2<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:76:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>76:3 - 76:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:76:17: VarDecl=tmp|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:76:17 (Definition) <US>c:COMMON.c@2068@F@getTermState@tmp<UE> <DS>tmp<DE> Extent=<ES>76:3 - 76:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:76:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>76:23 - 76:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:76:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>76:23 - 76:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:77:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>77:3 - 77:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:77:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>77:6 - 77:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:77:6: UnexposedExpr=P2IN|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1061:24 <US>c:io430g2453.h@34020@Ua@FI@P2IN<UE> <DS>P2IN<DE> Extent=<ES>77:6 - 77:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:77:6: UnexposedExpr=P2IN|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1061:24 <US>c:io430g2453.h@34020@Ua@FI@P2IN<UE> <DS>P2IN<DE> Extent=<ES>77:6 - 77:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:77:6: MemberRefExpr=P2IN|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1061:24 (Reference) <US>c:io430g2453.h@34020@Ua@FI@P2IN<UE> <DS>P2IN<DE> Extent=<ES>77:6 - 77:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:77:6: DeclRefExpr=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1059:20 (Reference) <US><UE> <DS><DE> Extent=<ES>77:6 - 77:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:77:13: ParenExpr= <US><UE> <DS><DE> Extent=<ES>77:13 - 77:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:77:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>77:13 - 77:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:77:19: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>77:19 - 77:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:77:19: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:76:17 (Reference) <US>c:COMMON.c@2068@F@getTermState@tmp<UE> <DS>tmp<DE> Extent=<ES>77:19 - 77:22<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:77:26: ParenExpr= <US><UE> <DS><DE> Extent=<ES>77:26 - 77:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:77:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>77:26 - 77:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:78:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>78:3 - 78:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:78:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>78:6 - 78:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:78:6: UnexposedExpr=P2IN|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1061:24 <US>c:io430g2453.h@34020@Ua@FI@P2IN<UE> <DS>P2IN<DE> Extent=<ES>78:6 - 78:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:78:6: UnexposedExpr=P2IN|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1061:24 <US>c:io430g2453.h@34020@Ua@FI@P2IN<UE> <DS>P2IN<DE> Extent=<ES>78:6 - 78:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:78:6: MemberRefExpr=P2IN|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1061:24 (Reference) <US>c:io430g2453.h@34020@Ua@FI@P2IN<UE> <DS>P2IN<DE> Extent=<ES>78:6 - 78:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:78:6: DeclRefExpr=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1059:20 (Reference) <US><UE> <DS><DE> Extent=<ES>78:6 - 78:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:78:13: ParenExpr= <US><UE> <DS><DE> Extent=<ES>78:13 - 78:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:78:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>78:13 - 78:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:78:19: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>78:19 - 78:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:78:19: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:76:17 (Reference) <US>c:COMMON.c@2068@F@getTermState@tmp<UE> <DS>tmp<DE> Extent=<ES>78:19 - 78:22<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:78:26: ParenExpr= <US><UE> <DS><DE> Extent=<ES>78:26 - 78:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:78:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>78:26 - 78:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:79:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>79:3 - 79:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:79:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>79:6 - 79:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:79:6: UnexposedExpr=P2IN|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1061:24 <US>c:io430g2453.h@34020@Ua@FI@P2IN<UE> <DS>P2IN<DE> Extent=<ES>79:6 - 79:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:79:6: UnexposedExpr=P2IN|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1061:24 <US>c:io430g2453.h@34020@Ua@FI@P2IN<UE> <DS>P2IN<DE> Extent=<ES>79:6 - 79:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:79:6: MemberRefExpr=P2IN|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1061:24 (Reference) <US>c:io430g2453.h@34020@Ua@FI@P2IN<UE> <DS>P2IN<DE> Extent=<ES>79:6 - 79:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:79:6: DeclRefExpr=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1059:20 (Reference) <US><UE> <DS><DE> Extent=<ES>79:6 - 79:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:79:13: ParenExpr= <US><UE> <DS><DE> Extent=<ES>79:13 - 79:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:79:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>79:13 - 79:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:79:19: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>79:19 - 79:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:79:19: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:76:17 (Reference) <US>c:COMMON.c@2068@F@getTermState@tmp<UE> <DS>tmp<DE> Extent=<ES>79:19 - 79:22<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:79:26: ParenExpr= <US><UE> <DS><DE> Extent=<ES>79:26 - 79:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:79:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>79:26 - 79:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:80:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>80:3 - 80:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:80:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>80:6 - 80:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:80:6: UnexposedExpr=P2IN|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1061:24 <US>c:io430g2453.h@34020@Ua@FI@P2IN<UE> <DS>P2IN<DE> Extent=<ES>80:6 - 80:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:80:6: UnexposedExpr=P2IN|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1061:24 <US>c:io430g2453.h@34020@Ua@FI@P2IN<UE> <DS>P2IN<DE> Extent=<ES>80:6 - 80:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:80:6: MemberRefExpr=P2IN|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1061:24 (Reference) <US>c:io430g2453.h@34020@Ua@FI@P2IN<UE> <DS>P2IN<DE> Extent=<ES>80:6 - 80:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:80:6: DeclRefExpr=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430g2453.h:1059:20 (Reference) <US><UE> <DS><DE> Extent=<ES>80:6 - 80:10<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:80:13: ParenExpr= <US><UE> <DS><DE> Extent=<ES>80:13 - 80:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:80:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>80:13 - 80:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:80:19: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>80:19 - 80:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:80:19: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:76:17 (Reference) <US>c:COMMON.c@2068@F@getTermState@tmp<UE> <DS>tmp<DE> Extent=<ES>80:19 - 80:22<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:80:26: ParenExpr= <US><UE> <DS><DE> Extent=<ES>80:26 - 80:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:80:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>80:26 - 80:30<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:81:3: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>81:3 - 81:13<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:81:10: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:76:17 <US>c:COMMON.c@2068@F@getTermState@tmp<UE> <DS>tmp<DE> Extent=<ES>81:10 - 81:13<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:81:10: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:76:17 (Reference) <US>c:COMMON.c@2068@F@getTermState@tmp<UE> <DS>tmp<DE> Extent=<ES>81:10 - 81:13<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15: VarDecl=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 (Definition) <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>85:1 - 85:43<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>85:21 - 85:23<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:27: InitListExpr= <US><UE> <DS><DE> Extent=<ES>85:27 - 85:43<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:28: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>85:28 - 85:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:28: ParenExpr= <US><UE> <DS><DE> Extent=<ES>85:28 - 85:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>85:28 - 85:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:38: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>85:38 - 85:39<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>85:38 - 85:39<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:41: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>85:41 - 85:42<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:41: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>85:41 - 85:42<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:87:6: FunctionDecl=cmdExecute|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:87:6 (Definition) <US>c:@F@cmdExecute<UE> <DS>void cmdExecute(void)<DE> Extent=<ES>87:1 - 194:6<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:88:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>88:1 - 194:6<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:89:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>89:3 - 89:28<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:89:16: VarDecl=dataLng|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:89:16 (Definition) <US>c:COMMON.c@2477@F@cmdExecute@dataLng<UE> <DS>dataLng<DE> Extent=<ES>89:3 - 89:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:89:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>89:26 - 89:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:89:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>89:26 - 89:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:91:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>91:7 - 91:22<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:91:13: MemberRefExpr=mPres|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:38:19 (Reference) <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@mPres<UE> <DS>mPres<DE> Extent=<ES>91:7 - 91:18<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:91:13: MemberRefExpr=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:35:3 (Reference) <US><UE> <DS><DE> Extent=<ES>91:7 - 91:18<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:91:7: DeclRefExpr=state|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:6:8 (Reference) <US>c:@state<UE> <DS>state<DE> Extent=<ES>91:7 - 91:12<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:91:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>91:21 - 91:22<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:91:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>91:21 - 91:22<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:92:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>92:7 - 92:22<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:92:13: MemberRefExpr=cmdIn|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:40:19 (Reference) <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@cmdIn<UE> <DS>cmdIn<DE> Extent=<ES>92:7 - 92:18<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:92:13: MemberRefExpr=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:35:3 (Reference) <US><UE> <DS><DE> Extent=<ES>92:7 - 92:18<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:92:7: DeclRefExpr=state|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:6:8 (Reference) <US>c:@state<UE> <DS>state<DE> Extent=<ES>92:7 - 92:12<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:92:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>92:21 - 92:22<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:92:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>92:21 - 92:22<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:93:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>93:7 - 187:8<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:93:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>93:10 - 93:31<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:93:10: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>93:10 - 93:18<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:93:10: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>93:10 - 93:18<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:93:10: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>93:10 - 93:18<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:93:10: UnexposedExpr=rxBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:61:22 <US>c:@rxBuf<UE> <DS>rxBuf<DE> Extent=<ES>93:10 - 93:15<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:93:10: DeclRefExpr=rxBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:61:22 (Reference) <US>c:@rxBuf<UE> <DS>rxBuf<DE> Extent=<ES>93:10 - 93:15<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:93:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>93:16 - 93:17<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:93:22: ParenExpr= <US><UE> <DS><DE> Extent=<ES>93:22 - 93:31<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:93:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>93:22 - 93:31<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:94:9: SwitchStmt= <US><UE> <DS><DE> Extent=<ES>94:9 - 187:8<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:94:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>94:16 - 94:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:94:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>94:16 - 94:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:94:16: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>94:16 - 94:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:94:16: UnexposedExpr=rxBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:61:22 <US>c:@rxBuf<UE> <DS>rxBuf<DE> Extent=<ES>94:16 - 94:21<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:94:16: DeclRefExpr=rxBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:61:22 (Reference) <US>c:@rxBuf<UE> <DS>rxBuf<DE> Extent=<ES>94:16 - 94:21<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:94:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>94:22 - 94:23<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:95:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>95:9 - 187:8<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:97:11: CaseStmt= <US><UE> <DS><DE> Extent=<ES>97:11 - 102:20<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:97:16: ParenExpr= <US><UE> <DS><DE> Extent=<ES>97:16 - 97:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:97:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>97:16 - 97:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:98:19: IfStmt= <US><UE> <DS><DE> Extent=<ES>98:19 - 102:20<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:98:22: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>98:22 - 98:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:98:29: UnexposedExpr=moveV|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:42:19 <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@moveV<UE> <DS>moveV<DE> Extent=<ES>98:23 - 98:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:98:29: MemberRefExpr=moveV|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:42:19 (Reference) <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@moveV<UE> <DS>moveV<DE> Extent=<ES>98:23 - 98:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:98:29: MemberRefExpr=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:35:3 (Reference) <US><UE> <DS><DE> Extent=<ES>98:23 - 98:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:98:23: DeclRefExpr=state|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:6:8 (Reference) <US>c:@state<UE> <DS>state<DE> Extent=<ES>98:23 - 98:28<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:99:19: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>99:19 - 102:20<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:100:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>100:21 - 100:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:100:27: MemberRefExpr=moveV|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:42:19 (Reference) <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@moveV<UE> <DS>moveV<DE> Extent=<ES>100:21 - 100:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:100:27: MemberRefExpr=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:35:3 (Reference) <US><UE> <DS><DE> Extent=<ES>100:21 - 100:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:100:21: DeclRefExpr=state|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:6:8 (Reference) <US>c:@state<UE> <DS>state<DE> Extent=<ES>100:21 - 100:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:100:35: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>100:35 - 100:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:100:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>100:35 - 100:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:101:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>101:21 - 101:55<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:101:21: DeclRefExpr=angle|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:11:14 (Reference) <US>c:@angle<UE> <DS>angle<DE> Extent=<ES>101:21 - 101:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:101:29: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>101:29 - 101:55<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:101:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>101:29 - 101:37<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:101:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>101:29 - 101:37<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:101:29: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>101:29 - 101:37<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:101:29: UnexposedExpr=rxBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:61:22 <US>c:@rxBuf<UE> <DS>rxBuf<DE> Extent=<ES>101:29 - 101:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:101:29: DeclRefExpr=rxBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:61:22 (Reference) <US>c:@rxBuf<UE> <DS>rxBuf<DE> Extent=<ES>101:29 - 101:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:101:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>101:35 - 101:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:101:40: ParenExpr= <US><UE> <DS><DE> Extent=<ES>101:40 - 101:55<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:101:41: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>101:41 - 101:54<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:101:41: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>101:41 - 101:49<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:101:41: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>101:41 - 101:49<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:101:41: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>101:41 - 101:49<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:101:41: UnexposedExpr=rxBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:61:22 <US>c:@rxBuf<UE> <DS>rxBuf<DE> Extent=<ES>101:41 - 101:46<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:101:41: DeclRefExpr=rxBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:61:22 (Reference) <US>c:@rxBuf<UE> <DS>rxBuf<DE> Extent=<ES>101:41 - 101:46<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:101:47: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>101:47 - 101:48<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:101:53: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>101:53 - 101:54<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:103:19: BreakStmt= <US><UE> <DS><DE> Extent=<ES>103:19 - 103:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:105:11: CaseStmt= <US><UE> <DS><DE> Extent=<ES>105:11 - 110:20<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:105:16: ParenExpr= <US><UE> <DS><DE> Extent=<ES>105:16 - 105:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:105:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>105:16 - 105:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:106:19: IfStmt= <US><UE> <DS><DE> Extent=<ES>106:19 - 110:20<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:106:22: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>106:22 - 106:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:106:29: UnexposedExpr=moveH|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:41:19 <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@moveH<UE> <DS>moveH<DE> Extent=<ES>106:23 - 106:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:106:29: MemberRefExpr=moveH|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:41:19 (Reference) <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@moveH<UE> <DS>moveH<DE> Extent=<ES>106:23 - 106:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:106:29: MemberRefExpr=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:35:3 (Reference) <US><UE> <DS><DE> Extent=<ES>106:23 - 106:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:106:23: DeclRefExpr=state|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:6:8 (Reference) <US>c:@state<UE> <DS>state<DE> Extent=<ES>106:23 - 106:28<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:107:19: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>107:19 - 110:20<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:108:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>108:21 - 108:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:108:27: MemberRefExpr=moveH|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:41:19 (Reference) <US>c:COMMON.h@1426@UA@uSTATE@Sa@FI@moveH<UE> <DS>moveH<DE> Extent=<ES>108:21 - 108:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:108:27: MemberRefExpr=|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.h:35:3 (Reference) <US><UE> <DS><DE> Extent=<ES>108:21 - 108:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:108:21: DeclRefExpr=state|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:6:8 (Reference) <US>c:@state<UE> <DS>state<DE> Extent=<ES>108:21 - 108:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:108:35: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>108:35 - 108:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:108:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>108:35 - 108:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:109:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>109:21 - 109:57<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:109:21: DeclRefExpr=azimuth|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:11:5 (Reference) <US>c:@azimuth<UE> <DS>azimuth<DE> Extent=<ES>109:21 - 109:28<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:109:31: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>109:31 - 109:57<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:109:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>109:31 - 109:39<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:109:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>109:31 - 109:39<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:109:31: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>109:31 - 109:39<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:109:31: UnexposedExpr=rxBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:61:22 <US>c:@rxBuf<UE> <DS>rxBuf<DE> Extent=<ES>109:31 - 109:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:109:31: DeclRefExpr=rxBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:61:22 (Reference) <US>c:@rxBuf<UE> <DS>rxBuf<DE> Extent=<ES>109:31 - 109:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:109:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>109:37 - 109:38<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:109:42: ParenExpr= <US><UE> <DS><DE> Extent=<ES>109:42 - 109:57<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:109:43: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>109:43 - 109:56<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:109:43: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>109:43 - 109:51<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:109:43: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>109:43 - 109:51<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:109:43: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>109:43 - 109:51<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:109:43: UnexposedExpr=rxBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:61:22 <US>c:@rxBuf<UE> <DS>rxBuf<DE> Extent=<ES>109:43 - 109:48<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:109:43: DeclRefExpr=rxBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:61:22 (Reference) <US>c:@rxBuf<UE> <DS>rxBuf<DE> Extent=<ES>109:43 - 109:48<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:109:49: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>109:49 - 109:50<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:109:55: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>109:55 - 109:56<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:111:19: BreakStmt= <US><UE> <DS><DE> Extent=<ES>111:19 - 111:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:113:11: CaseStmt= <US><UE> <DS><DE> Extent=<ES>113:11 - 114:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:113:16: ParenExpr= <US><UE> <DS><DE> Extent=<ES>113:16 - 113:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:113:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>113:16 - 113:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:114:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>114:19 - 114:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:114:19: DeclRefExpr=dataLng|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:89:16 (Reference) <US>c:COMMON.c@2477@F@cmdExecute@dataLng<UE> <DS>dataLng<DE> Extent=<ES>114:19 - 114:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:114:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>114:31 - 114:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:114:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>114:31 - 114:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:115:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>115:19 - 115:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:115:19: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>115:19 - 115:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:115:19: UnexposedExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>115:19 - 115:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:115:19: DeclRefExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 (Reference) <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>115:19 - 115:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:115:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>115:25 - 115:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:115:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>115:31 - 115:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:115:31: ParenExpr= <US><UE> <DS><DE> Extent=<ES>115:31 - 115:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:115:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>115:31 - 115:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:116:19: CallExpr=move|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:6 <US>c:@F@move<UE> <DS>void move(unsigned int, unsigned int, unsigned long)<DE> Extent=<ES>116:19 - 116:51<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:116:19: UnexposedExpr=move|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:6 <US>c:@F@move<UE> <DS>void move(unsigned int, unsigned int, unsigned long)<DE> Extent=<ES>116:19 - 116:23<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:116:19: DeclRefExpr=move|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:6 (Reference) <US>c:@F@move<UE> <DS>void move(unsigned int, unsigned int, unsigned long)<DE> Extent=<ES>116:19 - 116:23<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:116:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>116:24 - 116:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:116:24: ParenExpr= <US><UE> <DS><DE> Extent=<ES>116:24 - 116:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:116:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>116:24 - 116:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:116:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>116:36 - 116:44<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:116:36: ParenExpr= <US><UE> <DS><DE> Extent=<ES>116:36 - 116:44<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:116:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>116:36 - 116:44<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:116:46: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>116:46 - 116:50<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:116:46: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>116:46 - 116:50<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:117:19: BreakStmt= <US><UE> <DS><DE> Extent=<ES>117:19 - 117:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:119:11: CaseStmt= <US><UE> <DS><DE> Extent=<ES>119:11 - 120:50<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:119:16: ParenExpr= <US><UE> <DS><DE> Extent=<ES>119:16 - 119:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:119:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>119:16 - 119:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:120:19: CallExpr=move|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:6 <US>c:@F@move<UE> <DS>void move(unsigned int, unsigned int, unsigned long)<DE> Extent=<ES>120:19 - 120:50<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:120:19: UnexposedExpr=move|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:6 <US>c:@F@move<UE> <DS>void move(unsigned int, unsigned int, unsigned long)<DE> Extent=<ES>120:19 - 120:23<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:120:19: DeclRefExpr=move|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:6 (Reference) <US>c:@F@move<UE> <DS>void move(unsigned int, unsigned int, unsigned long)<DE> Extent=<ES>120:19 - 120:23<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:120:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>120:24 - 120:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:120:24: ParenExpr= <US><UE> <DS><DE> Extent=<ES>120:24 - 120:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:120:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>120:24 - 120:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:120:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>120:36 - 120:43<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:120:36: ParenExpr= <US><UE> <DS><DE> Extent=<ES>120:36 - 120:43<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:120:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>120:36 - 120:43<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:120:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>120:45 - 120:49<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:120:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>120:45 - 120:49<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:121:19: BreakStmt= <US><UE> <DS><DE> Extent=<ES>121:19 - 121:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:123:11: CaseStmt= <US><UE> <DS><DE> Extent=<ES>123:11 - 124:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:123:16: ParenExpr= <US><UE> <DS><DE> Extent=<ES>123:16 - 123:22<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:123:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>123:16 - 123:22<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:124:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>124:19 - 124:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:124:19: DeclRefExpr=dataLng|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:89:16 (Reference) <US>c:COMMON.c@2477@F@cmdExecute@dataLng<UE> <DS>dataLng<DE> Extent=<ES>124:19 - 124:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:124:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>124:31 - 124:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:124:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>124:31 - 124:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:125:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>125:19 - 125:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:125:19: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>125:19 - 125:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:125:19: UnexposedExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>125:19 - 125:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:125:19: DeclRefExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 (Reference) <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>125:19 - 125:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:125:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>125:25 - 125:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:125:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>125:31 - 125:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:125:31: ParenExpr= <US><UE> <DS><DE> Extent=<ES>125:31 - 125:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:125:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>125:31 - 125:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:126:19: CallExpr=move|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:6 <US>c:@F@move<UE> <DS>void move(unsigned int, unsigned int, unsigned long)<DE> Extent=<ES>126:19 - 126:48<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:126:19: UnexposedExpr=move|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:6 <US>c:@F@move<UE> <DS>void move(unsigned int, unsigned int, unsigned long)<DE> Extent=<ES>126:19 - 126:23<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:126:19: DeclRefExpr=move|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:6 (Reference) <US>c:@F@move<UE> <DS>void move(unsigned int, unsigned int, unsigned long)<DE> Extent=<ES>126:19 - 126:23<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:126:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>126:24 - 126:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:126:24: ParenExpr= <US><UE> <DS><DE> Extent=<ES>126:24 - 126:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:126:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>126:24 - 126:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:126:34: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>126:34 - 126:41<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:126:34: ParenExpr= <US><UE> <DS><DE> Extent=<ES>126:34 - 126:41<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:126:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>126:34 - 126:41<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:126:43: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>126:43 - 126:47<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:126:43: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>126:43 - 126:47<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:127:19: BreakStmt= <US><UE> <DS><DE> Extent=<ES>127:19 - 127:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:129:11: CaseStmt= <US><UE> <DS><DE> Extent=<ES>129:11 - 130:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:129:16: ParenExpr= <US><UE> <DS><DE> Extent=<ES>129:16 - 129:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:129:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>129:16 - 129:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:130:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>130:19 - 130:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:130:19: DeclRefExpr=dataLng|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:89:16 (Reference) <US>c:COMMON.c@2477@F@cmdExecute@dataLng<UE> <DS>dataLng<DE> Extent=<ES>130:19 - 130:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:130:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>130:31 - 130:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:130:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>130:31 - 130:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:131:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>131:19 - 131:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:131:19: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>131:19 - 131:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:131:19: UnexposedExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>131:19 - 131:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:131:19: DeclRefExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 (Reference) <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>131:19 - 131:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:131:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>131:25 - 131:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:131:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>131:31 - 131:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:131:31: ParenExpr= <US><UE> <DS><DE> Extent=<ES>131:31 - 131:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:131:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>131:31 - 131:33<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:132:19: CallExpr=move|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:6 <US>c:@F@move<UE> <DS>void move(unsigned int, unsigned int, unsigned long)<DE> Extent=<ES>132:19 - 132:49<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:132:19: UnexposedExpr=move|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:6 <US>c:@F@move<UE> <DS>void move(unsigned int, unsigned int, unsigned long)<DE> Extent=<ES>132:19 - 132:23<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:132:19: DeclRefExpr=move|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:49:6 (Reference) <US>c:@F@move<UE> <DS>void move(unsigned int, unsigned int, unsigned long)<DE> Extent=<ES>132:19 - 132:23<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:132:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>132:24 - 132:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:132:24: ParenExpr= <US><UE> <DS><DE> Extent=<ES>132:24 - 132:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:132:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>132:24 - 132:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:132:34: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>132:34 - 132:42<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:132:34: ParenExpr= <US><UE> <DS><DE> Extent=<ES>132:34 - 132:42<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:132:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>132:34 - 132:42<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:132:44: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>132:44 - 132:48<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:132:44: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>132:44 - 132:48<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:133:19: BreakStmt= <US><UE> <DS><DE> Extent=<ES>133:19 - 133:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:135:11: CaseStmt= <US><UE> <DS><DE> Extent=<ES>135:11 - 147:14<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:135:16: ParenExpr= <US><UE> <DS><DE> Extent=<ES>135:16 - 135:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:135:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>135:16 - 135:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:136:13: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>136:13 - 147:14<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:137:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>137:19 - 137:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:137:19: DeclRefExpr=dataLng|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:89:16 (Reference) <US>c:COMMON.c@2477@F@cmdExecute@dataLng<UE> <DS>dataLng<DE> Extent=<ES>137:19 - 137:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:137:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>137:31 - 137:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:137:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>137:31 - 137:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:138:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>138:19 - 138:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:138:19: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>138:19 - 138:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:138:19: UnexposedExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>138:19 - 138:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:138:19: DeclRefExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 (Reference) <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>138:19 - 138:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:138:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>138:25 - 138:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:138:31: UnexposedExpr=_roll|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:14:12 <US>c:@_roll<UE> <DS>_roll<DE> Extent=<ES>138:31 - 138:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:138:31: UnexposedExpr=_roll|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:14:12 <US>c:@_roll<UE> <DS>_roll<DE> Extent=<ES>138:31 - 138:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:138:31: DeclRefExpr=_roll|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:14:12 (Reference) <US>c:@_roll<UE> <DS>_roll<DE> Extent=<ES>138:31 - 138:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:139:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>139:19 - 139:41<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:139:19: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>139:19 - 139:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:139:19: UnexposedExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>139:19 - 139:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:139:19: DeclRefExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 (Reference) <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>139:19 - 139:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:139:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>139:25 - 139:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:139:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>139:31 - 139:41<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:139:31: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>139:31 - 139:41<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:139:31: UnexposedExpr=_roll|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:14:12 <US>c:@_roll<UE> <DS>_roll<DE> Extent=<ES>139:31 - 139:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:139:31: DeclRefExpr=_roll|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:14:12 (Reference) <US>c:@_roll<UE> <DS>_roll<DE> Extent=<ES>139:31 - 139:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:139:40: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>139:40 - 139:41<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:140:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>140:19 - 140:37<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:140:19: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>140:19 - 140:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:140:19: UnexposedExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>140:19 - 140:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:140:19: DeclRefExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 (Reference) <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>140:19 - 140:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:140:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>140:25 - 140:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:140:31: UnexposedExpr=_pitch|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:14:19 <US>c:@_pitch<UE> <DS>_pitch<DE> Extent=<ES>140:31 - 140:37<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:140:31: UnexposedExpr=_pitch|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:14:19 <US>c:@_pitch<UE> <DS>_pitch<DE> Extent=<ES>140:31 - 140:37<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:140:31: DeclRefExpr=_pitch|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:14:19 (Reference) <US>c:@_pitch<UE> <DS>_pitch<DE> Extent=<ES>140:31 - 140:37<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:141:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>141:19 - 141:42<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:141:19: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>141:19 - 141:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:141:19: UnexposedExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>141:19 - 141:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:141:19: DeclRefExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 (Reference) <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>141:19 - 141:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:141:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>141:25 - 141:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:141:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>141:31 - 141:42<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:141:31: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>141:31 - 141:42<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:141:31: UnexposedExpr=_pitch|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:14:19 <US>c:@_pitch<UE> <DS>_pitch<DE> Extent=<ES>141:31 - 141:37<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:141:31: DeclRefExpr=_pitch|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:14:19 (Reference) <US>c:@_pitch<UE> <DS>_pitch<DE> Extent=<ES>141:31 - 141:37<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:141:41: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>141:41 - 141:42<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:142:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>142:19 - 142:39<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:142:19: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>142:19 - 142:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:142:19: UnexposedExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>142:19 - 142:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:142:19: DeclRefExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 (Reference) <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>142:19 - 142:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:142:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>142:25 - 142:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:142:31: UnexposedExpr=_heading|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:14:27 <US>c:@_heading<UE> <DS>_heading<DE> Extent=<ES>142:31 - 142:39<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:142:31: UnexposedExpr=_heading|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:14:27 <US>c:@_heading<UE> <DS>_heading<DE> Extent=<ES>142:31 - 142:39<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:142:31: DeclRefExpr=_heading|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:14:27 (Reference) <US>c:@_heading<UE> <DS>_heading<DE> Extent=<ES>142:31 - 142:39<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:143:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>143:19 - 143:44<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:143:19: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>143:19 - 143:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:143:19: UnexposedExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>143:19 - 143:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:143:19: DeclRefExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 (Reference) <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>143:19 - 143:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:143:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>143:25 - 143:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:143:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>143:31 - 143:44<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:143:31: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>143:31 - 143:44<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:143:31: UnexposedExpr=_heading|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:14:27 <US>c:@_heading<UE> <DS>_heading<DE> Extent=<ES>143:31 - 143:39<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:143:31: DeclRefExpr=_heading|G:\Voodoo\MSP Projects\Solar\MSP_PROG\Calculations.h:14:27 (Reference) <US>c:@_heading<UE> <DS>_heading<DE> Extent=<ES>143:31 - 143:39<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:143:43: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>143:43 - 143:44<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:144:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>144:19 - 144:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:144:19: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>144:19 - 144:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:144:19: UnexposedExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>144:19 - 144:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:144:19: DeclRefExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 (Reference) <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>144:19 - 144:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:144:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>144:25 - 144:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:144:31: UnexposedExpr=light|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:12:14 <US>c:@light<UE> <DS>light<DE> Extent=<ES>144:31 - 144:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:144:31: UnexposedExpr=light|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:12:14 <US>c:@light<UE> <DS>light<DE> Extent=<ES>144:31 - 144:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:144:31: DeclRefExpr=light|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:12:14 (Reference) <US>c:@light<UE> <DS>light<DE> Extent=<ES>144:31 - 144:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:145:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>145:19 - 145:41<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:145:19: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>145:19 - 145:28<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:145:19: UnexposedExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>145:19 - 145:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:145:19: DeclRefExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 (Reference) <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>145:19 - 145:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:145:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>145:25 - 145:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:145:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>145:31 - 145:41<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:145:31: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>145:31 - 145:41<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:145:31: UnexposedExpr=light|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:12:14 <US>c:@light<UE> <DS>light<DE> Extent=<ES>145:31 - 145:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:145:31: DeclRefExpr=light|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:12:14 (Reference) <US>c:@light<UE> <DS>light<DE> Extent=<ES>145:31 - 145:36<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:145:40: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>145:40 - 145:41<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:146:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>146:19 - 146:45<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:146:19: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>146:19 - 146:28<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:146:19: UnexposedExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>146:19 - 146:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:146:19: DeclRefExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 (Reference) <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>146:19 - 146:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:146:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>146:25 - 146:27<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:146:31: CallExpr=getTermState|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:74:15 <US>c:@F@getTermState<UE> <DS>unsigned char getTermState(void)<DE> Extent=<ES>146:31 - 146:45<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:146:31: UnexposedExpr=getTermState|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:74:15 <US>c:@F@getTermState<UE> <DS>unsigned char getTermState(void)<DE> Extent=<ES>146:31 - 146:43<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:146:31: DeclRefExpr=getTermState|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:74:15 (Reference) <US>c:@F@getTermState<UE> <DS>unsigned char getTermState(void)<DE> Extent=<ES>146:31 - 146:43<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:148:19: BreakStmt= <US><UE> <DS><DE> Extent=<ES>148:19 - 148:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:150:11: CaseStmt= <US><UE> <DS><DE> Extent=<ES>150:11 - 151:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:150:16: ParenExpr= <US><UE> <DS><DE> Extent=<ES>150:16 - 150:23<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:150:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>150:16 - 150:23<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:151:19: BreakStmt= <US><UE> <DS><DE> Extent=<ES>151:19 - 151:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:188:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>188:7 - 188:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:188:7: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>188:7 - 188:15<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:188:7: UnexposedExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>188:7 - 188:12<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:188:7: DeclRefExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 (Reference) <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>188:7 - 188:12<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:188:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>188:13 - 188:14<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:188:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>188:18 - 188:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:188:18: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>188:18 - 188:26<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:188:18: UnexposedExpr=rxBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:61:22 <US>c:@rxBuf<UE> <DS>rxBuf<DE> Extent=<ES>188:18 - 188:23<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:188:18: DeclRefExpr=rxBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:61:22 (Reference) <US>c:@rxBuf<UE> <DS>rxBuf<DE> Extent=<ES>188:18 - 188:23<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:188:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>188:24 - 188:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:189:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>189:7 - 189:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:189:7: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>189:7 - 189:15<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:189:7: UnexposedExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>189:7 - 189:12<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:189:7: DeclRefExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 (Reference) <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>189:7 - 189:12<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:189:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>189:13 - 189:14<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:189:18: UnexposedExpr=dataLng|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:89:16 <US>c:COMMON.c@2477@F@cmdExecute@dataLng<UE> <DS>dataLng<DE> Extent=<ES>189:18 - 189:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:189:18: UnexposedExpr=dataLng|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:89:16 <US>c:COMMON.c@2477@F@cmdExecute@dataLng<UE> <DS>dataLng<DE> Extent=<ES>189:18 - 189:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:189:18: DeclRefExpr=dataLng|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:89:16 (Reference) <US>c:COMMON.c@2477@F@cmdExecute@dataLng<UE> <DS>dataLng<DE> Extent=<ES>189:18 - 189:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:191:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>191:7 - 191:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:191:7: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>191:7 - 191:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:191:7: UnexposedExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>191:7 - 191:12<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:191:7: DeclRefExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 (Reference) <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>191:7 - 191:12<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:191:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>191:13 - 191:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:191:13: UnexposedExpr=dataLng|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:89:16 <US>c:COMMON.c@2477@F@cmdExecute@dataLng<UE> <DS>dataLng<DE> Extent=<ES>191:13 - 191:20<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:191:13: DeclRefExpr=dataLng|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:89:16 (Reference) <US>c:COMMON.c@2477@F@cmdExecute@dataLng<UE> <DS>dataLng<DE> Extent=<ES>191:13 - 191:20<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:191:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>191:23 - 191:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:191:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>191:23 - 191:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:191:28: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>191:28 - 191:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:191:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>191:28 - 191:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:192:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>192:7 - 192:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:192:7: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>192:7 - 192:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:192:7: UnexposedExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>192:7 - 192:12<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:192:7: DeclRefExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 (Reference) <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>192:7 - 192:12<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:192:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>192:13 - 192:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:192:13: UnexposedExpr=dataLng|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:89:16 <US>c:COMMON.c@2477@F@cmdExecute@dataLng<UE> <DS>dataLng<DE> Extent=<ES>192:13 - 192:20<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:192:13: DeclRefExpr=dataLng|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:89:16 (Reference) <US>c:COMMON.c@2477@F@cmdExecute@dataLng<UE> <DS>dataLng<DE> Extent=<ES>192:13 - 192:20<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:192:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>192:23 - 192:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:192:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>192:23 - 192:24<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:192:28: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>192:28 - 192:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:192:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>192:28 - 192:32<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:193:7: CallExpr=msgTransmitt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:57:6 <US>c:@F@msgTransmitt<UE> <DS>void msgTransmitt(unsigned char *, unsigned int)<DE> Extent=<ES>193:7 - 193:39<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:193:7: UnexposedExpr=msgTransmitt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:57:6 <US>c:@F@msgTransmitt<UE> <DS>void msgTransmitt(unsigned char *, unsigned int)<DE> Extent=<ES>193:7 - 193:19<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:193:7: DeclRefExpr=msgTransmitt|G:\Voodoo\MSP Projects\Solar\MSP_PROG\UART.h:57:6 (Reference) <US>c:@F@msgTransmitt<UE> <DS>void msgTransmitt(unsigned char *, unsigned int)<DE> Extent=<ES>193:7 - 193:19<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:193:20: UnexposedExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>193:20 - 193:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:193:20: DeclRefExpr=txBuf|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:85:15 (Reference) <US>c:@txBuf<UE> <DS>txBuf<DE> Extent=<ES>193:20 - 193:25<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:193:27: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>193:27 - 193:38<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:193:27: UnexposedExpr=dataLng|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:89:16 <US>c:COMMON.c@2477@F@cmdExecute@dataLng<UE> <DS>dataLng<DE> Extent=<ES>193:27 - 193:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:193:27: DeclRefExpr=dataLng|G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:89:16 (Reference) <US>c:COMMON.c@2477@F@cmdExecute@dataLng<UE> <DS>dataLng<DE> Extent=<ES>193:27 - 193:34<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:193:37: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>193:37 - 193:38<EE>
+<L>G:\Voodoo\MSP Projects\Solar\MSP_PROG\COMMON.c:193:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>193:37 - 193:38<EE>

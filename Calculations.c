@@ -2,7 +2,7 @@
 #include "Calculations.h"
 #include "math.h"
 //==============================================================================
-
+int _roll, _pitch, _heading;
 //==============================================================================
 void addValueToArray(int aVal, int * aArr)
 {

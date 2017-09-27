@@ -2,6 +2,8 @@
 #ifndef COMMON_H
 #define COMMON_H
 //==============================================================================
+#include "Calculations.h"
+//==============================================================================
 // INDICATION
 //==============================================================================
 #define LED_GRN (BIT1)
@@ -20,6 +22,10 @@ void blinking(unsigned int blnk);
 extern unsigned long operation_duration;
 extern unsigned char ledStt;
 extern unsigned int blink;
+
+extern int azimuth, angle;
+extern unsigned int light;
+extern int rollArray[FILTER_LENGHT], pitchArray[FILTER_LENGHT], yawArray[FILTER_LENGHT];
 //==============================================================================
 // STATE
 //==============================================================================
@@ -56,6 +62,7 @@ extern uSTATE state;
 
 #define DIRECTION_DELAY (2000000L)
 //==============================================================================
-void move(unsigned int aPlane, unsigned int aDir);
+void move(unsigned int aPlane, unsigned int aDir, unsigned long opDuration);
+void cmdExecute(void);
 //==============================================================================
 #endif

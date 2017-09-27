@@ -11,50 +11,54 @@
 #define USE_LIGHT_SENSOR
 //==============================================================================
 u3AXIS_DATA accel, compass;
-int rollArray[FILTER_LENGHT], pitchArray[FILTER_LENGHT], yawArray[FILTER_LENGHT];
+
 double Pitch, Roll, Yaw;
-int YawDegrees, RollDegrees;
+unsigned int YawDegrees, RollDegrees;
 //==============================================================================
-unsigned char tmp[10];
-unsigned int light;
-unsigned int azimuth, angle;
+unsigned char tmp[6];
+//unsigned int light;
+
 //==============================================================================
-unsigned char termState  = 0;
-unsigned char getTermState(void)
-{
-  unsigned char tmp = 0;
-  if(P2IN & BIT4) tmp |= BIT0;
-  if(P2IN & BIT5) tmp |= BIT1;
-  if(P2IN & BIT7) tmp |= BIT2;
-  if(P2IN & BIT6) tmp |= BIT3;
-  return tmp;
-}
-//==============================================================================
-#define DEGREES_OFFSET  (5)
-const double toDeg = 572.958;
+#define DEGREES_OFFSET  (20)
+//const long toDeg = 572958;
 //==============================================================================
 void rotation(void)
 {
-  if(!state.moving)
+//  unsigned char inputs = getTermState();
+//  if(inputs & 0x03) // vertical limit is reached
+//  {
+//    P2OUT &= ~REL_PWR1;   
+//    P2OUT &= ~REL_DIR1;    
+//    state.moveV = 0;    
+//  }
+//  if(inputs & 0x0c) // horizontal limit is reached
+//  {
+//    P2OUT &= ~REL_PWR2; 
+//    P1OUT &= ~REL_DIR2;  
+//    state.moveH = 0;    
+//  }
+  //=================================================== 
+  if(!state.moving) // start moving
   {
     if(state.moveH)
     {
-      if     (YawDegrees < (azimuth + DEGREES_OFFSET)) {move(HORIZONTAL, FORWARD);  blink = BLINK_FORWARD;  operation_duration = 10000L;}
-      else if(YawDegrees > (azimuth - DEGREES_OFFSET)) {move(HORIZONTAL, BACKWARD); blink = BLINK_BACKWARD; operation_duration = 10000L;}      
+      if     (YawDegrees < (azimuth + DEGREES_OFFSET)) {move(HORIZONTAL, FORWARD, 30000L);}
+      else if(YawDegrees > (azimuth - DEGREES_OFFSET)) {move(HORIZONTAL, BACKWARD, 30000L);}      
     }    
     else if(state.moveV)
     {
-      if     (RollDegrees < (angle + DEGREES_OFFSET)) {move(VERTICAL, FORWARD);  blink = BLINK_UP;   operation_duration = 10000L;}
-      else if(RollDegrees > (angle - DEGREES_OFFSET)) {move(VERTICAL, BACKWARD); blink = BLINK_DOWN; operation_duration = 10000L;}
+      if     (RollDegrees < (angle + DEGREES_OFFSET)) {move(VERTICAL, FORWARD, 30000L);}
+      else if(RollDegrees > (angle - DEGREES_OFFSET)) {move(VERTICAL, BACKWARD, 30000L);}
     }    
   }
   else // keep moving 
   {
     if(state.moveH == 1)
     {
-      if((blink == BLINK_FORWARD  && (YawDegrees > (angle - DEGREES_OFFSET)))|| 
-         (blink == BLINK_BACKWARD && (YawDegrees < (angle + DEGREES_OFFSET))))
+      if((blink == BLINK_FORWARD  && (YawDegrees > (azimuth - DEGREES_OFFSET)))|| 
+         (blink == BLINK_BACKWARD && (YawDegrees < (azimuth + DEGREES_OFFSET))))
       {
+        __no_operation();
         __no_operation();
         operation_duration = 0;
       }
@@ -114,52 +118,15 @@ void main( void )
   //==============================================================
   while(1)
   {
-    rotation();
-    if(state.cmdIn)
-    {
-      state.mPres = 1; 
-      state.cmdIn = 0;
-      txBuf.cmd = rxBuf[0];
-      switch(rxBuf[0])
-      {
-          case CMD_SET_AZIMUTH:
-            azimuth = rxBuf[1] | (rxBuf[2] << 8);
-            state.moveH = 1;
-            break;
-            
-          case CMD_SET_ANGLE:
-           angle = rxBuf[1] | (rxBuf[2] << 8); 
-           state.moveV = 1;
-           break;
-            
-          case CMD_UP:
-            blink = BLINK_UP;            
-            move(VERTICAL, FORWARD);
-            break;
-            
-          case CMD_DOWN:
-            blink = BLINK_DOWN;
-            move(VERTICAL, BACKWARD);
-            break;
-            
-          case CMD_RIGHT:
-            blink = BLINK_BACKWARD;
-            move(HORIZONTAL, FORWARD);
-            break;
-            
-          case CMD_LEFT:
-            blink = BLINK_FORWARD;
-            move(HORIZONTAL, BACKWARD);
-            break;
-      }
-    }
+    if(state.cmdIn) cmdExecute(); 
+    rotation();       
     //=============== i2c =====================
     if(state.i2c == 1) 
     {
       state.i2c = 0;
 #ifdef USE_LIGHT_SENSOR
       BH1715(0, 0x23, 0x01, (unsigned char*)&light, 2);
-      txBuf.light = ((unsigned char*)&light)[1] | 
+      light = ((unsigned char*)&light)[1] | 
                     ((unsigned char*)&light)[0] << 8;
 #endif
       
@@ -169,9 +136,9 @@ void main( void )
       compass.z = (tmp[2] << 8) | tmp[3] ;
       compass.y = (tmp[4] << 8) | tmp[5] ;  
       
-      txBuf.data.a = compass.x;
-      txBuf.data.b = compass.y;
-      txBuf.data.c = compass.z;
+//      txBuf.data.a = compass.x;
+//      txBuf.data.b = compass.y;
+//      txBuf.data.c = compass.z;
      
       addValueToArray((int)(Roll  * 10000),  rollArray);
       addValueToArray((int)(Pitch * 10000), pitchArray);
@@ -179,38 +146,47 @@ void main( void )
       
       Yaw = heading(&compass, Pitch, Roll);
       addValueToArray((int)(Yaw*10000),  yawArray);
+      
+      _roll    = mFilter(rollArray,  FILTER_LENGHT);
+      _pitch   = mFilter(pitchArray, FILTER_LENGHT);
+      _heading = mFilter(yawArray,   FILTER_LENGHT);  
+      
+      long _tmp = (long) _heading;
+      if(_tmp < 0) _tmp += 62832;
+      YawDegrees  =  (int)_tmp;                  
+      RollDegrees  = _roll;
     }
     //======= send data ==================
-    if(state.mPres == 1 && state.enTrans == 1) 
-    {
-      state.enTrans = 0;
-      
-      txBuf.angles.roll    = mFilter(rollArray,  FILTER_LENGHT);
-      txBuf.angles.pitch   = mFilter(pitchArray, FILTER_LENGHT);
-      txBuf.angles.heading = mFilter(yawArray,   FILTER_LENGHT);
-      
-      YawDegrees  = (int)(((float)txBuf.angles.heading /10000) *  toDeg);
-      if(YawDegrees < 0) YawDegrees += 3600;
-      
-      RollDegrees  = (int)(((float)txBuf.angles.roll /10000) *  toDeg);
-      if(RollDegrees < 0) RollDegrees += 3600;
-      
-      //txBuf.data.c = getTermState(); // set state of ins
-      
-      msgTransmitt(); 
-    }   
+//    if(state.mPres == 1 && state.enTrans == 1) 
+//    {
+//      state.enTrans = 0;
+//      
+////      txBuf.angles.roll    = mFilter(rollArray,  FILTER_LENGHT);
+////      txBuf.angles.pitch   = mFilter(pitchArray, FILTER_LENGHT);
+////      txBuf.angles.heading = mFilter(yawArray,   FILTER_LENGHT);
+//      
+//      long tmp = (long) txBuf.angles.heading;
+//      if(tmp < 0) tmp += 62832;
+//      YawDegrees  =  (int)tmp;
+//      
+//      RollDegrees  = txBuf.angles.roll;
+//      
+//      
+//      txBuf.data.c = getTermState(); // set state of ins
+//      
+//      //msgTransmitt(); 
+//    }   
     
   }
 }
 
 //==============================================================================
 #define I2C_INTERVAL     (10)
-#define UART_INTERVAL    (100)
+#define UART_INTERVAL    (10)
 //==============================================================================
 #pragma vector = TIMER0_A0_VECTOR
 __interrupt void TA0_ISR(void)
-{
-  static unsigned int uart_cntr = UART_INTERVAL;
+{ 
   static unsigned int i2c_cntr = I2C_INTERVAL;
   //=======================
   if(i2c_cntr) i2c_cntr--;
@@ -223,8 +199,13 @@ __interrupt void TA0_ISR(void)
   if(uart_cntr) uart_cntr--;
   else
   {
-    uart_cntr = UART_INTERVAL;
-    state.enTrans = 1;
+//    uart_cntr = UART_INTERVAL;
+    if(state.enTrans == 1)
+    {
+      byteCntr = 0;
+      state.cmdIn = 1;
+      state.enTrans = 0;
+    }
   }  
   //=============== op ======================
   if(operation_duration) operation_duration--;
